@@ -12,3 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4babb03b87ad89c41ab46f6f21158175, type: 3}
   m_Name: skill1
   m_EditorClassIdentifier: 
+  SkillName: 
+  Description: 
+  Power: 0
+  HandSigns: 000000000000000000000000
