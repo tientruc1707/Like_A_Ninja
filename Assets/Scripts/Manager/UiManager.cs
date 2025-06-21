@@ -4,10 +4,26 @@ using UnityEngine;
 
 public class UiManager : Singleton<UiManager>
 {
-    private readonly Stack<View> _history = new Stack<View>();
+    private readonly Stack<View> _history = new();
     private View _currentView;
-    [SerializeField] private View _initialView;
-    [SerializeField] private View[] _views;
+    private View _initialView;
+    private View[] _views = Array.Empty<View>();
+
+
+
+    public static T GetView<T>() where T : View
+    {
+        foreach (var view in Instance._views)
+        {
+            if (view is T typedView)
+            {
+                return typedView;
+            }
+        }
+
+        Debug.LogWarning($"View of type {typeof(T)} not found.");
+        return null;
+    }
 
     public void OnSceneLoaded()
     {
@@ -16,12 +32,29 @@ public class UiManager : Singleton<UiManager>
             Array.Clear(_views, 0, _views.Length);
             Debug.Log("Views array cleared.");
         }
+
         if (_history.Count != 0)
         {
             _history.Clear();
             Debug.Log("View stack cleared.");
         }
-        _views = FindObjectsByType<View>(FindObjectsSortMode.None);
+
+        _views = FindObjectsByType<View>(FindObjectsInactive.Include, FindObjectsSortMode.None);
+        for (int i = 0; i < _views.Length; i++)
+        {
+            _views[i].Initialize();
+            _views[i].Hide();
+        }
+
+    }
+
+    public void RegisterStartingView(View view)
+    {
+        if (_initialView == null)
+        {
+            _initialView = view;
+            Show(_initialView, true);
+        }
 
     }
 

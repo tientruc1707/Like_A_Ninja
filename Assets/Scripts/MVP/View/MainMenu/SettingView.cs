@@ -8,7 +8,7 @@ public class ViewSetting : View
     {
         _backButton.onClick.AddListener(() =>
         {
-            UiManager.Show<MainMenuView>();
+            UiManager.ShowLast();
         });
     }
 }

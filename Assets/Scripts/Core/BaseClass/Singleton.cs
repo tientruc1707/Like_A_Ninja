@@ -50,4 +50,3 @@ public abstract class Singleton<T> : MonoBehaviour where T : Component
         }
     }
 }
-// This class implements a generic singleton pattern for MonoBehaviour classes in Unity.
