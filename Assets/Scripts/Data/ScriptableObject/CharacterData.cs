@@ -5,6 +5,6 @@ public class CharacterData : ScriptableObject
 {
     public string CharacterName;
     public string Description;
-    public int Health;
+    public float Health;
     public SkillData[] Skills;
 }

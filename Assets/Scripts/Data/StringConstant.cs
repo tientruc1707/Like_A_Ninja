@@ -23,8 +23,7 @@ public static class StringConstant
     }
     public static class EVENT
     {
-        public static string ON_PLAYER_DEATH = "OnPlayerDeath";
-        public static string ON_GAME_START = "OnGameStart";
+        public static string ON_SCENE_LOADED = "OnSceneLoaded";
         public static string ON_GAME_END = "OnGameEnd";
     }
 }

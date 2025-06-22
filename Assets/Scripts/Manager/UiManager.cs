@@ -9,8 +9,6 @@ public class UiManager : Singleton<UiManager>
     private View _initialView;
     private View[] _views = Array.Empty<View>();
 
-
-
     public static T GetView<T>() where T : View
     {
         foreach (var view in Instance._views)
@@ -27,18 +25,6 @@ public class UiManager : Singleton<UiManager>
 
     public void OnSceneLoaded()
     {
-        if (_views.Length != 0)
-        {
-            Array.Clear(_views, 0, _views.Length);
-            Debug.Log("Views array cleared.");
-        }
-
-        if (_history.Count != 0)
-        {
-            _history.Clear();
-            Debug.Log("View stack cleared.");
-        }
-
         _views = FindObjectsByType<View>(FindObjectsInactive.Include, FindObjectsSortMode.None);
         for (int i = 0; i < _views.Length; i++)
         {
@@ -48,6 +34,14 @@ public class UiManager : Singleton<UiManager>
 
     }
 
+    public void OnSceneUnloaded()
+    {
+        _views = Array.Empty<View>();
+        _currentView = null;
+        _initialView = null;
+        _history.Clear();
+    }
+    
     public void RegisterStartingView(View view)
     {
         if (_initialView == null)

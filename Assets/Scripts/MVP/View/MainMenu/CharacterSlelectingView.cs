@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ViewChoseCharacter : View
+public class CharacterSelectingView : View
 {
     [SerializeField] private Button _backButton;
     public override void Initialize()

@@ -24,7 +24,7 @@ public class MainMenuView : View
 
         _choseCharacterButton.onClick.AddListener(() =>
         {
-            UiManager.Show<ChosingPlayingTypeView>();
+            UiManager.Show<CharacterSelectingView>();
         });
 
         _settingButton.onClick.AddListener(() =>
