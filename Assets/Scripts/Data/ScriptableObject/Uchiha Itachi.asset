@@ -9,9 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4babb03b87ad89c41ab46f6f21158175, type: 3}
-  m_Name: skill2
+  m_Script: {fileID: 11500000, guid: 823584d19dd863248882c46c3f14a9af, type: 3}
+  m_Name: Uchiha Itachi
   m_EditorClassIdentifier: 
-  SkillName: 
-  Description: 
-  HandSigns: 
+  CharacterName: Uchiha Itachi
+  Description: Uchiha Clan
+  CharacterSprite: {fileID: -2120378438095959632, guid: bc7abc1cb9c9ff140ae20f677950e48a, type: 3}
+  Health: 100

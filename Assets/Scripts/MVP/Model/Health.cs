@@ -3,28 +3,31 @@ using UnityEngine;
 
 public class Health : MonoBehaviour
 {
-    public CharacterData characterData;
-    public event Action OnHealthChanged;
-    public float MaxHealth => characterData.Health;
-    public float CurrentHealth { get; set; }
 
+    public event Action OnHealthChanged;
+    private float maxHealth;
+    private float currentHealth;
+
+    public float MaxHealth { get => maxHealth; set => maxHealth = value; }
+    public float CurrentHealth { get => currentHealth; set => currentHealth = value; }
+    
     public void IncreamentHealth(float amount)
     {
-        CurrentHealth += amount;
-        CurrentHealth = Mathf.Clamp(CurrentHealth, 0, MaxHealth);
+        currentHealth += amount;
+        currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
         UpdateHealth();
     }
 
     public void DecreamentHealth(float amount)
     {
-        CurrentHealth -= amount;
-        CurrentHealth = Mathf.Clamp(CurrentHealth, 0, MaxHealth);
+        currentHealth -= amount;
+        currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
         UpdateHealth();
     }
 
     public void RegenHealth(float amount)
     {
-        CurrentHealth = MaxHealth;
+        currentHealth = maxHealth;
         UpdateHealth();
     }
 

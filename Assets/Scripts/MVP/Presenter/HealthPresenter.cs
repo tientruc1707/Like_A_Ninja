@@ -32,7 +32,7 @@ public class HealthPresenter : MonoBehaviour
     {
         health.RegenHealth(health.MaxHealth);
     }
-    
+
     private void UpdateHealthView()
     {
         if (healthSlider != null)

@@ -1,0 +1,925 @@
+fileFormatVersion: 2
+guid: d53e1872df6b66c42a7f1fe3fc2a208e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4375742054704580089
+    second: Rashomon_0
+  - first:
+      213: 4254002902617088728
+    second: Rashomon_1
+  - first:
+      213: 2892452054276893844
+    second: Rashomon_2
+  - first:
+      213: -7020947000672459407
+    second: Rashomon_3
+  - first:
+      213: -2781372774207907698
+    second: Rashomon_4
+  - first:
+      213: -6302037896997422359
+    second: Rashomon_5
+  - first:
+      213: 7604004272239019104
+    second: Rashomon_6
+  - first:
+      213: -1932058599260900017
+    second: Rashomon_7
+  - first:
+      213: -7704458090578288171
+    second: Rashomon_8
+  - first:
+      213: 7375882344401782751
+    second: Rashomon_9
+  - first:
+      213: -2294268770660979121
+    second: Rashomon_10
+  - first:
+      213: -2512277613303834599
+    second: Rashomon_11
+  - first:
+      213: 582988999030441669
+    second: Rashomon_12
+  - first:
+      213: 3229817670926609151
+    second: Rashomon_13
+  - first:
+      213: -211411052742110804
+    second: Rashomon_14
+  - first:
+      213: 3301721500271967924
+    second: Rashomon_15
+  - first:
+      213: -3496194719325549625
+    second: Rashomon_16
+  - first:
+      213: -4717094457264558879
+    second: Rashomon_17
+  - first:
+      213: 7357856900952229518
+    second: Rashomon_18
+  - first:
+      213: 222185980047867878
+    second: Rashomon_19
+  - first:
+      213: -1451674256043348147
+    second: Rashomon_20
+  - first:
+      213: 5223588156089634757
+    second: Rashomon_21
+  - first:
+      213: -6257496333952209132
+    second: Rashomon_22
+  - first:
+      213: -6782965378921600601
+    second: Rashomon_23
+  - first:
+      213: 6042617111584564333
+    second: Rashomon_24
+  - first:
+      213: 2653828307809788348
+    second: Rashomon_25
+  - first:
+      213: 5326532566270816811
+    second: Rashomon_26
+  - first:
+      213: 7554402531662504486
+    second: Rashomon_27
+  - first:
+      213: 373064888411539432
+    second: Rashomon_28
+  - first:
+      213: -6886972531777001301
+    second: Rashomon_29
+  - first:
+      213: -5830571532720775444
+    second: Rashomon_30
+  - first:
+      213: 5929755141827823275
+    second: Rashomon_31
+  - first:
+      213: 5889144976621008214
+    second: Rashomon_32
+  - first:
+      213: 304783828633428211
+    second: Rashomon_33
+  - first:
+      213: -5933073958032034523
+    second: Rashomon_34
+  - first:
+      213: 6694533997259095517
+    second: Rashomon_35
+  - first:
+      213: -3823121992716448421
+    second: Rashomon_36
+  - first:
+      213: -5439476913419719633
+    second: Rashomon_37
+  - first:
+      213: 7958345761203829100
+    second: Rashomon_38
+  - first:
+      213: 8386654600009855451
+    second: Rashomon_39
+  - first:
+      213: 1459795694880647273
+    second: Rashomon_40
+  - first:
+      213: -2325379896590038152
+    second: Rashomon_41
+  - first:
+      213: 3894121801236797427
+    second: Rashomon_42
+  - first:
+      213: -1904219785622029739
+    second: Rashomon_43
+  - first:
+      213: 9068429148113825600
+    second: Rashomon_44
+  - first:
+      213: 1899569673003957297
+    second: Rashomon_45
+  - first:
+      213: -9149526450604795868
+    second: Rashomon_46
+  - first:
+      213: 3246160705772148954
+    second: Rashomon_47
+  - first:
+      213: 8066945524966427982
+    second: Rashomon_48
+  - first:
+      213: 5907789003886604888
+    second: Rashomon_49
+  - first:
+      213: -5313578548064248203
+    second: Rashomon_50
+  - first:
+      213: 3756766256173231311
+    second: Rashomon_51
+  - first:
+      213: -809462582164410244
+    second: Rashomon_52
+  - first:
+      213: -8303330255327068787
+    second: Rashomon_53
+  - first:
+      213: 7565360897627324507
+    second: Rashomon_54
+  - first:
+      213: -2218468994488581858
+    second: Rashomon_55
+  - first:
+      213: 1824221608240105950
+    second: Rashomon_56
+  - first:
+      213: 4547621745935182296
+    second: Rashomon_57
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Rashomon_1
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 29
+        width: 177
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d2e8fbe911490b30800000000000000
+      internalID: 4254002902617088728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rashomon_3
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 30
+        width: 174
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 175e216c6e5909e90800000000000000
+      internalID: -7020947000672459407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rashomon_6
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 29
+        width: 193
+        height: 229
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0640c5d0999d68960800000000000000
+      internalID: 7604004272239019104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rashomon_7
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 27
+        width: 193
+        height: 231
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f45b0d1c0f2ff25e0800000000000000
+      internalID: -1932058599260900017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rashomon_8
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 29
+        width: 193
+        height: 229
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d16234cf24441590800000000000000
+      internalID: -7704458090578288171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rashomon_9
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 28
+        width: 193
+        height: 230
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd7c423c9e56c5660800000000000000
+      internalID: 7375882344401782751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rashomon_10
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 29
+        width: 193
+        height: 229
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4eea7965be1920e0800000000000000
+      internalID: -2294268770660979121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rashomon_11
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 29
+        width: 193
+        height: 229
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 918dbd142d8922dd0800000000000000
+      internalID: -2512277613303834599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rashomon_12
+      rect:
+        serializedVersion: 2
+        x: 1552
+        y: 29
+        width: 193
+        height: 229
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c68b23e761371800800000000000000
+      internalID: 582988999030441669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rashomon_13
+      rect:
+        serializedVersion: 2
+        x: 1746
+        y: 29
+        width: 193
+        height: 229
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffa2cd43f0e92dc20800000000000000
+      internalID: 3229817670926609151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rashomon_14
+      rect:
+        serializedVersion: 2
+        x: 1940
+        y: 29
+        width: 193
+        height: 229
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca117b384cae01df0800000000000000
+      internalID: -211411052742110804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rashomon_15
+      rect:
+        serializedVersion: 2
+        x: 2134
+        y: 29
+        width: 193
+        height: 229
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4befaf2163212dd20800000000000000
+      internalID: 3301721500271967924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rashomon_16
+      rect:
+        serializedVersion: 2
+        x: 2328
+        y: 29
+        width: 193
+        height: 229
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cb01092d650b7fc0800000000000000
+      internalID: -3496194719325549625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rashomon_17
+      rect:
+        serializedVersion: 2
+        x: 2522
+        y: 29
+        width: 193
+        height: 229
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ec28c65593898eb0800000000000000
+      internalID: -4717094457264558879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rashomon_18
+      rect:
+        serializedVersion: 2
+        x: 2716
+        y: 29
+        width: 193
+        height: 229
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e860a692edb5c1660800000000000000
+      internalID: 7357856900952229518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rashomon_19
+      rect:
+        serializedVersion: 2
+        x: 2910
+        y: 29
+        width: 193
+        height: 229
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ef33deb8fc551300800000000000000
+      internalID: 222185980047867878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rashomon_20
+      rect:
+        serializedVersion: 2
+        x: 3104
+        y: 29
+        width: 193
+        height: 229
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4fe4f694fd9adbe0800000000000000
+      internalID: -1451674256043348147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rashomon_21
+      rect:
+        serializedVersion: 2
+        x: 3298
+        y: 29
+        width: 193
+        height: 229
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cf09a090c9ed7840800000000000000
+      internalID: 5223588156089634757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rashomon_22
+      rect:
+        serializedVersion: 2
+        x: 3492
+        y: 29
+        width: 193
+        height: 229
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41f2877ec38e829a0800000000000000
+      internalID: -6257496333952209132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rashomon_23
+      rect:
+        serializedVersion: 2
+        x: 3686
+        y: 29
+        width: 193
+        height: 229
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a9ea91fce01ed1a0800000000000000
+      internalID: -6782965378921600601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rashomon_24
+      rect:
+        serializedVersion: 2
+        x: 3880
+        y: 29
+        width: 193
+        height: 229
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d64e1b17f30bbd350800000000000000
+      internalID: 6042617111584564333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rashomon_25
+      rect:
+        serializedVersion: 2
+        x: 4074
+        y: 29
+        width: 193
+        height: 229
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb1e0ed09ca44d420800000000000000
+      internalID: 2653828307809788348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rashomon_26
+      rect:
+        serializedVersion: 2
+        x: 4268
+        y: 29
+        width: 193
+        height: 229
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b223f19d525abe940800000000000000
+      internalID: 5326532566270816811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rashomon_27
+      rect:
+        serializedVersion: 2
+        x: 4462
+        y: 29
+        width: 193
+        height: 229
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6222e0ed311a6d860800000000000000
+      internalID: 7554402531662504486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rashomon_28
+      rect:
+        serializedVersion: 2
+        x: 4656
+        y: 29
+        width: 193
+        height: 229
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e7c0f71a846d2500800000000000000
+      internalID: 373064888411539432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rashomon_29
+      rect:
+        serializedVersion: 2
+        x: 4850
+        y: 29
+        width: 193
+        height: 229
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba82f8998fe8c60a0800000000000000
+      internalID: -6886972531777001301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rashomon_30
+      rect:
+        serializedVersion: 2
+        x: 5044
+        y: 29
+        width: 193
+        height: 229
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cee5caa2516a51fa0800000000000000
+      internalID: -5830571532720775444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 1afc553ee8f751d438417a86444db4dc
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Rashomon_1: 4254002902617088728
+      Rashomon_10: -2294268770660979121
+      Rashomon_11: -2512277613303834599
+      Rashomon_12: 582988999030441669
+      Rashomon_13: 3229817670926609151
+      Rashomon_14: -211411052742110804
+      Rashomon_15: 3301721500271967924
+      Rashomon_16: -3496194719325549625
+      Rashomon_17: -4717094457264558879
+      Rashomon_18: 7357856900952229518
+      Rashomon_19: 222185980047867878
+      Rashomon_20: -1451674256043348147
+      Rashomon_21: 5223588156089634757
+      Rashomon_22: -6257496333952209132
+      Rashomon_23: -6782965378921600601
+      Rashomon_24: 6042617111584564333
+      Rashomon_25: 2653828307809788348
+      Rashomon_26: 5326532566270816811
+      Rashomon_27: 7554402531662504486
+      Rashomon_28: 373064888411539432
+      Rashomon_29: -6886972531777001301
+      Rashomon_3: -7020947000672459407
+      Rashomon_30: -5830571532720775444
+      Rashomon_6: 7604004272239019104
+      Rashomon_7: -1932058599260900017
+      Rashomon_8: -7704458090578288171
+      Rashomon_9: 7375882344401782751
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

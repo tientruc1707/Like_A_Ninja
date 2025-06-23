@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
+
 public class MainMenuView : View
 {
     [Header("Buttons")]
@@ -31,12 +32,14 @@ public class MainMenuView : View
         {
             UiManager.Show<ViewSetting>();
         });
+
     }
 
     public void Start()
     {
         UiManager.Instance.OnSceneLoaded();
         UiManager.Instance.RegisterStartingView(this);
-
+        GameManager.Instance.SetCharacterKey("Uchiha Itachi");
+        GameManager.Instance.SetMainCharacter(SaveSystem.Instance.GetCharacterKey(), new Vector3(0, 3, 0));
     }
 }

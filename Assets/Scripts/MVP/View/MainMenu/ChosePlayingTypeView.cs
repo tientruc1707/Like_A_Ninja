@@ -17,11 +17,11 @@ public class ChosingPlayingTypeView : View
         });
         _singlePlayerButton.onClick.AddListener(() =>
         {
-            LoadType("PvEScene");
+            LoadType("PvE Mode");
         });
         _multiPlayerButton.onClick.AddListener(() =>
         {
-            LoadType("PvPScene");
+            LoadType("PvP Mode");
         });
     }
 

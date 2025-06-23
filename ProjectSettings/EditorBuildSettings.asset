@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: f59a968836f4fa54eba6639deae712b5
+  - enabled: 1
+    path: Assets/Scenes/PvE Mode.unity
+    guid: 89bdf507074dc874a88928ea04e08728
   m_configObjects:
     com.unity.adaptiveperformance.google.android.provider_settings: {fileID: 11400000, guid: 4279bfb0f270f144590d57a6541408f5, type: 2}
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 12daf140865e3bc468af903597472272, type: 2}
