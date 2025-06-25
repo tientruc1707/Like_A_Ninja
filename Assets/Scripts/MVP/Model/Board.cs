@@ -4,6 +4,7 @@ using DG.Tweening;
 using UnityEngine.UI;
 using UnityEngine;
 using System.Threading.Tasks;
+using System.Linq;
 
 
 public class Board : MonoBehaviour
@@ -13,23 +14,25 @@ public class Board : MonoBehaviour
     private Row[] rows;
     public int boardSize;
     private List<Tile> _selections = new();
-    private readonly float _swapDuration = 0.25f;
+    private readonly float _tweenDuration = 0.25f;
 
     private void Awake() => Instance = this;
 
     private void Start()
     {
-        InitializeBoard();
-    }
-
-    private void InitializeBoard()
-    {
         rows = GetComponentsInChildren<Row>();
         boardSize = rows.Length;
         Tiles = new Tile[boardSize, boardSize];
 
-        //Should automatically create a board of size here instead of assigning it manually in the inspector
-        //back to Row.cs and set auto generation of tiles there
+        InitializeBoard();
+    }
+
+    private void Update()
+    {
+        //RemoveConnectionIfMatches();
+    }
+    private void InitializeBoard()
+    {
         for (int y = 0; y < boardSize; y++)
         {
             for (int x = 0; x < boardSize; x++)
@@ -52,17 +55,23 @@ public class Board : MonoBehaviour
     {
         if (!_selections.Contains(tile)) _selections.Add(tile);
         if (_selections.Count != 2) return;
-        if (_selections[0] == _selections[1]) return; // Prevent swapping the same tile
+        if (_selections[0] == _selections[1]) return;
         if (!IsValidSwap(_selections[0], _selections[1]))
         {
-            Debug.Log("Invalid swap attempt between non-adjacent tiles.");
             _selections.Clear();
-            return; // Prevent swapping non-adjacent tiles
+            return;
         }
         await Swap(_selections[0], _selections[1]);
+        if (Connectable())
+        {
+            RemoveConnectionIfMatches();
+        }
+        else
+        {
+            await Swap(_selections[0], _selections[1]);
+        }
         _selections.Clear();
     }
-
     private async Task Swap(Tile tile1, Tile tile2)
     {
         Image icon1 = tile1.icon;
@@ -72,8 +81,8 @@ public class Board : MonoBehaviour
         Transform icon2transform = icon2.transform;
 
         var sequence = DOTween.Sequence();
-        sequence.Join(icon1transform.DOMove(icon2transform.position, _swapDuration).SetEase(Ease.InOutQuad))
-                .Join(icon2transform.DOMove(icon1transform.position, _swapDuration).SetEase(Ease.InOutQuad));
+        sequence.Join(icon1transform.DOMove(icon2transform.position, _tweenDuration).SetEase(Ease.InOutQuad))
+                .Join(icon2transform.DOMove(icon1transform.position, _tweenDuration).SetEase(Ease.InOutQuad));
         await sequence.Play().AsyncWaitForCompletion();
 
         //Set parent for icons
@@ -91,8 +100,70 @@ public class Board : MonoBehaviour
 
     private bool IsValidSwap(Tile tile1, Tile tile2)
     {
-        // Check if the tiles are adjacent
         return (tile1.y == tile2.y && Mathf.Abs(tile1.x - tile2.x) == 1) ||
                (tile1.x == tile2.x && Mathf.Abs(tile1.y - tile2.y) == 1);
     }
+
+    private bool Connectable()
+    {
+        for (int y = 0; y < boardSize; y++)
+        {
+            for (int x = 0; x < boardSize; x++)
+            {
+                if (Tiles[x, y].GetConnectionsTile().Count >= 3)
+                {
+                    return true;
+                }
+            }
+        }
+
+        return false;
+    }
+
+    private async void RemoveConnectionIfMatches()
+    {
+        for (int y = 0; y < boardSize; y++)
+        {
+            for (int x = 0; x < boardSize; x++)
+            {
+                Tile tile = Tiles[x, y];
+                List<Tile> connections = tile.GetConnectionsTile();
+                if (connections.Count < 3) continue;
+
+                var removeSequence = DOTween.Sequence();
+
+                foreach (Tile connectedTile in connections)
+                {
+                    removeSequence.Join(connectedTile.icon.transform.DOScale(Vector3.zero, _tweenDuration));
+                }
+
+                await removeSequence.Play().AsyncWaitForCompletion();
+
+                var generateSequence = DOTween.Sequence();
+
+                foreach (Tile connectedTile in connections)
+                {
+                    connectedTile.Item = AssetLibrary.Items[Random.Range(0, AssetLibrary.Items.Length)];
+                    generateSequence.Join(connectedTile.icon.transform.DOScale(Vector3.one, _tweenDuration));
+                }
+
+                await generateSequence.Play().AsyncWaitForCompletion();
+            }
+        }
+    }
+
+    public void ResetBoard()
+    {
+        _selections.Clear();
+        foreach (Row row in rows)
+        {
+            foreach (Tile tile in row.tiles)
+            {
+                tile.Item = AssetLibrary.Items[Random.Range(0, AssetLibrary.Items.Length)];
+            }
+
+        }
+
+    }
+
 }
