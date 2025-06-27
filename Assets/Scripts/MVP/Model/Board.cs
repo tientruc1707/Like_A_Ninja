@@ -9,14 +9,12 @@ using System.Linq;
 
 public class Board : MonoBehaviour
 {
-    public static Board Instance { get; private set; }
+
     public Tile[,] Tiles { get; private set; }
     private Row[] rows;
     public int boardSize;
-    private List<Tile> _selections = new();
     private readonly float _tweenDuration = 0.25f;
 
-    private void Awake() => Instance = this;
 
     private void Start()
     {
@@ -25,12 +23,10 @@ public class Board : MonoBehaviour
         Tiles = new Tile[boardSize, boardSize];
 
         InitializeBoard();
+        if (Connectable())
+            RemoveConnectionIfMatches();
     }
 
-    private void Update()
-    {
-        //RemoveConnectionIfMatches();
-    }
     private void InitializeBoard()
     {
         for (int y = 0; y < boardSize; y++)
@@ -51,28 +47,7 @@ public class Board : MonoBehaviour
 
     }
 
-    public async void Select(Tile tile)
-    {
-        if (!_selections.Contains(tile)) _selections.Add(tile);
-        if (_selections.Count != 2) return;
-        if (_selections[0] == _selections[1]) return;
-        if (!IsValidSwap(_selections[0], _selections[1]))
-        {
-            _selections.Clear();
-            return;
-        }
-        await Swap(_selections[0], _selections[1]);
-        if (Connectable())
-        {
-            RemoveConnectionIfMatches();
-        }
-        else
-        {
-            await Swap(_selections[0], _selections[1]);
-        }
-        _selections.Clear();
-    }
-    private async Task Swap(Tile tile1, Tile tile2)
+    public async Task Swap(Tile tile1, Tile tile2)
     {
         Image icon1 = tile1.icon;
         Image icon2 = tile2.icon;
@@ -98,13 +73,7 @@ public class Board : MonoBehaviour
 
     }
 
-    private bool IsValidSwap(Tile tile1, Tile tile2)
-    {
-        return (tile1.y == tile2.y && Mathf.Abs(tile1.x - tile2.x) == 1) ||
-               (tile1.x == tile2.x && Mathf.Abs(tile1.y - tile2.y) == 1);
-    }
-
-    private bool Connectable()
+    public bool Connectable()
     {
         for (int y = 0; y < boardSize; y++)
         {
@@ -120,7 +89,7 @@ public class Board : MonoBehaviour
         return false;
     }
 
-    private async void RemoveConnectionIfMatches()
+    public async void RemoveConnectionIfMatches()
     {
         for (int y = 0; y < boardSize; y++)
         {
@@ -151,10 +120,8 @@ public class Board : MonoBehaviour
             }
         }
     }
-
     public void ResetBoard()
     {
-        _selections.Clear();
         foreach (Row row in rows)
         {
             foreach (Tile tile in row.tiles)

@@ -136,6 +136,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   x: 0
   y: 0
+  board: {fileID: 0}
   icon: {fileID: 1657014176578267301}
   button: {fileID: 1071610231571864549}
 --- !u!1 &8743854827377124837
@@ -203,7 +204,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -6717884257390833292, guid: c79ae371232f3b044ac28d3a3d971771, type: 3}
+  m_Sprite: {fileID: -4598201531495653870, guid: 059e57eca0ef86048a17ad221bd67f03, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1

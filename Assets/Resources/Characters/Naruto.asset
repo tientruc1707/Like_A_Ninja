@@ -16,3 +16,4 @@ MonoBehaviour:
   Description: Uzumai Clan
   CharacterSprite: {fileID: 5993167341281661246, guid: 99e3ef349e977824dbb6719cf53e358c, type: 3}
   Health: 100
+  Mana: 100

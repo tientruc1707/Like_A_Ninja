@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Skill3
+  m_Name: MangekyoSharingan
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -21,27 +21,27 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: -8576103590835874685, guid: bc7abc1cb9c9ff140ae20f677950e48a, type: 3}
-    - time: 0.16666667
-      value: {fileID: 519951908096896479, guid: bc7abc1cb9c9ff140ae20f677950e48a, type: 3}
-    - time: 0.33333334
-      value: {fileID: 1343367630911816757, guid: bc7abc1cb9c9ff140ae20f677950e48a, type: 3}
+      value: {fileID: -8978174380270299845, guid: c974f302dba985d458cbe3a9b0f86fb8, type: 3}
+    - time: 0.125
+      value: {fileID: 8934004087491505146, guid: c974f302dba985d458cbe3a9b0f86fb8, type: 3}
+    - time: 0.25
+      value: {fileID: 3323414267252152273, guid: c974f302dba985d458cbe3a9b0f86fb8, type: 3}
+    - time: 0.375
+      value: {fileID: -6296526265603797823, guid: c974f302dba985d458cbe3a9b0f86fb8, type: 3}
     - time: 0.5
-      value: {fileID: -8808878923236402512, guid: bc7abc1cb9c9ff140ae20f677950e48a, type: 3}
-    - time: 0.6666667
-      value: {fileID: 6524675330049459599, guid: bc7abc1cb9c9ff140ae20f677950e48a, type: 3}
-    - time: 0.8333333
-      value: {fileID: -8557617556862858475, guid: bc7abc1cb9c9ff140ae20f677950e48a, type: 3}
-    - time: 1
-      value: {fileID: -3284158456254077450, guid: bc7abc1cb9c9ff140ae20f677950e48a, type: 3}
-    - time: 1.1666666
-      value: {fileID: 7367226092812688145, guid: bc7abc1cb9c9ff140ae20f677950e48a, type: 3}
+      value: {fileID: -6579059261794823798, guid: c974f302dba985d458cbe3a9b0f86fb8, type: 3}
+    - time: 0.625
+      value: {fileID: -2902824064692585949, guid: c974f302dba985d458cbe3a9b0f86fb8, type: 3}
+    - time: 0.75
+      value: {fileID: 1486708250408089366, guid: c974f302dba985d458cbe3a9b0f86fb8, type: 3}
+    - time: 0.875
+      value: {fileID: 9026727685517336336, guid: c974f302dba985d458cbe3a9b0f86fb8, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
     script: {fileID: 0}
     flags: 2
-  m_SampleRate: 12
+  m_SampleRate: 8
   m_WrapMode: 0
   m_Bounds:
     m_Center: {x: 0, y: 0, z: 0}
@@ -58,20 +58,20 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
-    - {fileID: -8576103590835874685, guid: bc7abc1cb9c9ff140ae20f677950e48a, type: 3}
-    - {fileID: 519951908096896479, guid: bc7abc1cb9c9ff140ae20f677950e48a, type: 3}
-    - {fileID: 1343367630911816757, guid: bc7abc1cb9c9ff140ae20f677950e48a, type: 3}
-    - {fileID: -8808878923236402512, guid: bc7abc1cb9c9ff140ae20f677950e48a, type: 3}
-    - {fileID: 6524675330049459599, guid: bc7abc1cb9c9ff140ae20f677950e48a, type: 3}
-    - {fileID: -8557617556862858475, guid: bc7abc1cb9c9ff140ae20f677950e48a, type: 3}
-    - {fileID: -3284158456254077450, guid: bc7abc1cb9c9ff140ae20f677950e48a, type: 3}
-    - {fileID: 7367226092812688145, guid: bc7abc1cb9c9ff140ae20f677950e48a, type: 3}
+    - {fileID: -8978174380270299845, guid: c974f302dba985d458cbe3a9b0f86fb8, type: 3}
+    - {fileID: 8934004087491505146, guid: c974f302dba985d458cbe3a9b0f86fb8, type: 3}
+    - {fileID: 3323414267252152273, guid: c974f302dba985d458cbe3a9b0f86fb8, type: 3}
+    - {fileID: -6296526265603797823, guid: c974f302dba985d458cbe3a9b0f86fb8, type: 3}
+    - {fileID: -6579059261794823798, guid: c974f302dba985d458cbe3a9b0f86fb8, type: 3}
+    - {fileID: -2902824064692585949, guid: c974f302dba985d458cbe3a9b0f86fb8, type: 3}
+    - {fileID: 1486708250408089366, guid: c974f302dba985d458cbe3a9b0f86fb8, type: 3}
+    - {fileID: 9026727685517336336, guid: c974f302dba985d458cbe3a9b0f86fb8, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 1.25
+    m_StopTime: 1
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -91,8 +91,8 @@ AnimationClip:
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events:
-  - time: 1
-    functionName: PerformSkill
+  - time: 0.875
+    functionName: CompleteExecution
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

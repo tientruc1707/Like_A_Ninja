@@ -16,3 +16,4 @@ MonoBehaviour:
   Description: Uchiha Clan
   CharacterSprite: {fileID: -2120378438095959632, guid: bc7abc1cb9c9ff140ae20f677950e48a, type: 3}
   Health: 100
+  Mana: 100

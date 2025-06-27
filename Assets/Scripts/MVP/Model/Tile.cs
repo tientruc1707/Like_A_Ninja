@@ -7,7 +7,7 @@ public class Tile : MonoBehaviour
 {
     public int x;
     public int y;
-
+    public Board board;
     private Item _item;
     public Item Item
     {
@@ -25,10 +25,10 @@ public class Tile : MonoBehaviour
     public Image icon;
     public Button button;
 
-    public Tile Top => y > 0 ? Board.Instance.Tiles[x, y - 1] : null;
-    public Tile Bot => y < Board.Instance.boardSize - 1 ? Board.Instance.Tiles[x, y + 1] : null;
-    public Tile Left => x > 0 ? Board.Instance.Tiles[x - 1, y] : null;
-    public Tile Right => x < Board.Instance.boardSize - 1 ? Board.Instance.Tiles[x + 1, y] : null;
+    public Tile Top => y > 0 ? board.Tiles[x, y - 1] : null;
+    public Tile Bot => y < board.boardSize - 1 ? board.Tiles[x, y + 1] : null;
+    public Tile Left => x > 0 ? board.Tiles[x - 1, y] : null;
+    public Tile Right => x < board.boardSize - 1 ? board.Tiles[x + 1, y] : null;
 
     public Tile[] Neighbors => new Tile[]
     {
@@ -40,7 +40,8 @@ public class Tile : MonoBehaviour
 
     private void Start()
     {
-        button.onClick.AddListener(() => Board.Instance.Select(this));
+        board = GetComponentInParent<Board>();
+        button.onClick.AddListener(() => board.GetComponent<BoardPresenter>().Select(this));
     }
 
     public List<Tile> GetConnectionsTile(List<Tile> visited = null)

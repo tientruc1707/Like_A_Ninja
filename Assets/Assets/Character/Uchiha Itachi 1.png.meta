@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: bc7abc1cb9c9ff140ae20f677950e48a
+guid: c974f302dba985d458cbe3a9b0f86fb8
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -7443,155 +7443,67 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Uchiha Itachi_74
+      name: Uchiha Itachi 1_0
       rect:
         serializedVersion: 2
-        x: 16
+        x: 14
+        y: 2429
+        width: 27
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6350cc97afbe7ba439b21cbf3a5eacf2
+      internalID: 233673880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uchiha Itachi 1_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 2428
+        width: 25
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1430217531cc78b4bb10e2a0cb5b7ad8
+      internalID: -2104989723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uchiha Itachi 1_2
+      rect:
+        serializedVersion: 2
+        x: 87
         y: 2426
-        width: 24
-        height: 62
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c6bee7999b7ea5e4bb8fddec8a068946
-      internalID: 3385027045071321335
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Uchiha Itachi_75
-      rect:
-        serializedVersion: 2
-        x: 44
-        y: 2426
-        width: 33
-        height: 61
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bd91601f02f74e74096a42a287f3db86
-      internalID: -2744564751048701375
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Uchiha Itachi_76
-      rect:
-        serializedVersion: 2
-        x: 86
-        y: 2427
-        width: 43
-        height: 59
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: aaab986adabb85245ae6e8b828e9a498
-      internalID: -4814341753797891412
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Uchiha Itachi_77
-      rect:
-        serializedVersion: 2
-        x: 462
-        y: 2445
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1dc7f21fcb4fc104fa2af0cfdc39e9a1
-      internalID: -7814774833558954194
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Uchiha Itachi_78
-      rect:
-        serializedVersion: 2
-        x: 490
-        y: 2419
-        width: 62
+        width: 45
         height: 60
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 47d32fb5178c8214c8fe79ebf7f5eaed
-      internalID: 3681850970913157369
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Uchiha Itachi_80
-      rect:
-        serializedVersion: 2
-        x: 560
-        y: 2419
-        width: 75
-        height: 73
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 19d4e449c029ae64fa7cb30a5a248eb3
-      internalID: 2807978227099893557
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Uchiha Itachi_81
-      rect:
-        serializedVersion: 2
-        x: 647
-        y: 2419
-        width: 73
-        height: 72
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1075bd9cb383e4a4f8eeb7a905c73348
-      internalID: -6748785759618456869
+      spriteID: d6536a860e97c6241b1b74a647cf6d5b
+      internalID: -1930128672
       vertices: []
       indices: 
       edges: []
@@ -7610,6 +7522,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      Uchiha Itachi 1_0: 233673880
+      Uchiha Itachi 1_1: -2104989723
+      Uchiha Itachi 1_2: -1930128672
       Uchiha Itachi_0: 1132080774991346993
       Uchiha Itachi_1: -2120378438095959632
       Uchiha Itachi_10: 8470182459740692930

@@ -6,9 +6,14 @@ public class HealthPresenter : MonoBehaviour
     [SerializeField] private Health health;
     [SerializeField] private Slider healthSlider;
 
+    public CharacterData character;
     private void Start()
     {
+        health.MaxHealth = character.Health;
+        health.CurrentHealth = character.Health;
+
         healthSlider.maxValue = health.MaxHealth;
+        
         health.OnHealthChanged += UpdateHealthView;
         UpdateHealthView();
     }
