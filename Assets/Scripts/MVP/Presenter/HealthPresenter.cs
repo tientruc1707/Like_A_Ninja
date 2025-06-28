@@ -3,46 +3,48 @@ using UnityEngine.UI;
 
 public class HealthPresenter : MonoBehaviour
 {
-    [SerializeField] private Health health;
-    [SerializeField] private Slider healthSlider;
+    private Health _health;
+    private Slider _healthSlider;
 
     public CharacterData character;
     private void Start()
     {
-        health.MaxHealth = character.Health;
-        health.CurrentHealth = character.Health;
+        _health = GetComponent<Health>();
 
-        healthSlider.maxValue = health.MaxHealth;
-        
-        health.OnHealthChanged += UpdateHealthView;
+        _health.MaxHealth = character.Health;
+        _health.CurrentHealth = character.Health;
+
+        _healthSlider.maxValue = _health.MaxHealth;
+
+        _health.OnHealthChanged += UpdateHealthView;
         UpdateHealthView();
     }
 
-    private void OnDestroy()
+    public void SetSlider(Slider slider)
     {
-        health.OnHealthChanged -= UpdateHealthView;
+        _healthSlider = slider;
     }
 
     public void IncreaseHealth(float amount)
     {
-        health.IncreamentHealth(amount);
+        _health.IncreamentHealth(amount);
     }
 
     public void DecreaseHealth(float amount)
     {
-        health.DecreamentHealth(amount);
+        _health.DecreamentHealth(amount);
     }
 
     public void RegenerateHealth()
     {
-        health.RegenHealth(health.MaxHealth);
+        _health.RegenHealth(_health.MaxHealth);
     }
 
     private void UpdateHealthView()
     {
-        if (healthSlider != null)
+        if (_healthSlider != null)
         {
-            healthSlider.value = health.CurrentHealth;
+            _healthSlider.value = _health.CurrentHealth;
         }
     }
 

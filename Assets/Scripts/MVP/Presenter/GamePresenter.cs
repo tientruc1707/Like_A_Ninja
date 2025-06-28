@@ -14,7 +14,7 @@ public class GamePresenter : MonoBehaviour
 
     void Update()
     {
-        StartCoroutine(DecreaseTime());
+        //StartCoroutine(DecreaseTime());
     }
 
     IEnumerator DecreaseTime()

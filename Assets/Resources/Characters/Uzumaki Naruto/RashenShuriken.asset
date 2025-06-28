@@ -10,10 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 97527da723d9bac40bf5f5184c3685e7, type: 3}
-  m_Name: MangekyoSharingan
+  m_Name: RashenShuriken
   m_EditorClassIdentifier: 
-  skillName: Mangekyo Sharingan
-  desciption: Ultimate Sharingan
-  manaCost: 30
+  sprite: {fileID: 8176160808152164795, guid: 99e3ef349e977824dbb6719cf53e358c, type: 3}
+  skillName: RashenShuriken
+  desciption: 
+  manaCost: 60
   ableToMove: 0
-  damage: 30
+  damage: 50

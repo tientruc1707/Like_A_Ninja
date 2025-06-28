@@ -17,17 +17,11 @@ public class ChosingPlayingTypeView : View
         });
         _singlePlayerButton.onClick.AddListener(() =>
         {
-            LoadType("PvE Mode");
+            UiManager.Instance.LoadScene("PvE Mode");
         });
         _multiPlayerButton.onClick.AddListener(() =>
         {
-            LoadType("PvP Mode");
+            UiManager.Instance.LoadScene("PvP Mode");
         });
-    }
-
-    private void LoadType(string sceneName)
-    {
-        UiManager.Instance.OnSceneUnloaded();
-        SceneManager.LoadScene(sceneName);
     }
 }

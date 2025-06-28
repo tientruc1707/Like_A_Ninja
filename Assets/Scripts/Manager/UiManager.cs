@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class UiManager : Singleton<UiManager>
 {
@@ -41,7 +42,7 @@ public class UiManager : Singleton<UiManager>
         _initialView = null;
         _history.Clear();
     }
-    
+
     public void RegisterStartingView(View view)
     {
         if (_initialView == null)
@@ -49,7 +50,10 @@ public class UiManager : Singleton<UiManager>
             _initialView = view;
             Show(_initialView, true);
         }
-
+        else
+        {
+            Show<View>();
+        }
     }
 
     public static void Show<T>(bool remember = true) where T : View
@@ -102,5 +106,10 @@ public class UiManager : Singleton<UiManager>
         }
     }
 
-
+    public void LoadScene(string sceneName)
+    {
+        OnSceneUnloaded();
+        SceneManager.LoadScene(sceneName);
+    }
+    
 }

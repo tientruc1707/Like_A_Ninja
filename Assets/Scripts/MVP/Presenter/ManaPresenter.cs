@@ -3,14 +3,15 @@ using UnityEngine.UI;
 
 public class ManaPresenter : MonoBehaviour
 {
-    [SerializeField] private Mana _mana;
-    [SerializeField] private Slider _slider;
+    private Mana _mana;
+    private Slider _slider;
     public CharacterData character;
 
     private void Start()
     {
+        _mana = GetComponent<Mana>();
         _mana.MaxMana = character.Mana;
-        _mana.CurrentMana = character.Mana;
+        _mana.CurrentMana = 0;
 
         _slider.maxValue = character.Mana;
 
@@ -18,9 +19,9 @@ public class ManaPresenter : MonoBehaviour
         UpdateManaView();
     }
 
-    private void OnDisable()
+    public void SetSlider(Slider slider)
     {
-        _mana.OnManaChanged -= UpdateManaView;
+        _slider = slider;
     }
 
     public void IncreaseMana(float value)
@@ -38,4 +39,5 @@ public class ManaPresenter : MonoBehaviour
         if (_slider != null)
             _slider.value = _mana.CurrentMana;
     }
+
 }

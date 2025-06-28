@@ -1,5 +1,6 @@
-using System.Collections.Generic;
+
 using UnityEngine;
+using UnityEngine.PlayerLoop;
 
 public class GameManager : Singleton<GameManager>
 {
@@ -31,5 +32,17 @@ public class GameManager : Singleton<GameManager>
     public GameObject[] GetCharacters()
     {
         return Characters;
+    }
+
+    public GameObject GetMainCharacter()
+    {
+        return _currentCharacter;
+    }
+
+    public GameObject SetRandomEnemy(Vector3 position)
+    {
+        GameObject enemy = Characters[Random.Range(0, Characters.Length)];
+        Instantiate(enemy, position, Quaternion.identity);
+        return enemy;
     }
 }

@@ -10,10 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 97527da723d9bac40bf5f5184c3685e7, type: 3}
-  m_Name: GokakyuNoJustsu
+  m_Name: Rashengan
   m_EditorClassIdentifier: 
-  skillName: GokakyuNojutsu
-  desciption: FireBall
-  manaCost: 25
+  sprite: {fileID: 3639473037358547327, guid: 99e3ef349e977824dbb6719cf53e358c, type: 3}
+  skillName: Rashengan
+  desciption: 
+  manaCost: 30
   ableToMove: 0
-  damage: 20
+  damage: 30
