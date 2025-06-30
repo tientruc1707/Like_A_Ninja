@@ -1,48 +1,34 @@
 
+using System;
 using TMPro;
 using UnityEngine;
 
 public class GameModel : MonoBehaviour
 {
+    public event Action ChangeSide;
     public int timeForTurn;
-    private int _timeRemain;
+    private float _timeRemaining;
     [SerializeField] private TextMeshProUGUI timer;
-    public GameObject leftTurn;
-    public GameObject rightTurn;
 
-    public TextMeshProUGUI Timer { private get; set; }
     private void Start()
     {
-        _timeRemain = timeForTurn;
-        leftTurn.SetActive(true);
-        rightTurn.SetActive(false);
-        timer.text = _timeRemain.ToString();
+        _timeRemaining = timeForTurn;
     }
 
-    public void UpdateTime()
+    void Update()
     {
-        _timeRemain -= 1;
-        if (_timeRemain <= 0)
+        _timeRemaining -= Time.deltaTime;
+        if (_timeRemaining <= 0)
         {
-            Debug.Log("Time's up!");
-            _timeRemain = timeForTurn;
-            ChangeSide();
+            ChangeSide?.Invoke();
+            _timeRemaining = timeForTurn;
         }
-
-        timer.text = _timeRemain.ToString();
-
+        DisplayTime(_timeRemaining);
     }
-    public void ChangeSide()
+
+    public void DisplayTime(float time)
     {
-        if (leftTurn.activeSelf)
-        {
-            leftTurn.SetActive(false);
-            rightTurn.SetActive(true);
-        }
-        else
-        {
-            leftTurn.SetActive(true);
-            rightTurn.SetActive(false);
-        }
+        timer.text = Mathf.FloorToInt(time).ToString();
     }
+
 }

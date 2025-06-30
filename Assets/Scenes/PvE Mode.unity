@@ -855,7 +855,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1828,7 +1828,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6628ed5dc7c9f8045aeee4085c0a1f60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameModel: {fileID: 668061330}
+  _gameModel: {fileID: 668061330}
+  _gameView: {fileID: 668061331}
+  leftSide: {fileID: 776888899}
+  rightSide: {fileID: 1507089861}
 --- !u!114 &668061330
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1843,8 +1846,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timeForTurn: 20
   timer: {fileID: 691418423}
-  leftTurn: {fileID: 776888899}
-  rightTurn: {fileID: 1507089861}
 --- !u!114 &668061331
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2385,7 +2386,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -2899,7 +2900,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -3167,63 +3168,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1001 &1272143798
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1080656138165031082, guid: 86fcec4745eac8642b6e5e9f6168cf7d, type: 3}
-      propertyPath: m_Name
-      value: Uchiha Itachi
-      objectReference: {fileID: 0}
-    - target: {fileID: 6926507798281765599, guid: 86fcec4745eac8642b6e5e9f6168cf7d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -1.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6926507798281765599, guid: 86fcec4745eac8642b6e5e9f6168cf7d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 6926507798281765599, guid: 86fcec4745eac8642b6e5e9f6168cf7d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6926507798281765599, guid: 86fcec4745eac8642b6e5e9f6168cf7d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6926507798281765599, guid: 86fcec4745eac8642b6e5e9f6168cf7d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6926507798281765599, guid: 86fcec4745eac8642b6e5e9f6168cf7d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6926507798281765599, guid: 86fcec4745eac8642b6e5e9f6168cf7d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6926507798281765599, guid: 86fcec4745eac8642b6e5e9f6168cf7d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6926507798281765599, guid: 86fcec4745eac8642b6e5e9f6168cf7d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6926507798281765599, guid: 86fcec4745eac8642b6e5e9f6168cf7d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 86fcec4745eac8642b6e5e9f6168cf7d, type: 3}
 --- !u!1 &1273978259
 GameObject:
   m_ObjectHideFlags: 0
@@ -3792,7 +3736,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -4268,63 +4212,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fb69ceb9d588a3444b939e40b8206f2e, type: 3}
---- !u!1001 &1692032691
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 3877445592610872877, guid: 4e0f76fd3960da942937912d4f2608f5, type: 3}
-      propertyPath: m_Name
-      value: Uzumaki Naruto
-      objectReference: {fileID: 0}
-    - target: {fileID: 7539698210976346559, guid: 4e0f76fd3960da942937912d4f2608f5, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 1.28
-      objectReference: {fileID: 0}
-    - target: {fileID: 7539698210976346559, guid: 4e0f76fd3960da942937912d4f2608f5, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.62
-      objectReference: {fileID: 0}
-    - target: {fileID: 7539698210976346559, guid: 4e0f76fd3960da942937912d4f2608f5, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7539698210976346559, guid: 4e0f76fd3960da942937912d4f2608f5, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7539698210976346559, guid: 4e0f76fd3960da942937912d4f2608f5, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7539698210976346559, guid: 4e0f76fd3960da942937912d4f2608f5, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7539698210976346559, guid: 4e0f76fd3960da942937912d4f2608f5, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7539698210976346559, guid: 4e0f76fd3960da942937912d4f2608f5, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7539698210976346559, guid: 4e0f76fd3960da942937912d4f2608f5, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7539698210976346559, guid: 4e0f76fd3960da942937912d4f2608f5, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 4e0f76fd3960da942937912d4f2608f5, type: 3}
 --- !u!1 &1739514453
 GameObject:
   m_ObjectHideFlags: 0
@@ -4428,7 +4315,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -4659,7 +4546,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -5191,5 +5078,3 @@ SceneRoots:
   - {fileID: 188808579}
   - {fileID: 355316026}
   - {fileID: 460964162}
-  - {fileID: 1272143798}
-  - {fileID: 1692032691}

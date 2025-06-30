@@ -210,7 +210,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 8096455757964058127, guid: 99e3ef349e977824dbb6719cf53e358c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 1
+  m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 0.19, y: 0.3}
@@ -306,7 +306,10 @@ MonoBehaviour:
   characterData: {fileID: 11400000, guid: e18e001404b56554380e1bb6b6cb650c, type: 2}
   _animator: {fileID: 2038527254734864067}
   _mana: {fileID: 3321649090241931129}
-  _skills: []
+  _skills:
+  - {fileID: 7767567260013527174}
+  - {fileID: 117174989413384564}
+  - {fileID: 507290757152142453}
 --- !u!1 &5361539814105776567
 GameObject:
   m_ObjectHideFlags: 0

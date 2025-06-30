@@ -1,13 +1,22 @@
-
 using UnityEngine;
-using UnityEngine.PlayerLoop;
+
+public enum TurnSide
+{
+    LEFTTURN,
+    RIGHTTURN
+}
 
 public class GameManager : Singleton<GameManager>
 {
     private GameObject _currentCharacter;
     [SerializeField] private GameObject[] Characters;
     private int keyCharacterIndex = 0;
+    public TurnSide CurrentSide { get; set; }
 
+    private void Start()
+    {
+        CurrentSide = TurnSide.LEFTTURN;
+    }
     public void SetCharacterKey(string name)
     {
         for (int i = 0; i < Characters.Length; i++)
@@ -41,8 +50,14 @@ public class GameManager : Singleton<GameManager>
 
     public GameObject SetRandomEnemy(Vector3 position)
     {
-        GameObject enemy = Characters[Random.Range(0, Characters.Length)];
-        Instantiate(enemy, position, Quaternion.identity);
+        int keyEnemyIndex;
+        do
+        {
+            keyEnemyIndex = Random.Range(0, Characters.Length);
+
+        } while (keyEnemyIndex == keyCharacterIndex);
+
+        GameObject enemy = Instantiate(Characters[keyEnemyIndex], position, Quaternion.identity);
         return enemy;
     }
 }

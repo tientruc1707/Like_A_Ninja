@@ -30,17 +30,19 @@ public class GameView : View
             Time.timeScale = 0;
             UiManager.Show<PausingView>();
         });
+
     }
     private void OnEnable()
     {
         UiManager.Instance.RegisterStartingView(this);
     }
 
-    public void InitMainCharacter()
+    public void InitPlayer(bool flip)
     {
         GameManager.Instance.SetMainCharacter(SaveSystem.Instance.GetCharacterKey(), _playerPos);
         _player = GameManager.Instance.GetMainCharacter().GetComponent<CharacterPresenter>();
-        _player.UseCharacterStats(true);
+        _player.ApplyCharacterStatsUI();
+        _player.GetComponent<SpriteRenderer>().flipX = flip;
         _player.GetComponent<ManaPresenter>().SetSlider(_playerManaSlider);
         _player.GetComponent<HealthPresenter>().SetSlider(_playerHealthSlider);
 
@@ -51,22 +53,48 @@ public class GameView : View
             {
                 _player.UseSkill(i);
             });
+
         }
+
     }
 
-    public void InitRandomEnemy()
+    public void InitEnemy(bool flip)
     {
         _enemy = GameManager.Instance.SetRandomEnemy(_enemyPos).GetComponent<CharacterPresenter>();
+        _enemy.GetComponent<SpriteRenderer>().flipX = flip;
+        _enemy.ApplyCharacterStatsUI();
         _enemy.GetComponent<ManaPresenter>().SetSlider(_enemyManaSlider);
         _enemy.GetComponent<HealthPresenter>().SetSlider(_enemyHealthSlider);
 
         for (int i = 0; i < _enemySkillButtons.Length; i++)
         {
             _enemySkillButtons[i].GetComponent<Image>().sprite = _enemy.SetSkillSprite(i);
+            _enemySkillButtons[i].interactable = false;
             _enemySkillButtons[i].onClick.AddListener(() =>
             {
                 _enemy.UseSkill(i);
             });
+
+        }
+
+    }
+
+    public void SetPlayerSkillButtonsInteractable()
+    {
+        if (GameManager.Instance.CurrentSide == TurnSide.LEFTTURN)
+        {
+            foreach (var button in _playerSkillButtons)
+            {
+                button.interactable = true;
+            }
+        }
+        else
+        {
+            foreach (var button in _playerSkillButtons)
+            {
+                button.interactable = false;
+            }
         }
     }
+
 }

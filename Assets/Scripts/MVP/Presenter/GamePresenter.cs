@@ -1,26 +1,53 @@
-using System.Collections;
 using UnityEngine;
 
 public class GamePresenter : MonoBehaviour
 {
-    public GameModel gameModel;
+    [SerializeField] private GameModel _gameModel;
+    [SerializeField] private GameView _gameView;
+    public GameObject leftSide;
+    public GameObject rightSide;
+
+
+    private void OnEnable()
+    {
+        _gameModel.ChangeSide += ChangeSide;
+    }
+
+    private void OnDisable()
+    {
+        _gameModel.ChangeSide -= ChangeSide;
+    }
 
     void Start()
     {
-        gameModel.leftTurn.SetActive(true);
-        gameModel.rightTurn.SetActive(false);
-
+        SetActiveSide();
+        _gameView.InitEnemy(true);
+        _gameView.InitPlayer(false);
     }
 
-    void Update()
+    private void ChangeSide()
     {
-        //StartCoroutine(DecreaseTime());
+        if (GameManager.Instance.CurrentSide == TurnSide.LEFTTURN)
+            GameManager.Instance.CurrentSide = TurnSide.RIGHTTURN;
+        else
+            GameManager.Instance.CurrentSide = TurnSide.LEFTTURN;
+        _gameView.SetPlayerSkillButtonsInteractable();
+        SetActiveSide();
     }
 
-    IEnumerator DecreaseTime()
+    private void SetActiveSide()
     {
-        yield return new WaitForSecondsRealtime(1);
-
-        gameModel.UpdateTime();
+        if (GameManager.Instance.CurrentSide == TurnSide.LEFTTURN)
+        {
+            leftSide.SetActive(true);
+            rightSide.SetActive(false);
+        }
+        else
+        {
+            leftSide.SetActive(false);
+            rightSide.SetActive(true);
+        }
     }
+
+
 }

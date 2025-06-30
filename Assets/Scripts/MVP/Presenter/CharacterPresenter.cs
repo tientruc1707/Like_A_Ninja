@@ -10,6 +10,13 @@ public class CharacterPresenter : MonoBehaviour
     [SerializeField] private Mana _mana;
     [SerializeField] private List<SkillPresenter> _skills;
 
+    private void OnEnable()
+    {
+        GetComponent<HealthPresenter>().enabled = false;
+        GetComponent<ManaPresenter>().enabled = false;
+        GetComponent<SpriteRenderer>().flipX = false;
+    }
+
     //Used on Animation 
     public void PerformSkill(int positionSKill)
     {
@@ -18,11 +25,8 @@ public class CharacterPresenter : MonoBehaviour
 
     public void UseSkill(int skillPosition)
     {
-        Debug.Log(skillPosition);
         if (_mana.CurrentMana >= _skills[skillPosition].skillModel.manaCost)
             _animator.SetBool($"Skill{skillPosition + 1}", true);
-        else
-            Debug.Log($"Not Enough Mana to use skill{skillPosition + 1}");
     }
 
     public Sprite SetSkillSprite(int skillPosition)
@@ -30,10 +34,10 @@ public class CharacterPresenter : MonoBehaviour
         return _skills[skillPosition].skillModel.sprite;
     }
 
-    public void UseCharacterStats(bool needUsing)
+    public void ApplyCharacterStatsUI(bool needUsing = true)
     {
         GetComponent<ManaPresenter>().enabled = needUsing;
         GetComponent<HealthPresenter>().enabled = needUsing;
     }
-    
+
 }

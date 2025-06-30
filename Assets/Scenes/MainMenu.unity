@@ -2868,8 +2868,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Characters:
-  - {fileID: 1080656138165031082, guid: 86fcec4745eac8642b6e5e9f6168cf7d, type: 3}
   - {fileID: 3877445592610872877, guid: 4e0f76fd3960da942937912d4f2608f5, type: 3}
+  - {fileID: 1080656138165031082, guid: 86fcec4745eac8642b6e5e9f6168cf7d, type: 3}
 --- !u!114 &1494169914
 MonoBehaviour:
   m_ObjectHideFlags: 0

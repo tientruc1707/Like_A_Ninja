@@ -8,6 +8,10 @@ public class BoardPresenter : MonoBehaviour
 
     public async void Select(Tile tile)
     {
+        if (GameManager.Instance.CurrentSide == TurnSide.RIGHTTURN)
+        {
+            return;
+        }
         if (!_selections.Contains(tile)) _selections.Add(tile);
         if (_selections.Count != 2) return;
         if (_selections[0] == _selections[1]) return;
