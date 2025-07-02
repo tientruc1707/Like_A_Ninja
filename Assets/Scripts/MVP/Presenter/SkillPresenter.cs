@@ -5,29 +5,37 @@ using UnityEngine;
 public class SkillPresenter : MonoBehaviour
 {
     public Skill skillModel;
-    [SerializeField] private Animator animator;
+    [SerializeField] private Animator _animator;
+    [SerializeField] private GameObject _owner;
     public void StartPerformingSkill()
     {
         this.gameObject.SetActive(true);
-        this.GetComponentInParent<ManaPresenter>().DecreaseMana(skillModel.manaCost);
+        _owner.GetComponent<ManaPresenter>().DecreaseMana(skillModel.manaCost);
     }
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag(StringConstant.CHARACTER.PLAYER))
+        if (collision.CompareTag(StringConstant.CHARACTER.PLAYER) ||
+            collision.CompareTag(StringConstant.CHARACTER.ENEMY))
         {
-            HealthPresenter health = collision.GetComponent<HealthPresenter>();
-            health.DecreaseHealth(skillModel.damage);
+            CharacterPresenter character = collision.GetComponent<CharacterPresenter>();
+            character.TakeDamage(skillModel.damage, StringConstant.AnimationState.BigHurt);
         }
+        
     }
 
-    public void Execute()
+    void OnTriggerExit2D(Collider2D collision)
     {
-        animator.SetTrigger("Execute");
+        CharacterPresenter character = collision.GetComponent<CharacterPresenter>();
+        character.EndTakingDamage(StringConstant.AnimationState.BigHurt);
     }
 
+    //added on skill's animation
     public void CompleteExecution(int skillPos)
     {
-        GetComponentInParent<Animator>().SetBool($"Skill{skillPos - 1}", false);
+        EventSystem.Instance.TriggerEvent(StringConstant.EVENT.UNPAUSE_TIMER);
+        _owner.GetComponent<Animator>().SetBool($"Skill{skillPos}", false);
+        this.gameObject.SetActive(false);
     }
+
 }

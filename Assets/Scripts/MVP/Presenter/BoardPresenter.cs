@@ -23,12 +23,15 @@ public class BoardPresenter : MonoBehaviour
         await board.Swap(_selections[0], _selections[1]);
         if (board.Connectable())
         {
-            board.RemoveConnectionIfMatches();
+            board.RemoveConnectedTiles();
         }
         else
         {
             await board.Swap(_selections[0], _selections[1]);
         }
+        //change side after do the turn
+        EventSystem.Instance.TriggerEvent(StringConstant.EVENT.CHANG_SIDE);
+
         _selections.Clear();
     }
 

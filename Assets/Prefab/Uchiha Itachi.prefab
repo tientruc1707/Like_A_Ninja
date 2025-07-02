@@ -124,7 +124,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   skillModel: {fileID: 11400000, guid: a20b8a2134cafd44db2e4884c708b01d, type: 2}
-  animator: {fileID: 3528541450327073569}
+  _animator: {fileID: 3528541450327073569}
+  _owner: {fileID: 1080656138165031082}
 --- !u!1 &555580974348186072
 GameObject:
   m_ObjectHideFlags: 0
@@ -249,7 +250,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   skillModel: {fileID: 11400000, guid: a8b05af64fab65a478bca6c8c5b3787d, type: 2}
-  animator: {fileID: 3636129244771425281}
+  _animator: {fileID: 3636129244771425281}
+  _owner: {fileID: 1080656138165031082}
 --- !u!1 &1080656138165031082
 GameObject:
   m_ObjectHideFlags: 0
@@ -431,6 +433,7 @@ MonoBehaviour:
   characterData: {fileID: 11400000, guid: e9f5520bf076c8a4face97908c890a1f, type: 2}
   _animator: {fileID: 5679799316958287965}
   _mana: {fileID: 1349399222862954018}
+  _health: {fileID: 4848661120496471369}
   _skills:
   - {fileID: 621134749502759369}
   - {fileID: 2879292262613288736}
@@ -497,7 +500,7 @@ Transform:
   m_GameObject: {fileID: 4779360444257831351}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.38, y: 0.08, z: 0}
+  m_LocalPosition: {x: 2.51, y: 0.03, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -593,4 +596,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   skillModel: {fileID: 11400000, guid: dc0a042ea5f46294fb1b4437411d380b, type: 2}
-  animator: {fileID: 789939335323476346}
+  _animator: {fileID: 789939335323476346}
+  _owner: {fileID: 1080656138165031082}

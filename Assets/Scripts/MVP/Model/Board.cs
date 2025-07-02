@@ -5,6 +5,7 @@ using UnityEngine.UI;
 using UnityEngine;
 using System.Threading.Tasks;
 using System.Linq;
+using UnityEditor.PackageManager;
 
 
 public class Board : MonoBehaviour
@@ -24,7 +25,7 @@ public class Board : MonoBehaviour
 
         InitializeBoard();
         if (Connectable())
-            RemoveConnectionIfMatches();
+            RemoveConnectedTiles();
     }
 
     private void InitializeBoard()
@@ -89,8 +90,10 @@ public class Board : MonoBehaviour
         return false;
     }
 
-    public async void RemoveConnectionIfMatches()
+    public async void RemoveConnectedTiles()
     {
+        EventSystem.Instance.TriggerEvent(StringConstant.EVENT.PAUSE_TIMER);
+
         for (int y = 0; y < boardSize; y++)
         {
             for (int x = 0; x < boardSize; x++)
@@ -118,8 +121,12 @@ public class Board : MonoBehaviour
 
                 await generateSequence.Play().AsyncWaitForCompletion();
             }
+
         }
+
+        EventSystem.Instance.TriggerEvent(StringConstant.EVENT.UNPAUSE_TIMER);
     }
+
     public void ResetBoard()
     {
         foreach (Row row in rows)

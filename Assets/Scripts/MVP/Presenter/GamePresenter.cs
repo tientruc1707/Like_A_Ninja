@@ -10,12 +10,12 @@ public class GamePresenter : MonoBehaviour
 
     private void OnEnable()
     {
-        _gameModel.ChangeSide += ChangeSide;
+        EventSystem.Instance.RegisterListener(StringConstant.EVENT.CHANG_SIDE, ChangeSide);
     }
 
     private void OnDisable()
     {
-        _gameModel.ChangeSide -= ChangeSide;
+        EventSystem.Instance.UnregisterListener(StringConstant.EVENT.CHANG_SIDE, ChangeSide);
     }
 
     void Start()
@@ -31,6 +31,7 @@ public class GamePresenter : MonoBehaviour
             GameManager.Instance.CurrentSide = TurnSide.RIGHTTURN;
         else
             GameManager.Instance.CurrentSide = TurnSide.LEFTTURN;
+
         _gameView.SetPlayerSkillButtonsInteractable();
         SetActiveSide();
     }
@@ -47,6 +48,7 @@ public class GamePresenter : MonoBehaviour
             leftSide.SetActive(false);
             rightSide.SetActive(true);
         }
+        
     }
 
 

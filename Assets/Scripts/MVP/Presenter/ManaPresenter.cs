@@ -11,7 +11,7 @@ public class ManaPresenter : MonoBehaviour
     {
         _mana = GetComponent<Mana>();
         _mana.MaxMana = character.Mana;
-        _mana.CurrentMana = 0;
+        _mana.CurrentMana = character.Mana;
 
         _slider.maxValue = character.Mana;
 

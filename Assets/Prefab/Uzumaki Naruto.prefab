@@ -124,7 +124,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   skillModel: {fileID: 11400000, guid: f4303ae2c68e73346912fc270b0b2709, type: 2}
-  animator: {fileID: 5368259742114383059}
+  _animator: {fileID: 5368259742114383059}
+  _owner: {fileID: 3877445592610872877}
 --- !u!1 &3877445592610872877
 GameObject:
   m_ObjectHideFlags: 0
@@ -306,6 +307,7 @@ MonoBehaviour:
   characterData: {fileID: 11400000, guid: e18e001404b56554380e1bb6b6cb650c, type: 2}
   _animator: {fileID: 2038527254734864067}
   _mana: {fileID: 3321649090241931129}
+  _health: {fileID: 464783869879589356}
   _skills:
   - {fileID: 7767567260013527174}
   - {fileID: 117174989413384564}
@@ -434,7 +436,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   skillModel: {fileID: 11400000, guid: 3843eeef9aca8954fa18794d8afef78e, type: 2}
-  animator: {fileID: 6232914687113922874}
+  _animator: {fileID: 6232914687113922874}
+  _owner: {fileID: 3877445592610872877}
 --- !u!1 &6830205506835610714
 GameObject:
   m_ObjectHideFlags: 0
@@ -559,7 +562,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   skillModel: {fileID: 11400000, guid: d9c3c36b9a054a74ca125f51f4c6ee3d, type: 2}
-  animator: {fileID: 1831946584407802375}
+  _animator: {fileID: 1831946584407802375}
+  _owner: {fileID: 3877445592610872877}
 --- !u!1 &9117345683593550216
 GameObject:
   m_ObjectHideFlags: 0

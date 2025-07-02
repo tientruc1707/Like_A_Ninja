@@ -49,14 +49,16 @@ public class GameView : View
         for (int i = 0; i < _playerSkillButtons.Length; i++)
         {
             _playerSkillButtons[i].GetComponent<Image>().sprite = _player.SetSkillSprite(i);
+            _playerSkillButtons[i].interactable = true;
+            _playerSkillButtons[i].transition = Selectable.Transition.None;
+            int skillIndex = i;
             _playerSkillButtons[i].onClick.AddListener(() =>
             {
-                _player.UseSkill(i);
+                _player.UseSkill(skillIndex);
             });
-
         }
-
     }
+
 
     public void InitEnemy(bool flip)
     {
@@ -65,19 +67,20 @@ public class GameView : View
         _enemy.ApplyCharacterStatsUI();
         _enemy.GetComponent<ManaPresenter>().SetSlider(_enemyManaSlider);
         _enemy.GetComponent<HealthPresenter>().SetSlider(_enemyHealthSlider);
-
         for (int i = 0; i < _enemySkillButtons.Length; i++)
         {
             _enemySkillButtons[i].GetComponent<Image>().sprite = _enemy.SetSkillSprite(i);
             _enemySkillButtons[i].interactable = false;
+            _enemySkillButtons[i].transition = Selectable.Transition.None;
+            int skillIndex = i;
             _enemySkillButtons[i].onClick.AddListener(() =>
             {
-                _enemy.UseSkill(i);
+                _enemy.UseSkill(skillIndex);
             });
-
         }
 
     }
+
 
     public void SetPlayerSkillButtonsInteractable()
     {

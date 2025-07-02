@@ -1,32 +1,31 @@
 using System.Collections.Generic;
 using UnityEngine.Events;
+using UnityEngine.TextCore;
 
 public class EventSystem : Singleton<EventSystem>
 {
-    private Dictionary<string, UnityEvent> eventDictionary = new();
+    private readonly Dictionary<string, UnityEvent> _eventDictionary = new();
 
 
 
     public void RegisterListener(string eventName, UnityAction listener)
     {
-        UnityEvent unityEvent = null;
-        if (!eventDictionary.ContainsKey(eventName))
+        if (!_eventDictionary.ContainsKey(eventName))
         {
-            unityEvent = new UnityEvent();
+            UnityEvent unityEvent = new();
             unityEvent.AddListener(listener);
-            eventDictionary.Add(eventName, unityEvent);
+            _eventDictionary.Add(eventName, unityEvent);
         }
         else
         {
-            unityEvent.AddListener(listener);
+            _eventDictionary[eventName].AddListener(listener);
         }
 
     }
 
     public void UnregisterListener(string eventName, UnityAction listener)
     {
-        UnityEvent unityEvent = null;
-        if (eventDictionary.ContainsKey(eventName))
+        if (_eventDictionary.TryGetValue(eventName, out UnityEvent unityEvent))
         {
             unityEvent.RemoveListener(listener);
         }
@@ -35,8 +34,7 @@ public class EventSystem : Singleton<EventSystem>
 
     public void TriggerEvent(string eventName)
     {
-        UnityEvent unityEvent = null;
-        if (eventDictionary.ContainsKey(eventName))
+        if (_eventDictionary.TryGetValue(eventName, out UnityEvent unityEvent))
         {
             unityEvent.Invoke();
         }
