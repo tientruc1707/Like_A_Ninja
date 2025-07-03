@@ -44,26 +44,28 @@ public class Tile : MonoBehaviour
         button.onClick.AddListener(() => board.GetComponent<BoardPresenter>().Select(this));
     }
 
-    public List<Tile> GetConnectionsTile(List<Tile> visited = null)
+    public List<Tile> GetConnectionsTile(HashSet<Tile> visited = null)
     {
-        var result = new List<Tile> { this, };
-
         if (visited == null)
         {
-            visited = new List<Tile> { this, };
-        }
-        else
-        {
-            visited.Add(this);
+            visited = new HashSet<Tile>();
         }
 
-        foreach (Tile neighbor in Neighbors)
+        var result = new List<Tile>();
+
+        if (!visited.Contains(this))
         {
-            if (neighbor == null || visited.Contains(neighbor) || neighbor.Item != Item)
+            visited.Add(this);
+            result.Add(this);
+
+            foreach (Tile neighbor in Neighbors)
             {
-                continue;
+                if (neighbor == null || visited.Contains(neighbor) || neighbor.Item != Item)
+                {
+                    continue;
+                }
+                result.AddRange(neighbor.GetConnectionsTile(visited));
             }
-            result.AddRange(neighbor.GetConnectionsTile(visited));
         }
 
         return result;

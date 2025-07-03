@@ -29,4 +29,10 @@ public static class StringConstant
 
     }
 
+    public static class SCENE
+    {
+        public static readonly string MAIN_MENU = "MainMenu";
+        public static readonly string PVE_MODE = "PvE Mode";
+        public static readonly string PVP_MODE = "PvP Mode";
+    }
 }

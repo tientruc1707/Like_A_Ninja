@@ -6,13 +6,13 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 8c9cfa26abfee488c85f1582747f6a02
-  - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: f59a968836f4fa54eba6639deae712b5
   - enabled: 1
     path: Assets/Scenes/PvE Mode.unity
+    guid: 8d459d42b54d9d940ad06953cdf1a903
+  - enabled: 1
+    path: Assets/Scenes/Level 1.unity
     guid: 89bdf507074dc874a88928ea04e08728
   m_configObjects:
     com.unity.adaptiveperformance.google.android.provider_settings: {fileID: 11400000, guid: 4279bfb0f270f144590d57a6541408f5, type: 2}

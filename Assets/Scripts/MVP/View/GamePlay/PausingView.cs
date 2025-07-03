@@ -11,6 +11,7 @@ public class PausingView : View
     {
         _restartButton.onClick.AddListener(() =>
         {
+            Time.timeScale = 1;
             UiManager.Instance.LoadScene(SceneManager.GetActiveScene().name);
         });
         _resumeButton.onClick.AddListener(() =>
@@ -20,7 +21,8 @@ public class PausingView : View
         });
         _mainMenuButton.onClick.AddListener(() =>
         {
-            UiManager.Instance.LoadScene("MainMenu");
+            Time.timeScale = 1;
+            UiManager.Instance.LoadScene(StringConstant.SCENE.PVE_MODE);
         });
     }
 }

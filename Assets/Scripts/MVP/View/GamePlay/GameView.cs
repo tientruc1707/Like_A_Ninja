@@ -32,8 +32,9 @@ public class GameView : View
         });
 
     }
-    private void OnEnable()
+    private void Start()
     {
+        UiManager.Instance.OnSceneLoaded();
         UiManager.Instance.RegisterStartingView(this);
     }
 
