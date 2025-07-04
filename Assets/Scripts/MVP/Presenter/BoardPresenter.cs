@@ -23,7 +23,7 @@ public class BoardPresenter : MonoBehaviour
         await board.Swap(_selections[0], _selections[1]);
         if (board.Connectable())
         {
-            board.RemoveConnectedTiles();
+            await board.RemoveConnectedTiles(); 
         }
         else
         {

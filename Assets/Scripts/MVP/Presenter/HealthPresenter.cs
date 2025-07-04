@@ -20,6 +20,11 @@ public class HealthPresenter : MonoBehaviour
         UpdateHealthView();
     }
 
+    public float GetCurrentHealth()
+    {
+        return _health.CurrentHealth;
+    }
+    
     public void SetSlider(Slider slider)
     {
         _healthSlider = slider;

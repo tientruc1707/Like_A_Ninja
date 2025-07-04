@@ -5,7 +5,6 @@ using UnityEngine.UI;
 using UnityEngine;
 using System.Threading.Tasks;
 using System.Linq;
-using UnityEditor.PackageManager;
 
 
 public class Board : MonoBehaviour
@@ -16,16 +15,28 @@ public class Board : MonoBehaviour
     public int boardSize;
     private readonly float _tweenDuration = 0.25f;
 
+    private CharacterPresenter _player;
+    private CharacterPresenter _enemy;
 
     private void Start()
     {
+        if (_player == null)
+            _player = GameManager.Instance.GetPlayer().GetComponent<CharacterPresenter>();
+        if (_enemy == null)
+            _enemy = GameManager.Instance.GetCurrentEnemy().GetComponent<CharacterPresenter>();
+
         rows = GetComponentsInChildren<Row>();
         boardSize = rows.Length;
         Tiles = new Tile[boardSize, boardSize];
 
         InitializeBoard();
+        _ = StartAsync();
+    }
+
+    private async Task StartAsync()
+    {
         if (Connectable())
-            RemoveConnectedTiles();
+            await RemoveConnectedTiles();
     }
 
     private void InitializeBoard()
@@ -90,7 +101,7 @@ public class Board : MonoBehaviour
         return false;
     }
 
-    public async void RemoveConnectedTiles()
+    public async Task RemoveConnectedTiles()
     {
         EventSystem.Instance.TriggerEvent(StringConstant.EVENT.PAUSE_TIMER);
 
@@ -110,7 +121,14 @@ public class Board : MonoBehaviour
                 }
 
                 await removeSequence.Play().AsyncWaitForCompletion();
-
+                if (GameManager.Instance.CurrentSide == TurnSide.LEFTTURN)
+                {
+                    PerformAction(tile.Item, _player);
+                }
+                else
+                {
+                    PerformAction(tile.Item, _enemy);
+                }
                 var generateSequence = DOTween.Sequence();
 
                 foreach (Tile connectedTile in connections)
@@ -140,4 +158,34 @@ public class Board : MonoBehaviour
 
     }
 
+    public void PerformAction(Item item, CharacterPresenter character)
+    {
+        // Handle actions based on the item's type; add more cases here as new item types are introduced.
+        switch (item.itemType)
+        {
+            case ItemType.HEALTH:
+                // Restore health to the character.
+                character.RestoreHealth(item.value);
+                break;
+            case ItemType.MANA:
+                // Restore mana to the character.
+                character.RestoreMana(item.value);
+                break;
+            case ItemType.SHURIKEN:
+                // Attack the opponent, not the matching character.
+                if (character == _player)
+                {
+                    _enemy.Attack();
+                }
+                else
+                {
+                    _player.Attack();
+                }
+                break;
+            default:
+                Debug.Log("No item stat! This Error in Board.cs");
+                break;
+        }
+
+    }
 }

@@ -7,8 +7,8 @@ public class CharacterPresenter : MonoBehaviour
     public string CharacterName => characterData.CharacterName;
     public Sprite CharacterSprite => characterData.CharacterSprite;
     [SerializeField] private Animator _animator;
-    [SerializeField] private Mana _mana;
     [SerializeField] private HealthPresenter _health;
+    [SerializeField] private ManaPresenter _mana;
     [SerializeField] private List<SkillPresenter> _skills;
 
     private void OnEnable()
@@ -43,7 +43,8 @@ public class CharacterPresenter : MonoBehaviour
 
     public void Attack()
     {
-        _animator.SetTrigger(StringConstant.AnimationState.Attack);
+        Debug.Log("Attack");
+        //_animator.SetTrigger("Attack");
     }
 
     public void TakeDamage(float damage, int hurtType)
@@ -57,4 +58,13 @@ public class CharacterPresenter : MonoBehaviour
         _animator.SetBool(hurtType, false);
     }
 
+    public void RestoreHealth(float value)
+    {
+        _health.IncreaseHealth(value);
+    }
+
+    public void RestoreMana(float value)
+    {
+        _mana.IncreaseMana(value);
+    }
 }

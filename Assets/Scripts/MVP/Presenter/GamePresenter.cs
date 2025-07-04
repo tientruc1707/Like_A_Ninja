@@ -3,13 +3,15 @@ using UnityEngine;
 public class GamePresenter : MonoBehaviour
 {
     [SerializeField] private GameModel _gameModel;
-    [SerializeField] private GameView _gameView;
+
     public GameObject leftSide;
     public GameObject rightSide;
 
 
     private void OnEnable()
     {
+        _gameModel.InitEnemy(true);
+        _gameModel.InitPlayer(false);
         EventSystem.Instance.RegisterListener(StringConstant.EVENT.CHANG_SIDE, ChangeSide);
     }
 
@@ -21,8 +23,6 @@ public class GamePresenter : MonoBehaviour
     void Start()
     {
         SetActiveSide();
-        _gameView.InitEnemy(true);
-        _gameView.InitPlayer(false);
     }
 
     private void ChangeSide()
@@ -32,7 +32,7 @@ public class GamePresenter : MonoBehaviour
         else
             GameManager.Instance.CurrentSide = TurnSide.LEFTTURN;
 
-        _gameView.SetPlayerSkillButtonsInteractable();
+        _gameModel.SetPlayerSkillButtonsInteractable();
         SetActiveSide();
     }
 
@@ -48,7 +48,7 @@ public class GamePresenter : MonoBehaviour
             leftSide.SetActive(false);
             rightSide.SetActive(true);
         }
-        
+
     }
 
 

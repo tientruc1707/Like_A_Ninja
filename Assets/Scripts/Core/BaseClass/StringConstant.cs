@@ -20,14 +20,6 @@ public static class StringConstant
         public static readonly string CHANG_SIDE = "ChangeSide";
     }
 
-    public static class AnimationState
-    {
-
-        public static readonly int Attack = Animator.StringToHash("Attack");
-        public static readonly int MiniHurt = Animator.StringToHash("MiniHurt");
-        public static readonly int BigHurt = Animator.StringToHash("BigHurt");
-
-    }
 
     public static class SCENE
     {

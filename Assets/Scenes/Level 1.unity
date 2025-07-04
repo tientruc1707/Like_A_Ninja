@@ -1829,7 +1829,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _gameModel: {fileID: 668061330}
-  _gameView: {fileID: 668061331}
   leftSide: {fileID: 776888899}
   rightSide: {fileID: 1507089861}
 --- !u!114 &668061330
@@ -1846,6 +1845,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timeForTurn: 20
   timer: {fileID: 691418423}
+  _playerHealthSlider: {fileID: 101352030}
+  _playerManaSlider: {fileID: 383791853}
+  _playerSkillButtons:
+  - {fileID: 1028922257}
+  - {fileID: 1501813458}
+  - {fileID: 286201716}
+  _enemyHealthSlider: {fileID: 773638922}
+  _enemyManaSlider: {fileID: 127418625}
+  _enemySkillButtons:
+  - {fileID: 1835583448}
+  - {fileID: 1739514455}
+  - {fileID: 852467880}
 --- !u!114 &668061331
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1859,18 +1870,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _pauseButton: {fileID: 1273978261}
-  _playerHealthSlider: {fileID: 101352030}
-  _playerManaSlider: {fileID: 383791853}
-  _playerSkillButtons:
-  - {fileID: 1028922257}
-  - {fileID: 1501813458}
-  - {fileID: 286201716}
-  _enemyHealthSlider: {fileID: 773638922}
-  _enemyManaSlider: {fileID: 127418625}
-  _enemySkillButtons:
-  - {fileID: 1835583448}
-  - {fileID: 1739514455}
-  - {fileID: 852467880}
 --- !u!1 &691418421
 GameObject:
   m_ObjectHideFlags: 0

@@ -40,6 +40,6 @@ public class MainMenuView : View
         UiManager.Instance.OnSceneLoaded();
         UiManager.Instance.RegisterStartingView(this);
         GameManager.Instance.SetCharacterKey("Uchiha Itachi");
-        GameManager.Instance.SetMainCharacter(SaveSystem.Instance.GetCharacterKey(), new Vector3(0, 3, 0));
+        GameManager.Instance.SetPlayer(SaveSystem.Instance.GetCharacterKey(), new Vector3(0, 3, 0));
     }
 }

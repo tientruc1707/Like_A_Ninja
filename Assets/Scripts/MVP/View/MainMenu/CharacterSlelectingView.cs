@@ -43,7 +43,7 @@ public class CharacterSelectingView : View
             if (character.name.Equals(name))
             {
                 GameManager.Instance.SetCharacterKey(name);
-                GameManager.Instance.SetMainCharacter(SaveSystem.Instance.GetCharacterKey(), new Vector3(0, 3, 0));
+                GameManager.Instance.SetPlayer(SaveSystem.Instance.GetCharacterKey(), new Vector3(0, 3, 0));
                 break;
             }
 

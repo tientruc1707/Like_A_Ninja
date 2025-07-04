@@ -11,12 +11,17 @@ public class ManaPresenter : MonoBehaviour
     {
         _mana = GetComponent<Mana>();
         _mana.MaxMana = character.Mana;
-        _mana.CurrentMana = character.Mana;
+        _mana.CurrentMana = 0;
 
         _slider.maxValue = character.Mana;
 
         _mana.OnManaChanged += UpdateManaView;
         UpdateManaView();
+    }
+
+    public float GetCurrentMana()
+    {
+        return _mana.CurrentMana;
     }
 
     public void SetSlider(Slider slider)
@@ -31,7 +36,7 @@ public class ManaPresenter : MonoBehaviour
 
     public void DecreaseMana(float value)
     {
-        _mana.IncreamentMana(value);
+        _mana.DecreamentMana(value);
     }
 
     private void UpdateManaView()

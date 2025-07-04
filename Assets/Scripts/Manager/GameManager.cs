@@ -8,7 +8,17 @@ public enum TurnSide
 
 public class GameManager : Singleton<GameManager>
 {
-    private GameObject _currentCharacter;
+    public static class AnimationState
+    {
+        public static readonly int Attack = Animator.StringToHash("Attack");
+        public static readonly int MiniHurt = Animator.StringToHash("MiniHurt");
+        public static readonly int BigHurt = Animator.StringToHash("BigHurt");
+
+    }
+
+    private GameObject _currentPlayer;
+    private GameObject _currentEnemy;
+
     [SerializeField] private GameObject[] Characters;
     private int keyCharacterIndex = 0;
     public TurnSide CurrentSide { get; set; }
@@ -29,13 +39,14 @@ public class GameManager : Singleton<GameManager>
         }
     }
 
-    public void SetMainCharacter(int index, Vector3 position)
+    public void SetPlayer(int index, Vector3 position)
     {
-        if (_currentCharacter != null)
+        if (_currentPlayer != null)
         {
-            Destroy(_currentCharacter);
+            Destroy(_currentPlayer);
         }
-        _currentCharacter = Instantiate(Characters[index], position, Quaternion.identity);
+        _currentPlayer = Instantiate(Characters[index], position, Quaternion.identity);
+        _currentPlayer.tag = StringConstant.CHARACTER.PLAYER;
     }
 
     public GameObject[] GetCharacters()
@@ -43,21 +54,29 @@ public class GameManager : Singleton<GameManager>
         return Characters;
     }
 
-    public GameObject GetMainCharacter()
+    public GameObject GetPlayer()
     {
-        return _currentCharacter;
+        return _currentPlayer;
     }
 
-    public GameObject SetRandomEnemy(Vector3 position)
+    public void SetCurrentEnemy(Vector3 position)
     {
+        if (_currentEnemy != null)
+        {
+            Destroy(_currentEnemy);
+        }
         int keyEnemyIndex;
         do
         {
             keyEnemyIndex = Random.Range(0, Characters.Length);
 
         } while (keyEnemyIndex == keyCharacterIndex);
+        _currentEnemy = Instantiate(Characters[keyEnemyIndex], position, Quaternion.identity);
+        _currentEnemy.gameObject.tag = StringConstant.CHARACTER.ENEMY;
+    }
 
-        GameObject enemy = Instantiate(Characters[keyEnemyIndex], position, Quaternion.identity);
-        return enemy;
+    public GameObject GetCurrentEnemy()
+    {
+        return _currentEnemy;
     }
 }
