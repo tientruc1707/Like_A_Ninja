@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de8f8f4763ebeff489ee2bb2195f1490, type: 3}
   m_Name: Mana
   m_EditorClassIdentifier: 
-  itemType: 1
+  itemType: 2
   value: 20
   sprite: {fileID: 3009934766445781331, guid: 7f1e4aff62685374fb283c1bcac3afa6, type: 3}

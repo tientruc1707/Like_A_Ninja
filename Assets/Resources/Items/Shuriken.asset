@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de8f8f4763ebeff489ee2bb2195f1490, type: 3}
   m_Name: Shuriken
   m_EditorClassIdentifier: 
-  itemType: 2
+  itemType: 3
   value: 10
   sprite: {fileID: -4598201531495653870, guid: 059e57eca0ef86048a17ad221bd67f03, type: 3}

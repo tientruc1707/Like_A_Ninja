@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SkillPresenter : MonoBehaviour
 {
-    public Skill skillModel;
+    public SkillSO skillModel;
     [SerializeField] private Animator _animator;
     [SerializeField] private ManaPresenter _owner;
     public void StartPerformingSkill()
