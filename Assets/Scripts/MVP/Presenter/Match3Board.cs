@@ -1,94 +1,286 @@
-
 using System;
-using Unity.MLAgents;
 using Unity.MLAgents.Integrations.Match3;
 using UnityEngine;
 
 public class Match3Board : AbstractBoard
 {
-    [SerializeField] private Board _board;
-    [SerializeField] private BoardView _boardView;
+    public LevelSO levelSO;
 
-    private Agent _agent;
+    BoardSize boardSize;
+    (int CellType, int SpecialType)[,] m_Cells;
+    bool[,] m_Matched;
 
-    private void Awake()
+    public int randomSeed;
+    System.Random random;
+    public const int k_EmptyCell = -1;
+    public int BasicCellPoint = 1;
+    public int SpecialCell1Point = 2;
+    public int SpecialCell2Point = 3;
+
+    void Awake()
     {
-        _agent = GetComponent<Agent>();
-    }
-    private void OnEnable()
-    {
-        _boardView.Bind(_board);
-        EventSystem.Instance.RegisterListener(StringConstant.EVENT.CHANG_SIDE, OnChangeSide);
-    }
-    public void Start()
-    {
-        _board.InitializeBoard();
-        _board.GenerateBoard();
-        _boardView.InitializeView(_board);
-        _boardView.RenderBoard(_board);
-    }
-    private void OnChangeSide()
-    {
-        if (GameManager.Instance.CurrentSide == TurnSide.RIGHTTURN)
-            _agent.RequestDecision();
+        InitializeBoardSize();
     }
 
-    private void OnDisable()
+    void Start()
     {
-        _boardView.Unbind(_board);
-        EventSystem.Instance.UnregisterListener(StringConstant.EVENT.CHANG_SIDE, OnChangeSide);
+        InitRandom();
     }
+
+    public void InitializeBoardSize()
+    {
+        if (levelSO == null)
+        {
+            Debug.LogError("levelSO is not assigned in Inspector!");
+            return;
+        }
+        if (levelSO.height <= 0 || levelSO.width <= 0)
+        {
+            Debug.LogError("levelSO height or width is invalid!");
+            return;
+        }
+        random = new System.Random(randomSeed == -1 ? gameObject.GetInstanceID() : randomSeed);
+        if (boardSize.Rows == 0 && boardSize.Columns == 0)
+        {
+            m_Cells = new (int, int)[levelSO.width, levelSO.height];
+            m_Matched = new bool[levelSO.width, levelSO.height];
+            boardSize = new BoardSize
+            {
+                Rows = levelSO.height,
+                Columns = levelSO.width,
+                NumCellTypes = levelSO.itemList.Count,
+                NumSpecialTypes = 3
+            };
+        }
+    }
+
     public override int GetCellType(int row, int col)
     {
-        return _board.GetItemSOIndex(row, col);
+        if (row >= boardSize.Rows || col >= boardSize.Columns || m_Cells == null)
+        {
+            throw new IndexOutOfRangeException();
+        }
+        return m_Cells[col, row].CellType;
     }
 
     public override BoardSize GetMaxBoardSize()
     {
-        LevelSO levelSO = _board.level;
+        return boardSize;
+    }
 
-        return new BoardSize
-        {
-            Rows = levelSO.width,
-            Columns = levelSO.height,
-            NumCellTypes = levelSO.itemList.Count,
-            NumSpecialTypes = 3
-        };
+    public override BoardSize GetCurrentBoardSize()
+    {
+        return boardSize;
     }
 
     public override int GetSpecialType(int row, int col)
     {
-        return 0;
+        if (row >= boardSize.Rows || col >= boardSize.Columns || m_Cells == null)
+        {
+            throw new IndexOutOfRangeException();
+        }
+        return m_Cells[col, row].SpecialType;
     }
 
     public override bool IsMoveValid(Move m)
     {
-        int startX = m.Column;
-        int startY = m.Row;
-        var moveEnd = m.OtherCell();
-        int endX = moveEnd.Column;
-        int endY = moveEnd.Row;
-        return _board.IsValidMove(startX, startY, endX, endY);
+        if (m_Cells == null)
+            return false;
+        return SimpleIsMoveValid(m);
     }
 
     public override bool MakeMove(Move m)
     {
-        int startX = m.Column;
-        int startY = m.Row;
-        var moveEnd = m.OtherCell();
-        int endX = moveEnd.Column;
-        int endY = moveEnd.Row;
-        if (_board.IsValidMove(startX, startY, endX, endY))
-        {
-            EventSystem.Instance.TriggerEvent(StringConstant.EVENT.PAUSE_TIMER);
-            _board.Swap(startX, startY, endX, endY);
-            EventSystem.Instance.TriggerEvent(StringConstant.EVENT.PAUSE_TIMER);
-            EventSystem.Instance.TriggerEvent(StringConstant.EVENT.CHANG_SIDE);
-            return true;
-        }
-        else
-        {
+        if (!IsMoveValid(m))
             return false;
+        var (endRow, endCol) = m.OtherCell();
+        (m_Cells[m.Column, m.Row], m_Cells[endCol, endRow]) = (m_Cells[endCol, endRow], m_Cells[m.Column, m.Row]);
+        return true;
+    }
+
+    int GetRandomCellType()
+    {
+        if (random == null)
+        {
+            Debug.LogError("Random is null!");
+            return 0;
+        }
+        if (boardSize.NumCellTypes <= 0)
+        {
+            Debug.LogError("NumCellTypes is invalid!");
+            return 0;
+        }
+        return random.Next(0, boardSize.NumCellTypes);
+    }
+
+    int GetRandomSpecialType()
+    {
+        int value = random.Next(0, 10);
+        if (value == 0) return 2;
+        else if (value < 3) return 1;
+        return 0;
+    }
+
+    public bool MarkMatchedCells(int[,] cells = null)
+    {
+        ClearMarked();
+        bool madeMatch = false;
+        for (int row = 0; row < boardSize.Rows; row++)
+        {
+            for (int col = 0; col < boardSize.Columns; col++)
+            {
+                // Vertical Check
+                int matchedRows = 0;
+                for (int pos = row; pos < boardSize.Rows; pos++)
+                {
+                    if (m_Cells[col, row].CellType != m_Cells[col, pos].CellType)
+                    {
+                        break;
+                    }
+                    matchedRows++;
+                }
+                if (matchedRows >= 3)
+                {
+                    madeMatch = true;
+                    for (int k = 0; k < matchedRows; k++)
+                    {
+                        m_Matched[col, row + k] = true;
+                    }
+                }
+                // Horizontal Check
+                int matchedCols = 0;
+                for (int pos = col; pos < boardSize.Columns; pos++)
+                {
+                    if (m_Cells[col, row].CellType != m_Cells[pos, row].CellType)
+                    {
+                        break;
+                    }
+                    matchedCols++;
+                }
+                if (matchedCols >= 3)
+                {
+                    madeMatch = true;
+                    for (int k = 0; k < matchedCols; k++)
+                    {
+                        m_Matched[col + k, row] = true;
+                    }
+                }
+            }
+        }
+        return madeMatch;
+    }
+
+    public int ClearMatchedCells()
+    {
+        var pointByType = new[] { BasicCellPoint, SpecialCell1Point, SpecialCell2Point };
+        var pointEarned = 0;
+        for (int row = 0; row < boardSize.Rows; row++)
+        {
+            for (int col = 0; col < boardSize.Columns; col++)
+            {
+                if (m_Matched[col, row])
+                {
+                    var specialType = GetSpecialType(row, col);
+                    pointEarned += pointByType[specialType];
+                    m_Cells[col, row] = (k_EmptyCell, 0);
+                }
+            }
+        }
+        ClearMarked();
+        return pointEarned;
+    }
+
+    public bool DropCells()
+    {
+        bool hasChange = false;
+        for (int col = 0; col < boardSize.Columns; col++)
+        {
+            int writeRow = 0;
+            for (int readRow = 0; readRow < boardSize.Rows; readRow++)
+            {
+                if (m_Cells[col, readRow].CellType != k_EmptyCell)
+                {
+                    m_Cells[col, writeRow] = m_Cells[col, readRow];
+                    writeRow++;
+                }
+            }
+            for (; writeRow < boardSize.Rows; writeRow++)
+            {
+                hasChange = true;
+                m_Cells[col, writeRow] = (k_EmptyCell, 0);
+            }
+        }
+        return hasChange;
+    }
+
+    public bool FillFromAbove()
+    {
+        bool madeChange = false;
+        for (int row = 0; row < boardSize.Rows; row++)
+        {
+            for (int col = 0; col < boardSize.Columns; col++)
+            {
+                if (m_Cells[col, row].CellType == k_EmptyCell)
+                {
+                    madeChange = true;
+                    m_Cells[col, row] = (GetRandomCellType(), GetRandomSpecialType());
+                }
+            }
+        }
+        return madeChange;
+    }
+
+    public void InitSettled()
+    {
+        InitRandom();
+        int maxIterations = 100;
+        int iteration = 0;
+        while (true)
+        {
+            if (iteration++ >= maxIterations)
+            {
+                Debug.LogWarning("InitSettled stuck in loop, breaking");
+                break;
+            }
+            bool hasMatched = MarkMatchedCells();
+            if (!hasMatched)
+                return;
+            ClearMatchedCells();
+            DropCells();
+            FillFromAbove();
         }
     }
+
+    public void InitRandom()
+    {
+        for (int row = 0; row < boardSize.Rows; row++)
+        {
+            for (int col = 0; col < boardSize.Columns; col++)
+            {
+                m_Cells[col, row] = (GetRandomCellType(), GetRandomSpecialType());
+            }
+        }
+    }
+
+    void ClearMarked()
+    {
+        for (int row = 0; row < boardSize.Rows; row++)
+        {
+            for (int col = 0; col < boardSize.Columns; col++)
+            {
+                m_Matched[col, row] = false;
+            }
+        }
+    }
+
+    public (int, int)[,] Cells
+    {
+        get { return m_Cells; }
+    }
+
+    public bool[,] Matched
+    {
+        get { return m_Matched; }
+    }
+    
 }

@@ -1,0 +1,4732 @@
+fileFormatVersion: 2
+guid: 059e57eca0ef86048a17ad221bd67f03
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3974076880576049329
+    second: BattleAtlas_0
+  - first:
+      213: -6810691480930176443
+    second: BattleAtlas_1
+  - first:
+      213: 1149549070756479692
+    second: BattleAtlas_2
+  - first:
+      213: -8631948625816252832
+    second: BattleAtlas_3
+  - first:
+      213: 414320428904350554
+    second: BattleAtlas_4
+  - first:
+      213: 8553651905538883436
+    second: BattleAtlas_5
+  - first:
+      213: -7193843412141316718
+    second: BattleAtlas_6
+  - first:
+      213: 4435926773438637691
+    second: BattleAtlas_7
+  - first:
+      213: -2002396186832556863
+    second: BattleAtlas_8
+  - first:
+      213: 3477496849097783217
+    second: BattleAtlas_9
+  - first:
+      213: 3484703398841027704
+    second: BattleAtlas_10
+  - first:
+      213: -6419084901975026056
+    second: BattleAtlas_11
+  - first:
+      213: -8075285615901690011
+    second: BattleAtlas_12
+  - first:
+      213: -5320761121531341670
+    second: BattleAtlas_13
+  - first:
+      213: 2252906643403814697
+    second: BattleAtlas_14
+  - first:
+      213: 5657173079326338320
+    second: BattleAtlas_15
+  - first:
+      213: 4923763870476511072
+    second: BattleAtlas_16
+  - first:
+      213: -3785893952112831349
+    second: BattleAtlas_17
+  - first:
+      213: 3116589385352577548
+    second: BattleAtlas_18
+  - first:
+      213: 2656027977229749416
+    second: BattleAtlas_19
+  - first:
+      213: 3954750597963393779
+    second: BattleAtlas_20
+  - first:
+      213: 3240704133378589430
+    second: BattleAtlas_21
+  - first:
+      213: 2581147300121440844
+    second: BattleAtlas_22
+  - first:
+      213: -1937382691482055977
+    second: BattleAtlas_23
+  - first:
+      213: 3260158041620415978
+    second: BattleAtlas_24
+  - first:
+      213: -4348790210504328383
+    second: BattleAtlas_25
+  - first:
+      213: 5382807330083879481
+    second: BattleAtlas_26
+  - first:
+      213: 592569478713276096
+    second: BattleAtlas_27
+  - first:
+      213: -3862429417974537688
+    second: BattleAtlas_28
+  - first:
+      213: 6021010389250943642
+    second: BattleAtlas_29
+  - first:
+      213: -5059330199530872994
+    second: BattleAtlas_30
+  - first:
+      213: 3792967581765926420
+    second: BattleAtlas_31
+  - first:
+      213: -2946170156033445837
+    second: BattleAtlas_32
+  - first:
+      213: 1815693609833039045
+    second: BattleAtlas_33
+  - first:
+      213: -2201351095003396350
+    second: BattleAtlas_34
+  - first:
+      213: 6247840613327712783
+    second: BattleAtlas_35
+  - first:
+      213: -6451050073257562333
+    second: BattleAtlas_36
+  - first:
+      213: 40393601455347458
+    second: BattleAtlas_37
+  - first:
+      213: 1347671715963199918
+    second: BattleAtlas_38
+  - first:
+      213: 4907817837163333519
+    second: BattleAtlas_39
+  - first:
+      213: -5760189381974688967
+    second: BattleAtlas_40
+  - first:
+      213: -6327458290362785485
+    second: BattleAtlas_41
+  - first:
+      213: -6598003530756015853
+    second: BattleAtlas_42
+  - first:
+      213: 641204913802339878
+    second: BattleAtlas_43
+  - first:
+      213: -4598201531495653870
+    second: BattleAtlas_44
+  - first:
+      213: 4817201709821757889
+    second: BattleAtlas_45
+  - first:
+      213: 2796418170252911325
+    second: BattleAtlas_46
+  - first:
+      213: 5651171346068926618
+    second: BattleAtlas_47
+  - first:
+      213: -6402541744821999935
+    second: BattleAtlas_48
+  - first:
+      213: 2928848597692146646
+    second: BattleAtlas_49
+  - first:
+      213: -28926716494403197
+    second: BattleAtlas_50
+  - first:
+      213: 1697163768736093692
+    second: BattleAtlas_51
+  - first:
+      213: -5926333539203163432
+    second: BattleAtlas_52
+  - first:
+      213: -3476447731032901984
+    second: BattleAtlas_53
+  - first:
+      213: -1343362902438186765
+    second: BattleAtlas_54
+  - first:
+      213: -1395642232063340408
+    second: BattleAtlas_55
+  - first:
+      213: 6830708167367887099
+    second: BattleAtlas_56
+  - first:
+      213: -3471313168231705273
+    second: BattleAtlas_57
+  - first:
+      213: 8853072338945834685
+    second: BattleAtlas_58
+  - first:
+      213: -5163812352290558625
+    second: BattleAtlas_59
+  - first:
+      213: 6731807430553579886
+    second: BattleAtlas_60
+  - first:
+      213: 852552748815511893
+    second: BattleAtlas_61
+  - first:
+      213: 7472733917740699813
+    second: BattleAtlas_62
+  - first:
+      213: -8136023142522643730
+    second: BattleAtlas_63
+  - first:
+      213: 8791669943488527803
+    second: BattleAtlas_64
+  - first:
+      213: -3946606803792695436
+    second: BattleAtlas_65
+  - first:
+      213: -7450615584462092530
+    second: BattleAtlas_66
+  - first:
+      213: -5613174334980062954
+    second: BattleAtlas_67
+  - first:
+      213: -3983155527589321985
+    second: BattleAtlas_68
+  - first:
+      213: 161762396711650219
+    second: BattleAtlas_69
+  - first:
+      213: 203692493486953965
+    second: BattleAtlas_70
+  - first:
+      213: -239339409913353592
+    second: BattleAtlas_71
+  - first:
+      213: 2577261837966760915
+    second: BattleAtlas_72
+  - first:
+      213: -9156511844111081251
+    second: BattleAtlas_73
+  - first:
+      213: 8757518057133848825
+    second: BattleAtlas_74
+  - first:
+      213: -3133553655024920355
+    second: BattleAtlas_75
+  - first:
+      213: -3880093196478592888
+    second: BattleAtlas_76
+  - first:
+      213: 5629567534562334083
+    second: BattleAtlas_77
+  - first:
+      213: 6270158710316155243
+    second: BattleAtlas_78
+  - first:
+      213: 8076370106633397371
+    second: BattleAtlas_79
+  - first:
+      213: -8215788189586672580
+    second: BattleAtlas_80
+  - first:
+      213: -8109495420740704904
+    second: BattleAtlas_81
+  - first:
+      213: -7315699026115229777
+    second: BattleAtlas_82
+  - first:
+      213: 3278887342244697070
+    second: BattleAtlas_83
+  - first:
+      213: -1162744422969227959
+    second: BattleAtlas_84
+  - first:
+      213: -7576219863431316632
+    second: BattleAtlas_85
+  - first:
+      213: 2820809727191477376
+    second: BattleAtlas_86
+  - first:
+      213: 1960105751604888665
+    second: BattleAtlas_87
+  - first:
+      213: -1468978833567795113
+    second: BattleAtlas_88
+  - first:
+      213: -509839273123270974
+    second: BattleAtlas_89
+  - first:
+      213: -8689094047649484419
+    second: BattleAtlas_90
+  - first:
+      213: 8023232980195787574
+    second: BattleAtlas_91
+  - first:
+      213: -3659854657746235613
+    second: BattleAtlas_92
+  - first:
+      213: 5890567990645770862
+    second: BattleAtlas_93
+  - first:
+      213: 7267377890066575651
+    second: BattleAtlas_94
+  - first:
+      213: 3381519004673954542
+    second: BattleAtlas_95
+  - first:
+      213: -2496066936786121291
+    second: BattleAtlas_96
+  - first:
+      213: -8328076799494094208
+    second: BattleAtlas_97
+  - first:
+      213: -1575411229996871556
+    second: BattleAtlas_98
+  - first:
+      213: -852789413250988711
+    second: BattleAtlas_99
+  - first:
+      213: -1566695840577904226
+    second: BattleAtlas_100
+  - first:
+      213: -9176976446888459811
+    second: BattleAtlas_101
+  - first:
+      213: 4804901811374744946
+    second: BattleAtlas_102
+  - first:
+      213: 1588741840122026741
+    second: BattleAtlas_103
+  - first:
+      213: -4077452101898987856
+    second: BattleAtlas_104
+  - first:
+      213: 2118293944286584142
+    second: BattleAtlas_105
+  - first:
+      213: 408667494621207459
+    second: BattleAtlas_106
+  - first:
+      213: -4842460354054977732
+    second: BattleAtlas_107
+  - first:
+      213: -1578987795182450168
+    second: BattleAtlas_108
+  - first:
+      213: 2910855564294926609
+    second: BattleAtlas_109
+  - first:
+      213: -1724679623673785521
+    second: BattleAtlas_110
+  - first:
+      213: -8235007350499971493
+    second: BattleAtlas_111
+  - first:
+      213: 5046624680315673932
+    second: BattleAtlas_112
+  - first:
+      213: -7252908132229711506
+    second: BattleAtlas_113
+  - first:
+      213: 6621501336458965020
+    second: BattleAtlas_114
+  - first:
+      213: 2204903110293359639
+    second: BattleAtlas_115
+  - first:
+      213: -6943036380616569265
+    second: BattleAtlas_116
+  - first:
+      213: -6559159914989503473
+    second: BattleAtlas_117
+  - first:
+      213: 8961326438021634346
+    second: BattleAtlas_118
+  - first:
+      213: 6077795639797383966
+    second: BattleAtlas_119
+  - first:
+      213: -6924154718243639725
+    second: BattleAtlas_120
+  - first:
+      213: -7547359229024683615
+    second: BattleAtlas_121
+  - first:
+      213: 663224436597679388
+    second: BattleAtlas_122
+  - first:
+      213: 8247895201189459470
+    second: BattleAtlas_123
+  - first:
+      213: 344470359851628072
+    second: BattleAtlas_124
+  - first:
+      213: 3859783312073711073
+    second: BattleAtlas_125
+  - first:
+      213: -4103369094568676602
+    second: BattleAtlas_126
+  - first:
+      213: 1190098317889706922
+    second: BattleAtlas_127
+  - first:
+      213: -6811502148262205126
+    second: BattleAtlas_128
+  - first:
+      213: 4895200609292616008
+    second: BattleAtlas_129
+  - first:
+      213: 6687445744224662585
+    second: BattleAtlas_130
+  - first:
+      213: 5559107286274565615
+    second: BattleAtlas_131
+  - first:
+      213: -3996848036370814918
+    second: BattleAtlas_132
+  - first:
+      213: 7724273129581023660
+    second: BattleAtlas_133
+  - first:
+      213: 6433643617002058464
+    second: BattleAtlas_134
+  - first:
+      213: -6671106424091271313
+    second: BattleAtlas_135
+  - first:
+      213: -2522651454705816100
+    second: BattleAtlas_136
+  - first:
+      213: -8077692086930993697
+    second: BattleAtlas_137
+  - first:
+      213: -585886549842919227
+    second: BattleAtlas_138
+  - first:
+      213: -4887488943484503257
+    second: BattleAtlas_139
+  - first:
+      213: 6907566967934171514
+    second: BattleAtlas_140
+  - first:
+      213: -5297259185829668937
+    second: BattleAtlas_141
+  - first:
+      213: 3148186893878897184
+    second: BattleAtlas_142
+  - first:
+      213: 6294627662521533941
+    second: BattleAtlas_143
+  - first:
+      213: 7986363431939762680
+    second: BattleAtlas_144
+  - first:
+      213: -2494658537653733750
+    second: BattleAtlas_145
+  - first:
+      213: -8448063329787999886
+    second: BattleAtlas_146
+  - first:
+      213: 4438519018644400937
+    second: BattleAtlas_147
+  - first:
+      213: 7311178789354024323
+    second: BattleAtlas_148
+  - first:
+      213: -86140379442171932
+    second: BattleAtlas_149
+  - first:
+      213: -2439932497458815799
+    second: BattleAtlas_150
+  - first:
+      213: -1380293186656954684
+    second: BattleAtlas_151
+  - first:
+      213: -1799522519343483110
+    second: BattleAtlas_152
+  - first:
+      213: 8472174594236148051
+    second: BattleAtlas_153
+  - first:
+      213: 604984678955204614
+    second: BattleAtlas_154
+  - first:
+      213: -2802002834394509703
+    second: BattleAtlas_155
+  - first:
+      213: -1295844243191035293
+    second: BattleAtlas_156
+  - first:
+      213: -8492655549083178436
+    second: BattleAtlas_157
+  - first:
+      213: -7414844515288894362
+    second: BattleAtlas_158
+  - first:
+      213: -8864310934486837688
+    second: BattleAtlas_159
+  - first:
+      213: -3431249044302497891
+    second: BattleAtlas_160
+  - first:
+      213: -1514833320782334571
+    second: BattleAtlas_161
+  - first:
+      213: 4227727018314541182
+    second: BattleAtlas_162
+  - first:
+      213: 9185663722908124296
+    second: BattleAtlas_163
+  - first:
+      213: -5438556000990381586
+    second: BattleAtlas_164
+  - first:
+      213: -4469164588913302625
+    second: BattleAtlas_165
+  - first:
+      213: 5244324369127932892
+    second: BattleAtlas_166
+  - first:
+      213: -1607134010582913579
+    second: BattleAtlas_167
+  - first:
+      213: -3950327153476866999
+    second: BattleAtlas_168
+  - first:
+      213: 7313680281547525892
+    second: BattleAtlas_169
+  - first:
+      213: 497100662139377427
+    second: BattleAtlas_170
+  - first:
+      213: -974857983541358009
+    second: BattleAtlas_171
+  - first:
+      213: 6376767907558647379
+    second: BattleAtlas_172
+  - first:
+      213: 536730213485605084
+    second: BattleAtlas_173
+  - first:
+      213: -6757634579613719518
+    second: BattleAtlas_174
+  - first:
+      213: -5289836277659767289
+    second: BattleAtlas_175
+  - first:
+      213: -8525433732231018150
+    second: BattleAtlas_176
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 36
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BattleAtlas_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 931
+        width: 582
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4f0c27f12e39d8c0800000000000000
+      internalID: -3974076880576049329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_1
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 958
+        width: 379
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 542b064ce209b71a0800000000000000
+      internalID: -6810691480930176443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_2
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 996
+        width: 61
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc2025e0ac404ff00800000000000000
+      internalID: 1149549070756479692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_3
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 969
+        width: 61
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06e0dc67578253880800000000000000
+      internalID: -8631948625816252832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_4
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 797
+        width: 514
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5308042c36ffb500800000000000000
+      internalID: 414320428904350554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_5
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 719
+        width: 68
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6ffcf1c61da4b670800000000000000
+      internalID: 8553651905538883436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_6
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 909
+        width: 379
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 295688108855a2c90800000000000000
+      internalID: -7193843412141316718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_7
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 901
+        width: 52
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b76647cd5e39f8d30800000000000000
+      internalID: 4435926773438637691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_8
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 855
+        width: 251
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ccaf38f64f0634e0800000000000000
+      internalID: -2002396186832556863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_9
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 841
+        width: 119
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b7730ea5fc824030800000000000000
+      internalID: 3477496849097783217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_10
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 824
+        width: 60
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87c048b47472c5030800000000000000
+      internalID: 3484703398841027704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_11
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 699
+        width: 234
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87694ba9a44dae6a0800000000000000
+      internalID: -6419084901975026056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_12
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 841
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 567bb5c5482deef80800000000000000
+      internalID: -8075285615901690011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_13
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 822
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a945a6853fbd826b0800000000000000
+      internalID: -5320761121531341670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_14
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 822
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 927b330e7aee34f10800000000000000
+      internalID: 2252906643403814697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_15
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 822
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01d262251f0528e40800000000000000
+      internalID: 5657173079326338320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_16
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 823
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 067a7a92729b45440800000000000000
+      internalID: 4923763870476511072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_17
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 829
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b84d303528dc57bc0800000000000000
+      internalID: -3785893952112831349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_18
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 719
+        width: 64
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0281b89889504b20800000000000000
+      internalID: 3116589385352577548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_19
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 718
+        width: 65
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ac47408f5b1cd420800000000000000
+      internalID: 2656027977229749416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_20
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 718
+        width: 65
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fa2fd637b812e630800000000000000
+      internalID: 3954750597963393779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_21
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 705
+        width: 90
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f2cb244d3b49fc20800000000000000
+      internalID: 3240704133378589430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_22
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 734
+        width: 46
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4272b04bc312d320800000000000000
+      internalID: 2581147300121440844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_23
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 759
+        width: 43
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dac830f4b80d15e0800000000000000
+      internalID: -1937382691482055977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_24
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 788
+        width: 123
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae50b6e37786e3d20800000000000000
+      internalID: 3260158041620415978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_25
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 770
+        width: 195
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14b713c285ef5a3c0800000000000000
+      internalID: -4348790210504328383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_26
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 759
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93ab4045fb293ba40800000000000000
+      internalID: 5382807330083879481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_27
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 765
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c671732dca393800800000000000000
+      internalID: 592569478713276096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_28
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 720
+        width: 52
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 822eb9b88e4e56ac0800000000000000
+      internalID: -3862429417974537688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_29
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 584
+        width: 192
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9a2d306c0dee8350800000000000000
+      internalID: 6021010389250943642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_30
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 671
+        width: 46
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5f5e8f2df5a9c9b0800000000000000
+      internalID: -5059330199530872994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_31
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 719
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41efabb6be353a430800000000000000
+      internalID: 3792967581765926420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_32
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 719
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 330f4c14ad91d17d0800000000000000
+      internalID: -2946170156033445837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_33
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 722
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c48b0bd7b3a23910800000000000000
+      internalID: 1815693609833039045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_34
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 722
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 207c764a7da3371e0800000000000000
+      internalID: -2201351095003396350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_35
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 697
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0238a27fe9c4b650800000000000000
+      internalID: 6247840613327712783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_36
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 697
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32fa93333244976a0800000000000000
+      internalID: -6451050073257562333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_37
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 697
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 207d1f934c18f8000800000000000000
+      internalID: 40393601455347458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_38
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 697
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea1e3df0944e3b210800000000000000
+      internalID: 1347671715963199918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_39
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 697
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f874276f1521c1440800000000000000
+      internalID: 4907817837163333519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_40
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 703
+        width: 28
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93bfb60a642bf00b0800000000000000
+      internalID: -5760189381974688967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_41
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 706
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33163df853a5038a0800000000000000
+      internalID: -6327458290362785485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_42
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 706
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 319b38a1fbe2f64a0800000000000000
+      internalID: -6598003530756015853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_43
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 706
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6266c6bc87406e800800000000000000
+      internalID: 641204913802339878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_44
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 639
+        width: 73
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21e5b85c118ef20c0800000000000000
+      internalID: -4598201531495653870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_45
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 678
+        width: 109
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c98455be632ad240800000000000000
+      internalID: 4817201709821757889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_46
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 663
+        width: 56
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd26f51828fdec620800000000000000
+      internalID: 2796418170252911325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_47
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 583
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a90fd47e56efc6e40800000000000000
+      internalID: 5651171346068926618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_48
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 587
+        width: 113
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c66648843a9527a0800000000000000
+      internalID: -6402541744821999935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_49
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 671
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d3675a284c55a820800000000000000
+      internalID: 2928848597692146646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_50
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 682
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38925dafd4b399ff0800000000000000
+      internalID: -28926716494403197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_51
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 640
+        width: 140
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf59d29a4798d8710800000000000000
+      internalID: 1697163768736093692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_52
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 641
+        width: 42
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dadf4f8b0f61cda0800000000000000
+      internalID: -5926333539203163432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_53
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 643
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a63297253d21cfc0800000000000000
+      internalID: -3476447731032901984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_54
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 561
+        width: 107
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f0fbb3ce8a6b5de0800000000000000
+      internalID: -1343362902438186765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_55
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 639
+        width: 108
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 880d45cc8cea1ace0800000000000000
+      internalID: -1395642232063340408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_56
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 651
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf8825833ec8bce50800000000000000
+      internalID: 6830708167367887099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_57
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 562
+        width: 60
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 745d967b01b63dfc0800000000000000
+      internalID: -3471313168231705273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_58
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 562
+        width: 83
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbef3bdf26e6cda70800000000000000
+      internalID: 8853072338945834685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_59
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 560
+        width: 81
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5d62fe46047658b0800000000000000
+      internalID: -5163812352290558625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_60
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 562
+        width: 79
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e613b72013f2c6d50800000000000000
+      internalID: 6731807430553579886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_61
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 562
+        width: 79
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5517e614530e4db00800000000000000
+      internalID: 852552748815511893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_62
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 589
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a092fbe7eb74b760800000000000000
+      internalID: 7472733917740699813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 297
+        width: 15
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eea9491fe0a071f80800000000000000
+      internalID: -8136023142522643730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_64
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 551
+        width: 68
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbdbc1cbb39420a70800000000000000
+      internalID: 8791669943488527803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_65
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 408
+        width: 151
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47febcf9506da39c0800000000000000
+      internalID: -3946606803792695436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_66
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 409
+        width: 151
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e07c52ad9981a9890800000000000000
+      internalID: -7450615584462092530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_67
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 409
+        width: 151
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6118c25aeaff912b0800000000000000
+      internalID: -5613174334980062954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_68
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 510
+        width: 76
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff2a7ecb62df8b8c0800000000000000
+      internalID: -3983155527589321985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_69
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 539
+        width: 51
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba38302fa02be3200800000000000000
+      internalID: 161762396711650219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_70
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 538
+        width: 99
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de514bd5e39a3d200800000000000000
+      internalID: 203692493486953965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_71
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 519
+        width: 102
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88aec532312bdacf0800000000000000
+      internalID: -239339409913353592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_72
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 494
+        width: 52
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dbdd299cf544c320800000000000000
+      internalID: 2577261837966760915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_73
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 480
+        width: 33
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd02a16bdf88de080800000000000000
+      internalID: -9156511844111081251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_74
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 419
+        width: 89
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f8388d0644f88970800000000000000
+      internalID: 8757518057133848825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_75
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 508
+        width: 71
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd8dc939d816384d0800000000000000
+      internalID: -3133553655024920355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_76
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 454
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 888cb70abc3272ac0800000000000000
+      internalID: -3880093196478592888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_77
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 458
+        width: 84
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 385d8a098dd302e40800000000000000
+      internalID: 5629567534562334083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_78
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 473
+        width: 92
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6147b55024140750800000000000000
+      internalID: 6270158710316155243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_79
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 494
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b74a77052d7051070800000000000000
+      internalID: 8076370106633397371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_80
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 402
+        width: 33
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3436d1bb28abfd80800000000000000
+      internalID: -8215788189586672580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_81
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 399
+        width: 52
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 875e71b71e8457f80800000000000000
+      internalID: -8109495420740704904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_82
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 396
+        width: 136
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa70bb8fe7a697a90800000000000000
+      internalID: -7315699026115229777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_83
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 411
+        width: 113
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee3150d5aa2f08d20800000000000000
+      internalID: 3278887342244697070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_84
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 441
+        width: 86
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9454a589b1a1ddfe0800000000000000
+      internalID: -1162744422969227959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_85
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 368
+        width: 68
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86bfaebbc2cdbd690800000000000000
+      internalID: -7576219863431316632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_86
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 368
+        width: 39
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08ce6386087852720800000000000000
+      internalID: 2820809727191477376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_87
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 372
+        width: 39
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9540c96cbc1b33b10800000000000000
+      internalID: 1960105751604888665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_88
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 372
+        width: 39
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 758bf9aa8832d9be0800000000000000
+      internalID: -1468978833567795113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_89
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 371
+        width: 99
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cea1f0e1eface8f0800000000000000
+      internalID: -509839273123270974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_90
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 371
+        width: 103
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7134ed10032a6780800000000000000
+      internalID: -8689094047649484419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_91
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 375
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 633c4c6f2ef385f60800000000000000
+      internalID: 8023232980195787574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_92
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 374
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32f0a7b5495953dc0800000000000000
+      internalID: -3659854657746235613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_93
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 375
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6a4abfb0608fb150800000000000000
+      internalID: 5890567990645770862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_94
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 375
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32132f1dfa9ead460800000000000000
+      internalID: 7267377890066575651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_95
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 358
+        width: 71
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee2d2d26e919dee20800000000000000
+      internalID: 3381519004673954542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_96
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 337
+        width: 140
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bd044188503c5dd0800000000000000
+      internalID: -2496066936786121291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_97
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 379
+        width: 86
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0828bff564abc6c80800000000000000
+      internalID: -8328076799494094208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_98
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 381
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7010ec45d3032ae0800000000000000
+      internalID: -1575411229996871556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_99
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 299
+        width: 108
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95506f20c884a24f0800000000000000
+      internalID: -852789413250988711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_100
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 300
+        width: 68
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e91a5470f6af14ae0800000000000000
+      internalID: -1566695840577904226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_101
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 300
+        width: 68
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd146131b84d4a080800000000000000
+      internalID: -9176976446888459811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_102
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 303
+        width: 66
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2756f9f6db07ea240800000000000000
+      internalID: 4804901811374744946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_103
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 300
+        width: 76
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fa164c39485c0610800000000000000
+      internalID: 1588741840122026741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_104
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 300
+        width: 72
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b614a5aaeaf967c0800000000000000
+      internalID: -4077452101898987856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_105
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 339
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4d101f7e11b56d10800000000000000
+      internalID: 2118293944286584142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_106
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 307
+        width: 119
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ab5520dbe0eba500800000000000000
+      internalID: 408667494621207459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_107
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 327
+        width: 71
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3704a5e6ff1cccb0800000000000000
+      internalID: -4842460354054977732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_108
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 315
+        width: 69
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80a097357fe461ae0800000000000000
+      internalID: -1578987795182450168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_109
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 351
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 111b44e96bf656820800000000000000
+      internalID: 2910855564294926609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_110
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 305
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f43d19f1505b018e0800000000000000
+      internalID: -1724679623673785521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_111
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 301
+        width: 47
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5ee7b6127067bd80800000000000000
+      internalID: -8235007350499971493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_112
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 301
+        width: 47
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4d5fe89866390640800000000000000
+      internalID: 5046624680315673932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_113
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 312
+        width: 42
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e69f7e53b7e785b90800000000000000
+      internalID: -7252908132229711506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_114
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 312
+        width: 40
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c10396f126c44eb50800000000000000
+      internalID: 6621501336458965020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_115
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 298
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71c803d52b3699e10800000000000000
+      internalID: 2204903110293359639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_116
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 298
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4e4cb6923165af90800000000000000
+      internalID: -6943036380616569265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_117
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 298
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0cb11a2fce29f4a0800000000000000
+      internalID: -6559159914989503473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_118
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 50
+        width: 55
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a29989e8ae60d5c70800000000000000
+      internalID: 8961326438021634346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_119
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 97
+        width: 53
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e138a8fceeaa85450800000000000000
+      internalID: 6077795639797383966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_120
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 142
+        width: 155
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35e2e3138f578ef90800000000000000
+      internalID: -6924154718243639725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_121
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 146
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a9b7b1d4c4624790800000000000000
+      internalID: -7547359229024683615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_122
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 210
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1563c57c1f343900800000000000000
+      internalID: 663224436597679388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_123
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 217
+        width: 34
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e06fb8b7cf8667270800000000000000
+      internalID: 8247895201189459470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_124
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 225
+        width: 40
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8267b9a97fdc7c400800000000000000
+      internalID: 344470359851628072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_125
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 242
+        width: 34
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ed522ae874b09530800000000000000
+      internalID: 3859783312073711073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_126
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 244
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 603faef8c87ed07c0800000000000000
+      internalID: -4103369094568676602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_127
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 245
+        width: 54
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aab1b9d5d14148010800000000000000
+      internalID: 1190098317889706922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_128
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 247
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a39650292eea871a0800000000000000
+      internalID: -6811502148262205126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_129
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 246
+        width: 50
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 841892da40f3fe340800000000000000
+      internalID: 4895200609292616008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_130
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 246
+        width: 54
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 934753709749ecc50800000000000000
+      internalID: 6687445744224662585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_131
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 265
+        width: 45
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe56eaa9f9ae52d40800000000000000
+      internalID: 5559107286274565615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_132
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 250
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3866ea13e75888c0800000000000000
+      internalID: -3996848036370814918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_133
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 169
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca195c48c71223b60800000000000000
+      internalID: 7724273129581023660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_134
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 188
+        width: 54
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e2fdd268c4e84950800000000000000
+      internalID: 6433643617002058464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_135
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 193
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6f96356d087b63a0800000000000000
+      internalID: -6671106424091271313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_136
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 192
+        width: 49
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdd23261eddbdfcd0800000000000000
+      internalID: -2522651454705816100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_137
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 193
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdd8e7928d546ef80800000000000000
+      internalID: -8077692086930993697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_138
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 195
+        width: 47
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c00fed79438ed7f0800000000000000
+      internalID: -585886549842919227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_139
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 219
+        width: 45
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72bf4ff63b62c2cb0800000000000000
+      internalID: -4887488943484503257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_140
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 150
+        width: 136
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7930f93f8b9cdf50800000000000000
+      internalID: 6907566967934171514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_141
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 115
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b7927926da5c76b0800000000000000
+      internalID: -5297259185829668937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_142
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 134
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02a2138dc4b90bb20800000000000000
+      internalID: 3148186893878897184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_143
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 139
+        width: 47
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f581f932820b5750800000000000000
+      internalID: 6294627662521533941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_144
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 140
+        width: 51
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f960ff4a3345de60800000000000000
+      internalID: 7986363431939762680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_145
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 141
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a86f04bf641316dd0800000000000000
+      internalID: -2494658537653733750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_146
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 99
+        width: 47
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2798bfb492372ca80800000000000000
+      internalID: -8448063329787999886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_147
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 52
+        width: 90
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92b6d1bf789c89d30800000000000000
+      internalID: 4438519018644400937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_148
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 52
+        width: 89
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38d21d46f56867560800000000000000
+      internalID: 7311178789354024323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_149
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 110
+        width: 43
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ef288208c7fdcef0800000000000000
+      internalID: -86140379442171932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_150
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 4
+        width: 135
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cc1905225e932ed0800000000000000
+      internalID: -2439932497458815799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_151
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 92
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c69b6be8a638dce0800000000000000
+      internalID: -1380293186656954684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_152
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 61
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a17373d8dcfc607e0800000000000000
+      internalID: -1799522519343483110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_153
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 81
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 359e88ce7e5339570800000000000000
+      internalID: 8472174594236148051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_154
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 86
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 600cda33c56556800800000000000000
+      internalID: 604984678955204614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_155
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 88
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97e074c84494d19d0800000000000000
+      internalID: -2802002834394509703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_156
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 50
+        width: 50
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36a0d58c68c340ee0800000000000000
+      internalID: -1295844243191035293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_157
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 53
+        width: 41
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3aa52d26c6042a80800000000000000
+      internalID: -8492655549083178436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_158
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 52
+        width: 42
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 664b379e23e291990800000000000000
+      internalID: -7414844515288894362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_159
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 36
+        width: 34
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8461d439b24abf480800000000000000
+      internalID: -8864310934486837688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_160
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 38
+        width: 52
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d97737a7c21c160d0800000000000000
+      internalID: -3431249044302497891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_161
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 7
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 595f7d4ee1b3afae0800000000000000
+      internalID: -1514833320782334571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_162
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 30
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e78a5fdd257ebaa30800000000000000
+      internalID: 4227727018314541182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_163
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 34
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 884812efc780a7f70800000000000000
+      internalID: 9185663722908124296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_164
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 45
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee936edb12e5684b0800000000000000
+      internalID: -5438556000990381586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_165
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 4
+        width: 50
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f93611b2c765af1c0800000000000000
+      internalID: -4469164588913302625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_166
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 5
+        width: 54
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd38bc46a3597c840800000000000000
+      internalID: 5244324369127932892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_167
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 1
+        width: 76
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dda1c0e12052b9e0800000000000000
+      internalID: -1607134010582913579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_168
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 3
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94c6e66326e9d29c0800000000000000
+      internalID: -3950327153476866999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_169
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1
+        width: 47
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40f4b6e67796f7560800000000000000
+      internalID: 7313680281547525892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_170
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 4
+        width: 47
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 317dd602b6e06e600800000000000000
+      internalID: 497100662139377427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_171
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 4
+        width: 47
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 742509834db9872f0800000000000000
+      internalID: -974857983541358009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_172
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 10
+        width: 52
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 356e42950a4de7850800000000000000
+      internalID: 6376767907558647379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_173
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 12
+        width: 52
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd077031949d27700800000000000000
+      internalID: 536730213485605084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_174
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 3
+        width: 42
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2246a30472f0832a0800000000000000
+      internalID: -6757634579613719518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_175
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 3
+        width: 39
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70e6d16aee9b696b0800000000000000
+      internalID: -5289836277659767289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleAtlas_176
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 3
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a59cc32b0339fa980800000000000000
+      internalID: -8525433732231018150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BattleAtlas_0: -3974076880576049329
+      BattleAtlas_1: -6810691480930176443
+      BattleAtlas_10: 3484703398841027704
+      BattleAtlas_100: -1566695840577904226
+      BattleAtlas_101: -9176976446888459811
+      BattleAtlas_102: 4804901811374744946
+      BattleAtlas_103: 1588741840122026741
+      BattleAtlas_104: -4077452101898987856
+      BattleAtlas_105: 2118293944286584142
+      BattleAtlas_106: 408667494621207459
+      BattleAtlas_107: -4842460354054977732
+      BattleAtlas_108: -1578987795182450168
+      BattleAtlas_109: 2910855564294926609
+      BattleAtlas_11: -6419084901975026056
+      BattleAtlas_110: -1724679623673785521
+      BattleAtlas_111: -8235007350499971493
+      BattleAtlas_112: 5046624680315673932
+      BattleAtlas_113: -7252908132229711506
+      BattleAtlas_114: 6621501336458965020
+      BattleAtlas_115: 2204903110293359639
+      BattleAtlas_116: -6943036380616569265
+      BattleAtlas_117: -6559159914989503473
+      BattleAtlas_118: 8961326438021634346
+      BattleAtlas_119: 6077795639797383966
+      BattleAtlas_12: -8075285615901690011
+      BattleAtlas_120: -6924154718243639725
+      BattleAtlas_121: -7547359229024683615
+      BattleAtlas_122: 663224436597679388
+      BattleAtlas_123: 8247895201189459470
+      BattleAtlas_124: 344470359851628072
+      BattleAtlas_125: 3859783312073711073
+      BattleAtlas_126: -4103369094568676602
+      BattleAtlas_127: 1190098317889706922
+      BattleAtlas_128: -6811502148262205126
+      BattleAtlas_129: 4895200609292616008
+      BattleAtlas_13: -5320761121531341670
+      BattleAtlas_130: 6687445744224662585
+      BattleAtlas_131: 5559107286274565615
+      BattleAtlas_132: -3996848036370814918
+      BattleAtlas_133: 7724273129581023660
+      BattleAtlas_134: 6433643617002058464
+      BattleAtlas_135: -6671106424091271313
+      BattleAtlas_136: -2522651454705816100
+      BattleAtlas_137: -8077692086930993697
+      BattleAtlas_138: -585886549842919227
+      BattleAtlas_139: -4887488943484503257
+      BattleAtlas_14: 2252906643403814697
+      BattleAtlas_140: 6907566967934171514
+      BattleAtlas_141: -5297259185829668937
+      BattleAtlas_142: 3148186893878897184
+      BattleAtlas_143: 6294627662521533941
+      BattleAtlas_144: 7986363431939762680
+      BattleAtlas_145: -2494658537653733750
+      BattleAtlas_146: -8448063329787999886
+      BattleAtlas_147: 4438519018644400937
+      BattleAtlas_148: 7311178789354024323
+      BattleAtlas_149: -86140379442171932
+      BattleAtlas_15: 5657173079326338320
+      BattleAtlas_150: -2439932497458815799
+      BattleAtlas_151: -1380293186656954684
+      BattleAtlas_152: -1799522519343483110
+      BattleAtlas_153: 8472174594236148051
+      BattleAtlas_154: 604984678955204614
+      BattleAtlas_155: -2802002834394509703
+      BattleAtlas_156: -1295844243191035293
+      BattleAtlas_157: -8492655549083178436
+      BattleAtlas_158: -7414844515288894362
+      BattleAtlas_159: -8864310934486837688
+      BattleAtlas_16: 4923763870476511072
+      BattleAtlas_160: -3431249044302497891
+      BattleAtlas_161: -1514833320782334571
+      BattleAtlas_162: 4227727018314541182
+      BattleAtlas_163: 9185663722908124296
+      BattleAtlas_164: -5438556000990381586
+      BattleAtlas_165: -4469164588913302625
+      BattleAtlas_166: 5244324369127932892
+      BattleAtlas_167: -1607134010582913579
+      BattleAtlas_168: -3950327153476866999
+      BattleAtlas_169: 7313680281547525892
+      BattleAtlas_17: -3785893952112831349
+      BattleAtlas_170: 497100662139377427
+      BattleAtlas_171: -974857983541358009
+      BattleAtlas_172: 6376767907558647379
+      BattleAtlas_173: 536730213485605084
+      BattleAtlas_174: -6757634579613719518
+      BattleAtlas_175: -5289836277659767289
+      BattleAtlas_176: -8525433732231018150
+      BattleAtlas_18: 3116589385352577548
+      BattleAtlas_19: 2656027977229749416
+      BattleAtlas_2: 1149549070756479692
+      BattleAtlas_20: 3954750597963393779
+      BattleAtlas_21: 3240704133378589430
+      BattleAtlas_22: 2581147300121440844
+      BattleAtlas_23: -1937382691482055977
+      BattleAtlas_24: 3260158041620415978
+      BattleAtlas_25: -4348790210504328383
+      BattleAtlas_26: 5382807330083879481
+      BattleAtlas_27: 592569478713276096
+      BattleAtlas_28: -3862429417974537688
+      BattleAtlas_29: 6021010389250943642
+      BattleAtlas_3: -8631948625816252832
+      BattleAtlas_30: -5059330199530872994
+      BattleAtlas_31: 3792967581765926420
+      BattleAtlas_32: -2946170156033445837
+      BattleAtlas_33: 1815693609833039045
+      BattleAtlas_34: -2201351095003396350
+      BattleAtlas_35: 6247840613327712783
+      BattleAtlas_36: -6451050073257562333
+      BattleAtlas_37: 40393601455347458
+      BattleAtlas_38: 1347671715963199918
+      BattleAtlas_39: 4907817837163333519
+      BattleAtlas_4: 414320428904350554
+      BattleAtlas_40: -5760189381974688967
+      BattleAtlas_41: -6327458290362785485
+      BattleAtlas_42: -6598003530756015853
+      BattleAtlas_43: 641204913802339878
+      BattleAtlas_44: -4598201531495653870
+      BattleAtlas_45: 4817201709821757889
+      BattleAtlas_46: 2796418170252911325
+      BattleAtlas_47: 5651171346068926618
+      BattleAtlas_48: -6402541744821999935
+      BattleAtlas_49: 2928848597692146646
+      BattleAtlas_5: 8553651905538883436
+      BattleAtlas_50: -28926716494403197
+      BattleAtlas_51: 1697163768736093692
+      BattleAtlas_52: -5926333539203163432
+      BattleAtlas_53: -3476447731032901984
+      BattleAtlas_54: -1343362902438186765
+      BattleAtlas_55: -1395642232063340408
+      BattleAtlas_56: 6830708167367887099
+      BattleAtlas_57: -3471313168231705273
+      BattleAtlas_58: 8853072338945834685
+      BattleAtlas_59: -5163812352290558625
+      BattleAtlas_6: -7193843412141316718
+      BattleAtlas_60: 6731807430553579886
+      BattleAtlas_61: 852552748815511893
+      BattleAtlas_62: 7472733917740699813
+      BattleAtlas_63: -8136023142522643730
+      BattleAtlas_64: 8791669943488527803
+      BattleAtlas_65: -3946606803792695436
+      BattleAtlas_66: -7450615584462092530
+      BattleAtlas_67: -5613174334980062954
+      BattleAtlas_68: -3983155527589321985
+      BattleAtlas_69: 161762396711650219
+      BattleAtlas_7: 4435926773438637691
+      BattleAtlas_70: 203692493486953965
+      BattleAtlas_71: -239339409913353592
+      BattleAtlas_72: 2577261837966760915
+      BattleAtlas_73: -9156511844111081251
+      BattleAtlas_74: 8757518057133848825
+      BattleAtlas_75: -3133553655024920355
+      BattleAtlas_76: -3880093196478592888
+      BattleAtlas_77: 5629567534562334083
+      BattleAtlas_78: 6270158710316155243
+      BattleAtlas_79: 8076370106633397371
+      BattleAtlas_8: -2002396186832556863
+      BattleAtlas_80: -8215788189586672580
+      BattleAtlas_81: -8109495420740704904
+      BattleAtlas_82: -7315699026115229777
+      BattleAtlas_83: 3278887342244697070
+      BattleAtlas_84: -1162744422969227959
+      BattleAtlas_85: -7576219863431316632
+      BattleAtlas_86: 2820809727191477376
+      BattleAtlas_87: 1960105751604888665
+      BattleAtlas_88: -1468978833567795113
+      BattleAtlas_89: -509839273123270974
+      BattleAtlas_9: 3477496849097783217
+      BattleAtlas_90: -8689094047649484419
+      BattleAtlas_91: 8023232980195787574
+      BattleAtlas_92: -3659854657746235613
+      BattleAtlas_93: 5890567990645770862
+      BattleAtlas_94: 7267377890066575651
+      BattleAtlas_95: 3381519004673954542
+      BattleAtlas_96: -2496066936786121291
+      BattleAtlas_97: -8328076799494094208
+      BattleAtlas_98: -1575411229996871556
+      BattleAtlas_99: -852789413250988711
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -6,5 +6,8 @@ public class ItemSO : ScriptableObject
 {
     public ItemType itemType;
     public int value;
-    public Sprite sprite;
+    public Sprite normalSprite;
+    public Sprite special_1_Sprite;
+    public Sprite special_2_Sprite;
+
 }

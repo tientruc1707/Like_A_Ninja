@@ -14,4 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemType: 2
   value: 20
-  sprite: {fileID: 3009934766445781331, guid: 7f1e4aff62685374fb283c1bcac3afa6, type: 3}
+  normalSprite: {fileID: 3116258266648338670, guid: 7f1e4aff62685374fb283c1bcac3afa6, type: 3}
+  special_1_Sprite: {fileID: 1960105751604888665, guid: 059e57eca0ef86048a17ad221bd67f03, type: 3}
+  special_2_Sprite: {fileID: 3009934766445781331, guid: 7f1e4aff62685374fb283c1bcac3afa6, type: 3}

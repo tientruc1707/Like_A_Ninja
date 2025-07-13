@@ -1,4 +1,4 @@
-using System;
+
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -7,67 +7,75 @@ using UnityEngine;
 /// </summary>
 public class BoardView : MonoBehaviour
 {
-    public Tile[] tileList;
-    public Transform boardParent;
-    private Dictionary<ItemSO, GameObject> _tileDictionary;
-    private GameObject[,] _visualBoard;
-    public void Bind(Board board)
+    public GameObject tilePrefab;
+    private Match3Board m_Board;
+    public Dictionary<(int, int), TileSelector> tileDict = new();
+    private bool m_Initialized;
+    public float spacing = 50;
+    void Awake()
     {
-        board.OnTileClear += ClearTile;
-        board.OnTileUpdate += UpdateTile;
-    }
-    public void Unbind(Board board)
-    {
-        board.OnTileClear -= ClearTile;
-        board.OnTileUpdate -= UpdateTile;
-    }
-    
-    public void InitializeView(Board board)
-    {
-        _tileDictionary = new();
-        foreach (var tile in tileList)
+        if (!m_Initialized)
         {
-            if (!_tileDictionary.ContainsKey(tile.item))
-                _tileDictionary.Add(tile.item, tile.gameObject);
+            InitializeDict();
         }
-        _visualBoard = new GameObject[board.Row, board.Col];
     }
 
-    public void RenderBoard(Board board)
+    void InitializeDict()
     {
-        for (int x = 0; x < board.Row; x++)
-        {
-            for (int y = 0; y < board.Col; y++)
+        m_Board = GetComponent<Match3Board>();
+
+        if (tileDict != null)
+            foreach (var item in tileDict)
             {
-                var item = board.ItemBoard[x, y];
-                if (item != null && _tileDictionary.ContainsKey(item))
+                if (item.Value)
                 {
-                    Vector3 position = new(x, y, 0);
-                    GameObject newItem = Instantiate(_tileDictionary[item], position, Quaternion.identity, boardParent);
-                    _visualBoard[x, y] = newItem;
+                    Destroy(item.Value.gameObject);
                 }
+            }
+
+        for (int i = 0; i < m_Board.GetMaxBoardSize().Rows; i++)
+        {
+            for (int j = 0; j < m_Board.GetMaxBoardSize().Columns; j++)
+            {
+                var obj = Instantiate(tilePrefab, transform.position, Quaternion.identity, transform);
+                obj.name = $"r{i}c{j}";
+                tileDict.Add((i, j), obj.GetComponent<TileSelector>());
+            }
+        }
+
+        m_Initialized = true;
+    }
+
+    void Update()
+    {
+        if (!m_Board)
+        {
+            m_Board = GetComponent<Match3Board>();
+        }
+
+        if (!m_Initialized)
+        {
+            InitializeDict();
+        }
+
+        var currentSize = m_Board.GetCurrentBoardSize();
+        for (int i = 0; i < currentSize.Rows; i++)
+        {
+            for (int j = 0; j < currentSize.Columns; j++)
+            {
+                var value = Match3Board.k_EmptyCell;
+                var specialType = 0;
+                if (m_Board.Cells != null && i < currentSize.Rows && j < currentSize.Columns)
+                {
+                    value = m_Board.GetCellType(i, j);
+                    specialType = m_Board.GetSpecialType(i, j);
+                }
+                var pos = new Vector3(j, i, 0);
+                pos *= spacing;
+                tileDict[(i, j)].transform.position = transform.TransformPoint(pos);
+                tileDict[(i, j)].SetActiveTile(value, specialType);
+
             }
         }
     }
-
-    public void ClearTile(int x, int y)
-    {
-        if (_visualBoard[x, y] != null)
-        {
-            Destroy(_visualBoard[x, y]);
-            _visualBoard[x, y] = null;
-        }
-    }
-
-    public void UpdateTile(int x, int y, ItemSO item)
-    {
-        ClearTile(x, y);
-        if (item != null && _tileDictionary.ContainsKey(item))
-        {
-            Vector3 position = new(x, y, 0);
-            GameObject newItem = Instantiate(_tileDictionary[item], position, Quaternion.identity, boardParent);
-            _visualBoard[x, y] = newItem;
-        }
-    }
-
 }
