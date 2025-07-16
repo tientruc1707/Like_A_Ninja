@@ -31,18 +31,12 @@ public class Match3Agent : Agent
     {
         base.Awake();
         board = GetComponent<Match3Board>();
-        if (board == null)
-        {
-            Debug.LogError("Match3Board component not found on this GameObject!");
-            return;
-        }
+        if (board == null) return;
+
         board.InitializeBoardSize();
         boardSize = board.GetCurrentBoardSize();
-        if (boardSize.Rows == 0 || boardSize.Columns == 0)
-        {
-            Debug.LogError("Board size is invalid!");
-            return;
-        }
+        if (boardSize.Rows == 0 || boardSize.Columns == 0) return;
+
         board.InitSettled();
     }
 
@@ -90,17 +84,17 @@ public class Match3Agent : Agent
 
         while (!HasValidMove() && attemp < maxAttemps)
         {
-            Debug.Log($"Attempt {attemp}: No valid moves, reinitializing board");
             board.InitSettled();
             attemp++;
         }
 
         if (attemp >= maxAttemps)
         {
-            Debug.LogWarning("Cannot generate valid moves, ending episode");
             EpisodeInterrupted();
             return;
         }
+        // If it's the left turn, we don't need to request a decision
+        if (GameManager.Instance.CurrentSide == TurnSide.LEFTTURN) return;
         RequestDecision();
         moveMade++;
     }
@@ -136,7 +130,7 @@ public class Match3Agent : Agent
                 break;
             case State.FillEmpty:
                 board.FillFromAbove();
-                nextState = State.FindMatches; // Sửa: quay lại FindMatches
+                nextState = State.FindMatches;
                 break;
             case State.WaitForMove:
                 int maxAttemps = 10;
@@ -148,16 +142,16 @@ public class Match3Agent : Agent
                     {
                         break;
                     }
-                    Debug.Log($"Attempt {attemp}: No valid moves, reinitializing board");
                     board.InitSettled();
                     attemp++;
                 }
                 if (attemp >= maxAttemps)
                 {
-                    Debug.LogWarning("Cannot generate valid moves, ending episode");
                     EpisodeInterrupted();
                     return;
                 }
+                // If it's the left turn, we don't need to request a decision
+                if (GameManager.Instance.CurrentSide == TurnSide.LEFTTURN) return;
                 RequestDecision();
                 nextState = State.FindMatches;
                 break;
@@ -176,4 +170,6 @@ public class Match3Agent : Agent
         }
         return false;
     }
+
+
 }

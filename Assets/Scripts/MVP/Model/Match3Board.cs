@@ -2,6 +2,14 @@ using System;
 using Unity.MLAgents.Integrations.Match3;
 using UnityEngine;
 
+public enum ItemType
+{
+    Health = 1,
+    Mana = 2,
+    Shuriken = 3,
+    Coin = 4
+}
+
 public class Match3Board : AbstractBoard
 {
     public LevelSO levelSO;
@@ -31,12 +39,10 @@ public class Match3Board : AbstractBoard
     {
         if (levelSO == null)
         {
-            Debug.LogError("levelSO is not assigned in Inspector!");
             return;
         }
         if (levelSO.height <= 0 || levelSO.width <= 0)
         {
-            Debug.LogError("levelSO height or width is invalid!");
             return;
         }
         random = new System.Random(randomSeed == -1 ? gameObject.GetInstanceID() : randomSeed);
@@ -95,21 +101,26 @@ public class Match3Board : AbstractBoard
             return false;
         var (endRow, endCol) = m.OtherCell();
         (m_Cells[m.Column, m.Row], m_Cells[endCol, endRow]) = (m_Cells[endCol, endRow], m_Cells[m.Column, m.Row]);
+
         return true;
+    }
+
+    public void SwapCells(Vector2Int from, Vector2Int to)
+    {
+        if (!IsValidPosition(from) || !IsValidPosition(to))
+        {
+            return;
+        }
+        (m_Cells[from.x, from.y], m_Cells[to.x, to.y]) = (m_Cells[to.x, to.y], m_Cells[from.x, from.y]);
+    }
+
+    public bool IsValidPosition(Vector2Int pos)
+    {
+        return pos.x >= 0 && pos.y >= 0 && pos.x < boardSize.Columns && pos.y < boardSize.Rows;
     }
 
     int GetRandomCellType()
     {
-        if (random == null)
-        {
-            Debug.LogError("Random is null!");
-            return 0;
-        }
-        if (boardSize.NumCellTypes <= 0)
-        {
-            Debug.LogError("NumCellTypes is invalid!");
-            return 0;
-        }
         return random.Next(0, boardSize.NumCellTypes);
     }
 
@@ -181,6 +192,7 @@ public class Match3Board : AbstractBoard
                 if (m_Matched[col, row])
                 {
                     var specialType = GetSpecialType(row, col);
+                    GameManager.Instance.ClearCell(row, col);
                     pointEarned += pointByType[specialType];
                     m_Cells[col, row] = (k_EmptyCell, 0);
                 }
@@ -227,6 +239,9 @@ public class Match3Board : AbstractBoard
                 }
             }
         }
+        //if no match after filling, change side
+        if (!MarkMatchedCells())
+            EventSystem.Instance.TriggerEvent(StringConstant.EVENT.CHANG_SIDE);
         return madeChange;
     }
 
@@ -239,7 +254,6 @@ public class Match3Board : AbstractBoard
         {
             if (iteration++ >= maxIterations)
             {
-                Debug.LogWarning("InitSettled stuck in loop, breaking");
                 break;
             }
             bool hasMatched = MarkMatchedCells();
@@ -282,5 +296,5 @@ public class Match3Board : AbstractBoard
     {
         get { return m_Matched; }
     }
-    
+
 }

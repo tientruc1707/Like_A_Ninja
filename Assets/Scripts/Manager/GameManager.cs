@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public enum TurnSide
@@ -16,67 +17,76 @@ public class GameManager : Singleton<GameManager>
 
     }
 
-    private GameObject _currentPlayer;
-    private GameObject _currentEnemy;
+    private GameObject m_Player;
+    private GameObject m_CurrentEnemy;
 
-    [SerializeField] private GameObject[] Characters;
-    private int keyCharacterIndex = 0;
+    [SerializeField] private GameObject[] m_Characters;
+    private int m_KeyCharacterIndex = 0;
     public TurnSide CurrentSide { get; set; }
+    public event Action<int, int> OnClearCell;
 
     private void Start()
     {
         CurrentSide = TurnSide.LEFTTURN;
     }
+
     public void SetCharacterKey(string name)
     {
-        for (int i = 0; i < Characters.Length; i++)
+        for (int i = 0; i < m_Characters.Length; i++)
         {
-            if (Characters[i].name.Equals(name))
+            if (m_Characters[i].name.Equals(name))
             {
-                keyCharacterIndex = i;
-                SaveSystem.Instance.SetCharacterKey(keyCharacterIndex);
+                m_KeyCharacterIndex = i;
+                SaveSystem.Instance.SetCharacterKey(m_KeyCharacterIndex);
             }
         }
     }
 
     public void SetPlayer(int index, Vector3 position)
     {
-        if (_currentPlayer != null)
+        if (m_Player != null)
         {
-            Destroy(_currentPlayer);
+            Destroy(m_Player);
         }
-        _currentPlayer = Instantiate(Characters[index], position, Quaternion.identity);
-        _currentPlayer.tag = StringConstant.CHARACTER.PLAYER;
+        m_Player = Instantiate(m_Characters[index], position, Quaternion.identity);
+        m_Player.tag = StringConstant.CHARACTER.PLAYER;
     }
 
     public GameObject[] GetCharacters()
     {
-        return Characters;
+        return m_Characters;
     }
 
     public GameObject GetPlayer()
     {
-        return _currentPlayer;
+        return m_Player;
     }
 
     public void SetCurrentEnemy(Vector3 position)
     {
-        if (_currentEnemy != null)
+        if (m_CurrentEnemy != null)
         {
-            Destroy(_currentEnemy);
+            Destroy(m_CurrentEnemy);
         }
         int keyEnemyIndex;
         do
         {
-            keyEnemyIndex = Random.Range(0, Characters.Length);
+            keyEnemyIndex = UnityEngine.Random.Range(0, m_Characters.Length);
 
-        } while (keyEnemyIndex == keyCharacterIndex);
-        _currentEnemy = Instantiate(Characters[keyEnemyIndex], position, Quaternion.identity);
-        _currentEnemy.gameObject.tag = StringConstant.CHARACTER.ENEMY;
+        } while (keyEnemyIndex == m_KeyCharacterIndex);
+        m_CurrentEnemy = Instantiate(m_Characters[keyEnemyIndex], position, Quaternion.identity);
+        m_CurrentEnemy.tag = StringConstant.CHARACTER.ENEMY;
     }
 
     public GameObject GetCurrentEnemy()
     {
-        return _currentEnemy;
+        return m_CurrentEnemy;
     }
+
+    //Triggers the OnClearCell event
+    public void ClearCell(int row, int col)
+    {
+        OnClearCell?.Invoke(row, col);
+    }
+
 }

@@ -8,16 +8,30 @@ using UnityEngine;
 public class BoardView : MonoBehaviour
 {
     public GameObject tilePrefab;
-    private Match3Board m_Board;
+    public float tileSize;
+    public Vector2 gridOffset;
     public Dictionary<(int, int), TileSelector> tileDict = new();
+
+    private Match3Board m_Board;
     private bool m_Initialized;
-    public float spacing = 50;
+    private CharacterPresenter m_Charactor;
+    private CharacterPresenter m_Player, m_Enemy;
+
     void Awake()
     {
+
         if (!m_Initialized)
         {
             InitializeDict();
         }
+    }
+
+    void Start()
+    {
+        CalculateTileSize();
+        gridOffset = GetComponent<RectTransform>().anchoredPosition;
+        m_Player = GameManager.Instance.GetPlayer().GetComponent<CharacterPresenter>();
+        m_Enemy = GameManager.Instance.GetCurrentEnemy().GetComponent<CharacterPresenter>();
     }
 
     void InitializeDict()
@@ -46,18 +60,19 @@ public class BoardView : MonoBehaviour
         m_Initialized = true;
     }
 
+    private void CalculateTileSize()
+    {
+        var boardAreaSize = GetComponent<RectTransform>().rect.size;
+        var boardSize = m_Board.GetCurrentBoardSize();
+        tileSize = Mathf.Min(boardAreaSize.x / boardSize.Columns, boardAreaSize.y / boardSize.Rows);
+    }
+
     void Update()
     {
         if (!m_Board)
         {
             m_Board = GetComponent<Match3Board>();
         }
-
-        if (!m_Initialized)
-        {
-            InitializeDict();
-        }
-
         var currentSize = m_Board.GetCurrentBoardSize();
         for (int i = 0; i < currentSize.Rows; i++)
         {
@@ -70,12 +85,18 @@ public class BoardView : MonoBehaviour
                     value = m_Board.GetCellType(i, j);
                     specialType = m_Board.GetSpecialType(i, j);
                 }
-                var pos = new Vector3(j, i, 0);
-                pos *= spacing;
+                var pos = new Vector3(j, i, 0) * tileSize + new Vector3(tileSize / 2, tileSize / 2, 0);
                 tileDict[(i, j)].transform.position = transform.TransformPoint(pos);
+                tileDict[(i, j)].GetComponent<RectTransform>().sizeDelta = new Vector2(tileSize, tileSize);
                 tileDict[(i, j)].SetActiveTile(value, specialType);
 
             }
         }
     }
+
+    public Vector3 GridToWorldPosition(Vector2Int gridPos)
+    {
+        return new Vector3(gridPos.x * tileSize + gridOffset.x, gridPos.y * tileSize + gridOffset.y, 0);
+    }
+
 }

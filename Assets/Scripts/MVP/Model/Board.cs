@@ -2,22 +2,6 @@
 using Unity.MLAgents.Integrations.Match3;
 using UnityEngine;
 
-
-public enum ItemType
-{
-    Health = 1,
-    Mana = 2,
-    Shuriken = 3,
-    Coin = 4
-}
-
-public enum SpecialItemType
-{
-    LineHorizontal = 1,
-    LineVertical = 2,
-    AllOfItemType = 3
-}
-
 /// <summary>
 /// Handles the logical state and rules of the board.
 /// </summary>
@@ -70,7 +54,7 @@ public class Board : MonoBehaviour
             }
         }
     }
-    
+
     public void InitRandomCell()
     {
         for (int i = 0; i < Rows; i++)

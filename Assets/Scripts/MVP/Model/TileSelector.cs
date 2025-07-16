@@ -9,7 +9,9 @@ public class TileSelector : MonoBehaviour
     public LevelSO level;
     public List<ItemSO> itemList;
     public Image img;
-    private Dictionary<(int, int), Sprite> itemDict = new();
+    private readonly Dictionary<(int, int), Sprite> m_ItemDict = new();
+    private ItemSO m_ItemSO;
+    public ItemSO ItemType { get => m_ItemSO; private set => m_ItemSO = value; }
 
     void Awake()
     {
@@ -27,9 +29,9 @@ public class TileSelector : MonoBehaviour
             //0 - normal type
             //1 - special type 1
             //2 - special type 2
-            itemDict.Add((i, 0), itemList[i].normalSprite);
-            itemDict.Add((i, 1), itemList[i].special_1_Sprite);
-            itemDict.Add((i, 2), itemList[i].special_2_Sprite);
+            m_ItemDict.Add((i, 0), itemList[i].normalSprite);
+            m_ItemDict.Add((i, 1), itemList[i].special_1_Sprite);
+            m_ItemDict.Add((i, 2), itemList[i].special_2_Sprite);
         }
     }
 
@@ -41,7 +43,8 @@ public class TileSelector : MonoBehaviour
         }
         else
         {
-            img.sprite = itemDict[(typeIndex, specialIndex)];
+            img.sprite = m_ItemDict[(typeIndex, specialIndex)];
+            m_ItemSO = itemList[typeIndex];
         }
     }
 

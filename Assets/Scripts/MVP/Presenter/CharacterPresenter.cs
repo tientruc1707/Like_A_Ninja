@@ -43,8 +43,8 @@ public class CharacterPresenter : MonoBehaviour
 
     public void Attack()
     {
-        Debug.Log("Attack");
-        //_animator.SetTrigger("Attack");
+        
+        _animator.SetTrigger(GameManager.AnimationState.Attack);
     }
 
     public void TakeDamage(float damage, int hurtType)
