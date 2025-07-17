@@ -50,6 +50,11 @@ public class Match3Agent : Agent
 
     void FixedUpdate()
     {
+        if (board.AbleToUseSkill())
+        {
+            StartCoroutine(WaitToRequestDecision(5f));
+            AddReward(1f);
+        }
         var useFastUpdate = Academy.Instance.IsCommunicatorOn;
         if (useFastUpdate)
         {
@@ -63,6 +68,11 @@ public class Match3Agent : Agent
         {
             EpisodeInterrupted();
         }
+    }
+
+    private System.Collections.IEnumerator WaitToRequestDecision(float waitTime)
+    {
+        yield return new WaitForSeconds(waitTime);
     }
 
     void FastUpdate()

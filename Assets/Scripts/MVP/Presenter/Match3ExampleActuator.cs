@@ -1,12 +1,11 @@
-using System;
-using Unity.MLAgents.Integrations.Match3;
-using UnityEngine;
 
-public class Match3ActuatorModel : Match3Actuator
+using Unity.MLAgents.Integrations.Match3;
+
+public class Match3ExampleActuator : Match3Actuator
 {
     private Match3Board m_Board;
     public Match3Board Board => m_Board;
-    public Match3ActuatorModel(Match3Board board, bool forceHeuristic, int seed, string name)
+    public Match3ExampleActuator(Match3Board board, bool forceHeuristic, int seed, string name)
      : base(board, forceHeuristic, seed, name)
     {
         m_Board = board;
@@ -25,7 +24,31 @@ public class Match3ActuatorModel : Match3Actuator
         int movePoint = EvaluateHalfMove(otherRow, otherCol, moveVal, moveSpecial, move.Direction, pointsByType);
         int otherPoint = EvaluateHalfMove(move.Row, move.Column, newVal, newSpecial, move.OtherDirection(), pointsByType);
 
-        return movePoint + otherPoint;
+        //make potential special
+        int bonusPoint = 0;
+        if (m_Board.CurrentEnemyHealth() <= 40)
+        {
+            if (moveVal == (int)ItemType.Health || newVal == (int)ItemType.Health)
+            {
+                bonusPoint += 100; // Bonus for health
+            }
+        }
+        else if (m_Board.CurrentEnemyMana() == 0)
+        {
+            if (moveVal == (int)ItemType.Mana || newVal == (int)ItemType.Mana)
+            {
+                bonusPoint += 70; // Bonus for mana
+            }
+        }
+        else if (m_Board.AbleToUseSkill())
+        {
+            bonusPoint += 50; // Bonus for being able to use skill
+        }
+        else if (moveSpecial > 0 || newSpecial > 0)
+        {
+            bonusPoint += 10; // Bonus for special cells
+        }
+        return movePoint + otherPoint + bonusPoint;
     }
 
     private int EvaluateHalfMove(int newRow, int newCol, int newValue, int newSpecial, Direction direction, int[] pointsByType)
@@ -101,4 +124,6 @@ public class Match3ActuatorModel : Match3Actuator
         }
         return 0;
     }
+
+
 }

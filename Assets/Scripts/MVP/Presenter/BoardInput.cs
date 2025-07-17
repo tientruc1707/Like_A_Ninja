@@ -1,6 +1,5 @@
-using System;
+
 using System.Collections.Generic;
-using System.Text.RegularExpressions;
 using UnityEngine;
 
 public class BoardInput : MonoBehaviour
@@ -49,6 +48,7 @@ public class BoardInput : MonoBehaviour
     private void HandleSwipe(Vector2 startPos, Vector2 direction)
     {
         if (m_Swapping) return;
+        if (GameManager.Instance.CurrentSide == TurnSide.RIGHTTURN) return;
 
         Vector2Int gridPos = ScreenToGridPosition(startPos);
         Vector2Int targetPos = gridPos + Vector2Int.RoundToInt(direction.normalized);

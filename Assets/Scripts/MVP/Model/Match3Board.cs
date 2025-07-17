@@ -24,7 +24,9 @@ public class Match3Board : AbstractBoard
     public int BasicCellPoint = 1;
     public int SpecialCell1Point = 2;
     public int SpecialCell2Point = 3;
-
+    private CharacterPresenter m_Enemy;
+    private HealthPresenter m_EnemyHealth;
+    private ManaPresenter m_EnemyMana;
     void Awake()
     {
         InitializeBoardSize();
@@ -33,6 +35,9 @@ public class Match3Board : AbstractBoard
     void Start()
     {
         InitRandom();
+        m_Enemy = GameManager.Instance.GetCurrentEnemy().GetComponent<CharacterPresenter>();
+        m_EnemyHealth = m_Enemy.GetComponent<HealthPresenter>();
+        m_EnemyMana = m_Enemy.GetComponent<ManaPresenter>();
     }
 
     public void InitializeBoardSize()
@@ -296,5 +301,9 @@ public class Match3Board : AbstractBoard
     {
         get { return m_Matched; }
     }
+
+    public float CurrentEnemyHealth() => m_EnemyHealth.GetCurrentHealth();
+    public float CurrentEnemyMana() => m_EnemyMana.GetCurrentMana();
+    public bool AbleToUseSkill() => m_Enemy.EnoughManaToUseSkill();
 
 }

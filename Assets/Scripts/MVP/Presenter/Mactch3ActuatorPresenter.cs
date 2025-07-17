@@ -8,7 +8,7 @@ public class Mactch3ActuatorPresenter : Match3ActuatorComponent
     {
         var board = GetComponent<Match3Board>();
         var seed = RandomSeed == -1 ? gameObject.GetInstanceID() : RandomSeed;
-        return new IActuator[] { new Match3ActuatorModel(board, ForceHeuristic, seed, ActuatorName) };
+        return new IActuator[] { new Match3ExampleActuator(board, ForceHeuristic, seed, ActuatorName) };
 
     }
 }

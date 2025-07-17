@@ -455,10 +455,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterData: {fileID: 11400000, guid: e18e001404b56554380e1bb6b6cb650c, type: 2}
-  _animator: {fileID: 2038527254734864067}
-  _health: {fileID: 464783869879589356}
-  _mana: {fileID: 3122965612267113961}
-  _skills:
+  m_Animator: {fileID: 2038527254734864067}
+  m_Health: {fileID: 464783869879589356}
+  m_Mana: {fileID: 3122965612267113961}
+  m_SkillList:
   - {fileID: 7767567260013527174}
   - {fileID: 117174989413384564}
   - {fileID: 507290757152142453}

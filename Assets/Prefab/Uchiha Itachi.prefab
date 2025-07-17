@@ -656,10 +656,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterData: {fileID: 11400000, guid: e9f5520bf076c8a4face97908c890a1f, type: 2}
-  _animator: {fileID: 5679799316958287965}
-  _health: {fileID: 4848661120496471369}
-  _mana: {fileID: 7511006078906683747}
-  _skills:
+  m_Animator: {fileID: 5679799316958287965}
+  m_Health: {fileID: 4848661120496471369}
+  m_Mana: {fileID: 7511006078906683747}
+  m_SkillList:
   - {fileID: 621134749502759369}
   - {fileID: 2879292262613288736}
   - {fileID: 3900125131654686043}

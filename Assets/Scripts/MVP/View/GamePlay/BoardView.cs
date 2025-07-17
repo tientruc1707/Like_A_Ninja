@@ -14,8 +14,6 @@ public class BoardView : MonoBehaviour
 
     private Match3Board m_Board;
     private bool m_Initialized;
-    private CharacterPresenter m_Charactor;
-    private CharacterPresenter m_Player, m_Enemy;
 
     void Awake()
     {
@@ -30,8 +28,6 @@ public class BoardView : MonoBehaviour
     {
         CalculateTileSize();
         gridOffset = GetComponent<RectTransform>().anchoredPosition;
-        m_Player = GameManager.Instance.GetPlayer().GetComponent<CharacterPresenter>();
-        m_Enemy = GameManager.Instance.GetCurrentEnemy().GetComponent<CharacterPresenter>();
     }
 
     void InitializeDict()
