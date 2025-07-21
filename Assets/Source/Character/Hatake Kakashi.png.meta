@@ -1,0 +1,7017 @@
+fileFormatVersion: 2
+guid: 67def889b39bc154c98016353130f55b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6010013361991568545
+    second: Hatake Kakashi_0
+  - first:
+      213: -2946463440505486182
+    second: Hatake Kakashi_1
+  - first:
+      213: -4126593185197540997
+    second: Hatake Kakashi_2
+  - first:
+      213: -9145270001389017367
+    second: Hatake Kakashi_3
+  - first:
+      213: 5081829943748505154
+    second: Hatake Kakashi_4
+  - first:
+      213: -6611755590145545715
+    second: Hatake Kakashi_5
+  - first:
+      213: -4622298449562056123
+    second: Hatake Kakashi_6
+  - first:
+      213: 5145120942399937115
+    second: Hatake Kakashi_7
+  - first:
+      213: -1187414503042038341
+    second: Hatake Kakashi_8
+  - first:
+      213: -3712648784399907824
+    second: Hatake Kakashi_9
+  - first:
+      213: -8878169971320880455
+    second: Hatake Kakashi_10
+  - first:
+      213: 8318899136628736930
+    second: Hatake Kakashi_11
+  - first:
+      213: -8074300918991410530
+    second: Hatake Kakashi_12
+  - first:
+      213: 5289674120361478190
+    second: Hatake Kakashi_13
+  - first:
+      213: -5108143573762059311
+    second: Hatake Kakashi_14
+  - first:
+      213: -4990567624629121683
+    second: Hatake Kakashi_15
+  - first:
+      213: 5177700907630172332
+    second: Hatake Kakashi_16
+  - first:
+      213: -4572403700232067102
+    second: Hatake Kakashi_17
+  - first:
+      213: -3048399912084078530
+    second: Hatake Kakashi_18
+  - first:
+      213: -1725675737454078843
+    second: Hatake Kakashi_19
+  - first:
+      213: 7264394422254678099
+    second: Hatake Kakashi_20
+  - first:
+      213: -4646399056392438246
+    second: Hatake Kakashi_21
+  - first:
+      213: 7566903281129103692
+    second: Hatake Kakashi_22
+  - first:
+      213: -5009317913991077739
+    second: Hatake Kakashi_23
+  - first:
+      213: -5007516384879869035
+    second: Hatake Kakashi_24
+  - first:
+      213: -8446212005007300761
+    second: Hatake Kakashi_25
+  - first:
+      213: 4256046169427849689
+    second: Hatake Kakashi_26
+  - first:
+      213: -4512266961506956809
+    second: Hatake Kakashi_27
+  - first:
+      213: -6193328532066706398
+    second: Hatake Kakashi_28
+  - first:
+      213: -4766686458379920129
+    second: Hatake Kakashi_29
+  - first:
+      213: 58889730081983154
+    second: Hatake Kakashi_30
+  - first:
+      213: -4967742361025024348
+    second: Hatake Kakashi_31
+  - first:
+      213: -3375124161222017004
+    second: Hatake Kakashi_32
+  - first:
+      213: -2783248485191173668
+    second: Hatake Kakashi_33
+  - first:
+      213: 1785952641355625604
+    second: Hatake Kakashi_34
+  - first:
+      213: -8463917612221177711
+    second: Hatake Kakashi_35
+  - first:
+      213: -8336304253130757212
+    second: Hatake Kakashi_36
+  - first:
+      213: -5272550486305202663
+    second: Hatake Kakashi_37
+  - first:
+      213: -7559036138228120571
+    second: Hatake Kakashi_38
+  - first:
+      213: -6790682323249896632
+    second: Hatake Kakashi_39
+  - first:
+      213: -6802760337880989454
+    second: Hatake Kakashi_40
+  - first:
+      213: -8925435133042929776
+    second: Hatake Kakashi_41
+  - first:
+      213: -4711370063210580106
+    second: Hatake Kakashi_42
+  - first:
+      213: 167434347285417322
+    second: Hatake Kakashi_43
+  - first:
+      213: -187414100034283128
+    second: Hatake Kakashi_44
+  - first:
+      213: -7398591731231570851
+    second: Hatake Kakashi_45
+  - first:
+      213: 7633447475525056214
+    second: Hatake Kakashi_46
+  - first:
+      213: 8874760894168572176
+    second: Hatake Kakashi_47
+  - first:
+      213: -3982550290780607066
+    second: Hatake Kakashi_48
+  - first:
+      213: -7032463375869646774
+    second: Hatake Kakashi_49
+  - first:
+      213: 8438714330765236424
+    second: Hatake Kakashi_50
+  - first:
+      213: 6109310217064462412
+    second: Hatake Kakashi_51
+  - first:
+      213: 7080758595847315097
+    second: Hatake Kakashi_52
+  - first:
+      213: 2536115726518790759
+    second: Hatake Kakashi_53
+  - first:
+      213: -2113308473108582179
+    second: Hatake Kakashi_54
+  - first:
+      213: 8397239979231056888
+    second: Hatake Kakashi_55
+  - first:
+      213: -6654625187592445610
+    second: Hatake Kakashi_56
+  - first:
+      213: 915508654750351756
+    second: Hatake Kakashi_57
+  - first:
+      213: 4347943396596329469
+    second: Hatake Kakashi_58
+  - first:
+      213: 1424393884956253719
+    second: Hatake Kakashi_59
+  - first:
+      213: 2221786888541069394
+    second: Hatake Kakashi_60
+  - first:
+      213: 1088364998493609779
+    second: Hatake Kakashi_61
+  - first:
+      213: 3319549189166623183
+    second: Hatake Kakashi_62
+  - first:
+      213: 3556898446851135930
+    second: Hatake Kakashi_63
+  - first:
+      213: 332501948882814955
+    second: Hatake Kakashi_64
+  - first:
+      213: -2570547202776899998
+    second: Hatake Kakashi_65
+  - first:
+      213: -2708843970008540665
+    second: Hatake Kakashi_66
+  - first:
+      213: 2940111289614200542
+    second: Hatake Kakashi_67
+  - first:
+      213: -736437881502340696
+    second: Hatake Kakashi_68
+  - first:
+      213: 5419755368411016687
+    second: Hatake Kakashi_69
+  - first:
+      213: -8218133562722495621
+    second: Hatake Kakashi_70
+  - first:
+      213: -7757791797771107811
+    second: Hatake Kakashi_71
+  - first:
+      213: -5063295303687885022
+    second: Hatake Kakashi_72
+  - first:
+      213: -1101023764615587517
+    second: Hatake Kakashi_73
+  - first:
+      213: -688749105982924215
+    second: Hatake Kakashi_74
+  - first:
+      213: 5505251414120480929
+    second: Hatake Kakashi_75
+  - first:
+      213: -6365157002997130450
+    second: Hatake Kakashi_76
+  - first:
+      213: -6448412119896234556
+    second: Hatake Kakashi_77
+  - first:
+      213: 4913099934693036050
+    second: Hatake Kakashi_78
+  - first:
+      213: -4060466502648322194
+    second: Hatake Kakashi_79
+  - first:
+      213: 3737025512950737329
+    second: Hatake Kakashi_80
+  - first:
+      213: 2388089094522762258
+    second: Hatake Kakashi_81
+  - first:
+      213: 666870375094912475
+    second: Hatake Kakashi_82
+  - first:
+      213: -1453656502615042403
+    second: Hatake Kakashi_83
+  - first:
+      213: 2953912149462527602
+    second: Hatake Kakashi_84
+  - first:
+      213: -8923738650497930908
+    second: Hatake Kakashi_85
+  - first:
+      213: 1420125936985075972
+    second: Hatake Kakashi_86
+  - first:
+      213: -5824898235387078181
+    second: Hatake Kakashi_87
+  - first:
+      213: -3070752858119372147
+    second: Hatake Kakashi_88
+  - first:
+      213: 7958490973069645516
+    second: Hatake Kakashi_89
+  - first:
+      213: -8554028151434952250
+    second: Hatake Kakashi_90
+  - first:
+      213: -2038309823489501040
+    second: Hatake Kakashi_91
+  - first:
+      213: 1169466801806158671
+    second: Hatake Kakashi_92
+  - first:
+      213: -6404313530339810404
+    second: Hatake Kakashi_93
+  - first:
+      213: 7352778272715744793
+    second: Hatake Kakashi_94
+  - first:
+      213: 6332411620346363071
+    second: Hatake Kakashi_95
+  - first:
+      213: 1616348326056716817
+    second: Hatake Kakashi_96
+  - first:
+      213: -5763631517362441406
+    second: Hatake Kakashi_97
+  - first:
+      213: -6696448581171121310
+    second: Hatake Kakashi_98
+  - first:
+      213: 4303312484507270871
+    second: Hatake Kakashi_99
+  - first:
+      213: -542732707886056871
+    second: Hatake Kakashi_100
+  - first:
+      213: -5173194916509645355
+    second: Hatake Kakashi_101
+  - first:
+      213: -8063683150500285771
+    second: Hatake Kakashi_102
+  - first:
+      213: -2554077658893616257
+    second: Hatake Kakashi_103
+  - first:
+      213: 3294864709608202245
+    second: Hatake Kakashi_104
+  - first:
+      213: -179397057709595248
+    second: Hatake Kakashi_105
+  - first:
+      213: -3401414883292822314
+    second: Hatake Kakashi_106
+  - first:
+      213: 7817458097222026943
+    second: Hatake Kakashi_107
+  - first:
+      213: -6216310756532084585
+    second: Hatake Kakashi_108
+  - first:
+      213: 231313678963700894
+    second: Hatake Kakashi_109
+  - first:
+      213: 2017699397805578297
+    second: Hatake Kakashi_110
+  - first:
+      213: 8520973352591929649
+    second: Hatake Kakashi_111
+  - first:
+      213: 8047603130611696775
+    second: Hatake Kakashi_112
+  - first:
+      213: -10894712299683315
+    second: Hatake Kakashi_113
+  - first:
+      213: -7061534678809571771
+    second: Hatake Kakashi_114
+  - first:
+      213: -58726429429616390
+    second: Hatake Kakashi_115
+  - first:
+      213: -1026479908146421779
+    second: Hatake Kakashi_116
+  - first:
+      213: 9147354727368612608
+    second: Hatake Kakashi_117
+  - first:
+      213: -584050241128903204
+    second: Hatake Kakashi_118
+  - first:
+      213: 6411093475458897708
+    second: Hatake Kakashi_119
+  - first:
+      213: 7770599913111169038
+    second: Hatake Kakashi_120
+  - first:
+      213: 8711760897960896438
+    second: Hatake Kakashi_121
+  - first:
+      213: 5179512024618350000
+    second: Hatake Kakashi_122
+  - first:
+      213: -706521688912288008
+    second: Hatake Kakashi_123
+  - first:
+      213: 248984097427282944
+    second: Hatake Kakashi_124
+  - first:
+      213: -7695642968435613955
+    second: Hatake Kakashi_125
+  - first:
+      213: 6465940186437218185
+    second: Hatake Kakashi_126
+  - first:
+      213: 5259547960050252640
+    second: Hatake Kakashi_127
+  - first:
+      213: -2455889004549776343
+    second: Hatake Kakashi_128
+  - first:
+      213: -6752312604275718899
+    second: Hatake Kakashi_129
+  - first:
+      213: 8595134072101524274
+    second: Hatake Kakashi_130
+  - first:
+      213: 4942355421860867569
+    second: Hatake Kakashi_131
+  - first:
+      213: 6792115571082598887
+    second: Hatake Kakashi_132
+  - first:
+      213: -2695152495005229479
+    second: Hatake Kakashi_133
+  - first:
+      213: 6031540573099508893
+    second: Hatake Kakashi_134
+  - first:
+      213: 3982203452440633414
+    second: Hatake Kakashi_135
+  - first:
+      213: 3265914519515919384
+    second: Hatake Kakashi_136
+  - first:
+      213: 8802731795833096800
+    second: Hatake Kakashi_137
+  - first:
+      213: 8422213084736412825
+    second: Hatake Kakashi_138
+  - first:
+      213: 7366290086694453609
+    second: Hatake Kakashi_139
+  - first:
+      213: -774899578706473431
+    second: Hatake Kakashi_140
+  - first:
+      213: 1321822215387992251
+    second: Hatake Kakashi_141
+  - first:
+      213: -6570627070984541964
+    second: Hatake Kakashi_142
+  - first:
+      213: 2252359080019616813
+    second: Hatake Kakashi_143
+  - first:
+      213: 6250576004249497804
+    second: Hatake Kakashi_144
+  - first:
+      213: 4904587011887467871
+    second: Hatake Kakashi_145
+  - first:
+      213: -6622341950809326270
+    second: Hatake Kakashi_146
+  - first:
+      213: -8858109400012400969
+    second: Hatake Kakashi_147
+  - first:
+      213: -2047390764887636615
+    second: Hatake Kakashi_148
+  - first:
+      213: -6685690626323311754
+    second: Hatake Kakashi_149
+  - first:
+      213: 4638862518226163060
+    second: Hatake Kakashi_150
+  - first:
+      213: 5980452501617542944
+    second: Hatake Kakashi_151
+  - first:
+      213: -507333202708219692
+    second: Hatake Kakashi_152
+  - first:
+      213: 5825021473333298633
+    second: Hatake Kakashi_153
+  - first:
+      213: 2823830662030879118
+    second: Hatake Kakashi_154
+  - first:
+      213: -4758873741701791892
+    second: Hatake Kakashi_155
+  - first:
+      213: -5816403969313847494
+    second: Hatake Kakashi_156
+  - first:
+      213: 8944038882121975524
+    second: Hatake Kakashi_157
+  - first:
+      213: 1408893380130755941
+    second: Hatake Kakashi_158
+  - first:
+      213: -4851969977843005582
+    second: Hatake Kakashi_159
+  - first:
+      213: -5099348148585705577
+    second: Hatake Kakashi_160
+  - first:
+      213: 4852226362526355904
+    second: Hatake Kakashi_161
+  - first:
+      213: -402805250783096831
+    second: Hatake Kakashi_162
+  - first:
+      213: 1923769267314662886
+    second: Hatake Kakashi_163
+  - first:
+      213: 6227351574926571862
+    second: Hatake Kakashi_164
+  - first:
+      213: -5961925813490712508
+    second: Hatake Kakashi_165
+  - first:
+      213: 7632812124829236604
+    second: Hatake Kakashi_166
+  - first:
+      213: 7607255262652691590
+    second: Hatake Kakashi_167
+  - first:
+      213: 476219418157375047
+    second: Hatake Kakashi_168
+  - first:
+      213: -2109240733390067869
+    second: Hatake Kakashi_169
+  - first:
+      213: -6253432444206820895
+    second: Hatake Kakashi_170
+  - first:
+      213: 7325472547000600200
+    second: Hatake Kakashi_171
+  - first:
+      213: -8658995090731041183
+    second: Hatake Kakashi_172
+  - first:
+      213: 5980766886968669486
+    second: Hatake Kakashi_173
+  - first:
+      213: 7426413533613057658
+    second: Hatake Kakashi_174
+  - first:
+      213: 1498817915723203413
+    second: Hatake Kakashi_175
+  - first:
+      213: -1866968617718959788
+    second: Hatake Kakashi_176
+  - first:
+      213: 3963549193761318505
+    second: Hatake Kakashi_177
+  - first:
+      213: 6446931584268627709
+    second: Hatake Kakashi_178
+  - first:
+      213: -7273857196867898154
+    second: Hatake Kakashi_179
+  - first:
+      213: -2908273955386708496
+    second: Hatake Kakashi_180
+  - first:
+      213: 4702867798521509405
+    second: Hatake Kakashi_181
+  - first:
+      213: 2889144735982523363
+    second: Hatake Kakashi_182
+  - first:
+      213: 4683074832298487690
+    second: Hatake Kakashi_183
+  - first:
+      213: 6916947767723936324
+    second: Hatake Kakashi_184
+  - first:
+      213: -2208118235529697441
+    second: Hatake Kakashi_185
+  - first:
+      213: -1268932344144796049
+    second: Hatake Kakashi_186
+  - first:
+      213: 9024209419780855581
+    second: Hatake Kakashi_187
+  - first:
+      213: -5615738985188262950
+    second: Hatake Kakashi_188
+  - first:
+      213: 4611069818581388577
+    second: Hatake Kakashi_189
+  - first:
+      213: 3412524289675926552
+    second: Hatake Kakashi_190
+  - first:
+      213: 6255894103378319214
+    second: Hatake Kakashi_191
+  - first:
+      213: 3511690426502378737
+    second: Hatake Kakashi_192
+  - first:
+      213: 3582199807259619369
+    second: Hatake Kakashi_193
+  - first:
+      213: 1350412935056757630
+    second: Hatake Kakashi_194
+  - first:
+      213: -4020554734333310360
+    second: Hatake Kakashi_195
+  - first:
+      213: -6047500440975570749
+    second: Hatake Kakashi_196
+  - first:
+      213: -7839298573951989386
+    second: Hatake Kakashi_197
+  - first:
+      213: -2850726854052173158
+    second: Hatake Kakashi_198
+  - first:
+      213: 8433432081929635379
+    second: Hatake Kakashi_199
+  - first:
+      213: -6189089126156482050
+    second: Hatake Kakashi_200
+  - first:
+      213: 4992507291302005690
+    second: Hatake Kakashi_201
+  - first:
+      213: 683667334187457634
+    second: Hatake Kakashi_202
+  - first:
+      213: 2861994741440732645
+    second: Hatake Kakashi_203
+  - first:
+      213: 6929078796020408603
+    second: Hatake Kakashi_204
+  - first:
+      213: -2797919344288434565
+    second: Hatake Kakashi_205
+  - first:
+      213: -7481629568155496294
+    second: Hatake Kakashi_206
+  - first:
+      213: 7782869658332179895
+    second: Hatake Kakashi_207
+  - first:
+      213: -8260434039658709224
+    second: Hatake Kakashi_208
+  - first:
+      213: 2498555479899533241
+    second: Hatake Kakashi_209
+  - first:
+      213: -6616925232954662968
+    second: Hatake Kakashi_210
+  - first:
+      213: -57902802777166033
+    second: Hatake Kakashi_211
+  - first:
+      213: 1240600962190469021
+    second: Hatake Kakashi_212
+  - first:
+      213: -6031312156201451697
+    second: Hatake Kakashi_213
+  - first:
+      213: 7468591004424522908
+    second: Hatake Kakashi_214
+  - first:
+      213: 9027737997237674572
+    second: Hatake Kakashi_215
+  - first:
+      213: 1619956038719821692
+    second: Hatake Kakashi_216
+  - first:
+      213: -2028761801075027901
+    second: Hatake Kakashi_217
+  - first:
+      213: 1416595203108973697
+    second: Hatake Kakashi_218
+  - first:
+      213: 8244114054644964528
+    second: Hatake Kakashi_219
+  - first:
+      213: 2097449545005029062
+    second: Hatake Kakashi_220
+  - first:
+      213: -1376076491125305480
+    second: Hatake Kakashi_221
+  - first:
+      213: 5861053619708438917
+    second: Hatake Kakashi_222
+  - first:
+      213: 3001046672819891546
+    second: Hatake Kakashi_223
+  - first:
+      213: 3152511025700041593
+    second: Hatake Kakashi_224
+  - first:
+      213: -7323300237136896415
+    second: Hatake Kakashi_225
+  - first:
+      213: 3994189965930935845
+    second: Hatake Kakashi_226
+  - first:
+      213: 4796148830161269188
+    second: Hatake Kakashi_227
+  - first:
+      213: -2793161740424423969
+    second: Hatake Kakashi_228
+  - first:
+      213: 2950541335781446123
+    second: Hatake Kakashi_229
+  - first:
+      213: 4134117005662271156
+    second: Hatake Kakashi_230
+  - first:
+      213: -9102151236658277131
+    second: Hatake Kakashi_231
+  - first:
+      213: 1579855940255642206
+    second: Hatake Kakashi_232
+  - first:
+      213: -7975272008205349959
+    second: Hatake Kakashi_233
+  - first:
+      213: -1338639851993192349
+    second: Hatake Kakashi_234
+  - first:
+      213: -2265117788014821727
+    second: Hatake Kakashi_235
+  - first:
+      213: -3778635568857830168
+    second: Hatake Kakashi_236
+  - first:
+      213: 4468993591620922297
+    second: Hatake Kakashi_237
+  - first:
+      213: 3315394928720458694
+    second: Hatake Kakashi_238
+  - first:
+      213: 7481777310873095994
+    second: Hatake Kakashi_239
+  - first:
+      213: -5155998630251182349
+    second: Hatake Kakashi_240
+  - first:
+      213: 1205562552866407814
+    second: Hatake Kakashi_241
+  - first:
+      213: -1090702691972384982
+    second: Hatake Kakashi_242
+  - first:
+      213: -4475998252328107801
+    second: Hatake Kakashi_243
+  - first:
+      213: -2038418902988922617
+    second: Hatake Kakashi_244
+  - first:
+      213: -6986011109345018398
+    second: Hatake Kakashi_245
+  - first:
+      213: -6773301261685723173
+    second: Hatake Kakashi_246
+  - first:
+      213: 7959902548949250418
+    second: Hatake Kakashi_247
+  - first:
+      213: -6068075366455072875
+    second: Hatake Kakashi_248
+  - first:
+      213: -1036809788542787044
+    second: Hatake Kakashi_249
+  - first:
+      213: -7646689081939551147
+    second: Hatake Kakashi_250
+  - first:
+      213: -5261885861842047052
+    second: Hatake Kakashi_251
+  - first:
+      213: -6921802100923343434
+    second: Hatake Kakashi_252
+  - first:
+      213: -4744137145845937860
+    second: Hatake Kakashi_253
+  - first:
+      213: -813488984456816010
+    second: Hatake Kakashi_254
+  - first:
+      213: -1399787133519179912
+    second: Hatake Kakashi_255
+  - first:
+      213: 3888395411954126610
+    second: Hatake Kakashi_256
+  - first:
+      213: 3011086685036871921
+    second: Hatake Kakashi_257
+  - first:
+      213: 10329314144361886
+    second: Hatake Kakashi_258
+  - first:
+      213: 6341461297835027965
+    second: Hatake Kakashi_259
+  - first:
+      213: -5732724503902865395
+    second: Hatake Kakashi_260
+  - first:
+      213: 1082783586856026040
+    second: Hatake Kakashi_261
+  - first:
+      213: 3511418652848421685
+    second: Hatake Kakashi_262
+  - first:
+      213: -717563944033525127
+    second: Hatake Kakashi_263
+  - first:
+      213: 3030015148186432779
+    second: Hatake Kakashi_264
+  - first:
+      213: -7271169256912194118
+    second: Hatake Kakashi_265
+  - first:
+      213: 3802162580914061882
+    second: Hatake Kakashi_266
+  - first:
+      213: 1161847143674921021
+    second: Hatake Kakashi_267
+  - first:
+      213: -8689268077150423875
+    second: Hatake Kakashi_268
+  - first:
+      213: -1892335294206752538
+    second: Hatake Kakashi_269
+  - first:
+      213: 2844055291311439775
+    second: Hatake Kakashi_270
+  - first:
+      213: 2682480033826525869
+    second: Hatake Kakashi_271
+  - first:
+      213: 7910574147370788582
+    second: Hatake Kakashi_272
+  - first:
+      213: 1945660844579958350
+    second: Hatake Kakashi_273
+  - first:
+      213: 3801235638075774923
+    second: Hatake Kakashi_274
+  - first:
+      213: 1261044344074961757
+    second: Hatake Kakashi_275
+  - first:
+      213: -2210393127810347866
+    second: Hatake Kakashi_276
+  - first:
+      213: 4031334390642047827
+    second: Hatake Kakashi_277
+  - first:
+      213: 8796544965694503034
+    second: Hatake Kakashi_278
+  - first:
+      213: 6236037597760078219
+    second: Hatake Kakashi_279
+  - first:
+      213: 8711687368475883252
+    second: Hatake Kakashi_280
+  - first:
+      213: -2889677424232269505
+    second: Hatake Kakashi_281
+  - first:
+      213: 8152623411190021060
+    second: Hatake Kakashi_282
+  - first:
+      213: -4281605515912640812
+    second: Hatake Kakashi_283
+  - first:
+      213: 3491125249045788597
+    second: Hatake Kakashi_284
+  - first:
+      213: -5615689765737163373
+    second: Hatake Kakashi_285
+  - first:
+      213: -2373589705655687757
+    second: Hatake Kakashi_286
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 48
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 50
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Hatake Kakashi_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1806
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f53342f80b4289ca0800000000000000
+      internalID: -6010013361991568545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_1
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 1806
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a94cef4ac1f0c17d0800000000000000
+      internalID: -2946463440505486182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_2
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1806
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b79b0c79c556bb6c0800000000000000
+      internalID: -4126593185197540997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_3
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 1806
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e6eb203369751180800000000000000
+      internalID: -9145270001389017367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_4
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1806
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24ea21eb869468640800000000000000
+      internalID: 5081829943748505154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_5
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 1806
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0aeba342535e34a0800000000000000
+      internalID: -6611755590145545715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_6
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1806
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54ac304dc0c4adfb0800000000000000
+      internalID: -4622298449562056123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_7
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 1806
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5adb22bc34276740800000000000000
+      internalID: 5145120942399937115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_8
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1715
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb54809fcc4758fe0800000000000000
+      internalID: -1187414503042038341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_9
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1764
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 014ce0ed9950a7cc0800000000000000
+      internalID: -3712648784399907824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_10
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 1764
+        width: 39
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b201eb13776ac480800000000000000
+      internalID: -8878169971320880455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_11
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 1716
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a34f0970baa27370800000000000000
+      internalID: 8318899136628736930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_12
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 1764
+        width: 44
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9a28e9f71252ff80800000000000000
+      internalID: -8074300918991410530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_13
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 1716
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2809b92692b86940800000000000000
+      internalID: 5289674120361478190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_14
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 1764
+        width: 49
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d3d738db7a3c19b0800000000000000
+      internalID: -5108143573762059311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_15
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 1716
+        width: 22
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6d8a62cf21fdbab0800000000000000
+      internalID: -4990567624629121683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_16
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 1764
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca89388fa83ead740800000000000000
+      internalID: 5177700907630172332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_17
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 1716
+        width: 19
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e76cfd6f0f8b80c0800000000000000
+      internalID: -4572403700232067102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_18
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 1764
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3085ea5e68e1b5d0800000000000000
+      internalID: -3048399912084078530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_19
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 1716
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5841a8f4f0b2d08e0800000000000000
+      internalID: -1725675737454078843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_20
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1764
+        width: 39
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 350b1d61d3050d460800000000000000
+      internalID: 7264394422254678099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_21
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 1715
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1eb4070daca48fb0800000000000000
+      internalID: -4646399056392438246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_22
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 1764
+        width: 44
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c412079617a030960800000000000000
+      internalID: 7566903281129103692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_23
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 1716
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 590af81d5e35b7ab0800000000000000
+      internalID: -5009317913991077739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_24
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 1764
+        width: 44
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5938940016ab18ab0800000000000000
+      internalID: -5007516384879869035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_25
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1716
+        width: 21
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76766ef6ee609ca80800000000000000
+      internalID: -8446212005007300761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_26
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 1765
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d1b86c0173801b30800000000000000
+      internalID: 4256046169427849689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_27
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1716
+        width: 19
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f985a30b153161c0800000000000000
+      internalID: -4512266961506956809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_28
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1716
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22c5fd48380ec0aa0800000000000000
+      internalID: -6193328532066706398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_29
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1655
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffc999ccbe359ddb0800000000000000
+      internalID: -4766686458379920129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_30
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 1655
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ba8472c5e731d000800000000000000
+      internalID: 58889730081983154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_31
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1655
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ae617394a80f0bb0800000000000000
+      internalID: -4967742361025024348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_32
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 1655
+        width: 37
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 410068125762921d0800000000000000
+      internalID: -3375124161222017004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_33
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 1655
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd9398ebf3aef59d0800000000000000
+      internalID: -2783248485191173668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_34
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1655
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4843ca5077af8c810800000000000000
+      internalID: 1785952641355625604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_35
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 1655
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 190626386cf1a8a80800000000000000
+      internalID: -8463917612221177711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_36
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 1655
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ab209c037f7f4c80800000000000000
+      internalID: -8336304253130757212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_37
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1655
+        width: 37
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91e1773944324d6b0800000000000000
+      internalID: -5272550486305202663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_38
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 1655
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50482988ea8e81790800000000000000
+      internalID: -7559036138228120571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_39
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1607
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8436a24d766a2c1a0800000000000000
+      internalID: -6790682323249896632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_40
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1607
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f0cc78e38db791a0800000000000000
+      internalID: -6802760337880989454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_41
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1607
+        width: 52
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09f4f25190c722480800000000000000
+      internalID: -8925435133042929776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_42
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1607
+        width: 42
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6777ce0b3e9dd9eb0800000000000000
+      internalID: -4711370063210580106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_43
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 1607
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6d8529d6a8d25200800000000000000
+      internalID: 167434347285417322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_44
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 1607
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8899e857edb266df0800000000000000
+      internalID: -187414100034283128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_45
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 1607
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d54ccc5150ce25990800000000000000
+      internalID: -7398591731231570851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_46
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 1607
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d6f54609047fe960800000000000000
+      internalID: 7633447475525056214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_47
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1561
+        width: 27
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0112273430c792b70800000000000000
+      internalID: 8874760894168572176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_48
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 1560
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ada4e96c932bb8c0800000000000000
+      internalID: -3982550290780607066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_49
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 1561
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a486859b1dba76e90800000000000000
+      internalID: -7032463375869646774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_50
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 1559
+        width: 39
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c8924e39f55c1570800000000000000
+      internalID: 8438714330765236424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_51
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 1562
+        width: 39
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c48bace1641a8c450800000000000000
+      internalID: 6109310217064462412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_52
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1561
+        width: 27
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99ed5cd6d68e34260800000000000000
+      internalID: 7080758595847315097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_53
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1560
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76a2f6cf0d7123320800000000000000
+      internalID: 2536115726518790759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_54
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 1561
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd03a87f3250ca2e0800000000000000
+      internalID: -2113308473108582179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_55
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1559
+        width: 39
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f396c7454df88470800000000000000
+      internalID: 8397239979231056888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_56
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 1562
+        width: 39
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6516f2c46a506a3a0800000000000000
+      internalID: -6654625187592445610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_57
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1508
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c81c03b554a84bc00800000000000000
+      internalID: 915508654750351756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_58
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 1509
+        width: 32
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfb21a99b7ff65c30800000000000000
+      internalID: 4347943396596329469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_59
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 1509
+        width: 37
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71e5e0d01b674c310800000000000000
+      internalID: 1424393884956253719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_60
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 1507
+        width: 41
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2506c12576f55de10800000000000000
+      internalID: 2221786888541069394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_61
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1507
+        width: 37
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33f1e212336aa1f00800000000000000
+      internalID: 1088364998493609779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_62
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 1508
+        width: 39
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc966ba5668611e20800000000000000
+      internalID: 3319549189166623183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_63
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 1508
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab953baca44ac5130800000000000000
+      internalID: 3556898446851135930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_64
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1509
+        width: 32
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be70946c2c84d9400800000000000000
+      internalID: 332501948882814955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_65
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 1509
+        width: 37
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26edb1c30f4935cd0800000000000000
+      internalID: -2570547202776899998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_66
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 1507
+        width: 41
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70a9ea7e2c0486ad0800000000000000
+      internalID: -2708843970008540665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_67
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 1507
+        width: 37
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edee199f3af5dc820800000000000000
+      internalID: 2940111289614200542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_68
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 1508
+        width: 39
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a969e906a5a7c5f0800000000000000
+      internalID: -736437881502340696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_69
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1473
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feda7afdac6d63b40800000000000000
+      internalID: 5419755368411016687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_70
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 1473
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b73d535f01353fd80800000000000000
+      internalID: -8218133562722495621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_71
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1422
+        width: 26
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d120a646679c65490800000000000000
+      internalID: -7757791797771107811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_72
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1422
+        width: 26
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22fa7ce6fbf8bb9b0800000000000000
+      internalID: -5063295303687885022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_73
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 1422
+        width: 26
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34913d438b068b0f0800000000000000
+      internalID: -1101023764615587517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_74
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1422
+        width: 26
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94a158656521176f0800000000000000
+      internalID: -688749105982924215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_75
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1374
+        width: 33
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a04ed93ef4966c40800000000000000
+      internalID: 5505251414120480929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_76
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 1374
+        width: 33
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2b14c80e6b6aa7a0800000000000000
+      internalID: -6365157002997130450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_77
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 1374
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c5e2449753a286a0800000000000000
+      internalID: -6448412119896234556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_78
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 1374
+        width: 33
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2109f512c56de2440800000000000000
+      internalID: 4913099934693036050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_79
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1324
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e672647aa3356a7c0800000000000000
+      internalID: -4060466502648322194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_80
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 1324
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b9200887e49cd330800000000000000
+      internalID: 3737025512950737329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_81
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 1322
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 214730bf062342120800000000000000
+      internalID: 2388089094522762258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_82
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 1322
+        width: 35
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd583caa213314900800000000000000
+      internalID: 666870375094912475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_86
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 1324
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 401705af30d45b310800000000000000
+      internalID: 1420125936985075972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_87
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 1324
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd914f2aaedc92fa0800000000000000
+      internalID: -5824898235387078181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_88
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 1322
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8287ca8b8e7265d0800000000000000
+      internalID: -3070752858119372147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_89
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1266
+        width: 30
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc618f5cf5d327e60800000000000000
+      internalID: 7958490973069645516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_90
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 1266
+        width: 29
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c1470ba7bcf94980800000000000000
+      internalID: -8554028151434952250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_91
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 1266
+        width: 29
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09818b4d30876b3e0800000000000000
+      internalID: -2038309823489501040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_92
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1266
+        width: 29
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4ba4423cd7ca3010800000000000000
+      internalID: 1169466801806158671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_93
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 1266
+        width: 29
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c932ed196ce4f17a0800000000000000
+      internalID: -6404313530339810404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_94
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 1266
+        width: 29
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 916ae61e1e05a0660800000000000000
+      internalID: 7352778272715744793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_95
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 1266
+        width: 30
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbcfc4271de31e750800000000000000
+      internalID: 6332411620346363071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_96
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 1266
+        width: 29
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11a68ef1d3c6e6610800000000000000
+      internalID: 1616348326056716817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_97
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1266
+        width: 29
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 243bd570ca77300b0800000000000000
+      internalID: -5763631517362441406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_98
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 1266
+        width: 29
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26370a6ae7f6113a0800000000000000
+      internalID: -6696448581171121310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_99
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 1266
+        width: 29
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7de3f8c97ef68bb30800000000000000
+      internalID: 4303312484507270871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_100
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 1266
+        width: 29
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95a377a4a73d778f0800000000000000
+      internalID: -542732707886056871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_101
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1221
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d50697d1ae1538b0800000000000000
+      internalID: -5173194916509645355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_102
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 1221
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b2b029d5ea081090800000000000000
+      internalID: -8063683150500285771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_103
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1221
+        width: 37
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7b72ecb6e71e8cd0800000000000000
+      internalID: -2554077658893616257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_104
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1221
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 500ea271ff5b9bd20800000000000000
+      internalID: 3294864709608202245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_105
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1183
+        width: 42
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09528759357a28df0800000000000000
+      internalID: -179397057709595248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_106
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 1183
+        width: 42
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d4ca936f2fbbc0d0800000000000000
+      internalID: -3401414883292822314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_107
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1144
+        width: 51
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb68b6388b03d7c60800000000000000
+      internalID: 7817458097222026943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_108
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 1144
+        width: 52
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79027776d4a3bb9a0800000000000000
+      internalID: -6216310756532084585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_109
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 1146
+        width: 52
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e94f152c09ac53300800000000000000
+      internalID: 231313678963700894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_110
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 1150
+        width: 52
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93898bd79ee400c10800000000000000
+      internalID: 2017699397805578297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_111
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 1144
+        width: 52
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 131bfcd3e14904670800000000000000
+      internalID: 8520973352591929649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_112
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 1144
+        width: 52
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7848e65c864deaf60800000000000000
+      internalID: 8047603130611696775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_113
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1146
+        width: 52
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d02827f115b49dff0800000000000000
+      internalID: -10894712299683315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_114
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 1150
+        width: 52
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54e047c8f93600e90800000000000000
+      internalID: -7061534678809571771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_115
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1094
+        width: 39
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af0bbe2af9c5f2ff0800000000000000
+      internalID: -58726429429616390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_116
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1094
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: def5bd946f531c1f0800000000000000
+      internalID: -1026479908146421779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_117
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1094
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00bdb47e8aee1fe70800000000000000
+      internalID: 9147354727368612608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_118
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 1094
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cddc78e666905e7f0800000000000000
+      internalID: -584050241128903204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_119
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1050
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c275d8a6c87c8f850800000000000000
+      internalID: 6411093475458897708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_120
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 1050
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e082ca85377b6db60800000000000000
+      internalID: 7770599913111169038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_121
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 997
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b7e81b316466e870800000000000000
+      internalID: 8711760897960896438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_122
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 997
+        width: 37
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b5bd318eb251e740800000000000000
+      internalID: 5179512024618350000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_123
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 997
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f6264a644ee136f0800000000000000
+      internalID: -706521688912288008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_124
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 997
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00cdfd9a7b1947300800000000000000
+      internalID: 248984097427282944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_125
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 997
+        width: 37
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfe99245e75933590800000000000000
+      internalID: -7695642968435613955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_126
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 997
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98f638f6752abb950800000000000000
+      internalID: 6465940186437218185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_127
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 942
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06bfcedd00badf840800000000000000
+      internalID: 5259547960050252640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_128
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 944
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92cd50456fdeaedd0800000000000000
+      internalID: -2455889004549776343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_129
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 945
+        width: 39
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d05c0c13677fa42a0800000000000000
+      internalID: -6752312604275718899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_130
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 945
+        width: 37
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 233d77c46ec084770800000000000000
+      internalID: 8595134072101524274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_131
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 945
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fd2eb90216c69440800000000000000
+      internalID: 4942355421860867569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_132
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 942
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e917cf2021724e50800000000000000
+      internalID: 6792115571082598887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_133
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 944
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95e94b7d515e89ad0800000000000000
+      internalID: -2695152495005229479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_134
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 945
+        width: 39
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d94c3fbd13654b350800000000000000
+      internalID: 6031540573099508893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_135
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 945
+        width: 37
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 640ee0ef0f0a34730800000000000000
+      internalID: 3982203452440633414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_136
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 945
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8147982b3fbd25d20800000000000000
+      internalID: 3265914519515919384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_137
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 889
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06a0bafede5992a70800000000000000
+      internalID: 8802731795833096800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_138
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 889
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99c5c528d26b1e470800000000000000
+      internalID: 8422213084736412825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_139
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 889
+        width: 21
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96187e93ec15a3660800000000000000
+      internalID: 7366290086694453609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_140
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 889
+        width: 19
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92ec99250f00f35f0800000000000000
+      internalID: -774899578706473431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_141
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 889
+        width: 20
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb0db643d4e085210800000000000000
+      internalID: 1321822215387992251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_142
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 889
+        width: 21
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f8a66add7170d4a0800000000000000
+      internalID: -6570627070984541964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_143
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 889
+        width: 22
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d24e13756acf14f10800000000000000
+      internalID: 2252359080019616813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_144
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 889
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc03fd642c18eb650800000000000000
+      internalID: 6250576004249497804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_145
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 889
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5d0c85d6e7901440800000000000000
+      internalID: 4904587011887467871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_146
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 889
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24db7d81517b814a0800000000000000
+      internalID: -6622341950809326270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_147
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 889
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b656b6de6ca11580800000000000000
+      internalID: -8858109400012400969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_148
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 889
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 975057662f43693e0800000000000000
+      internalID: -2047390764887636615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_149
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 889
+        width: 21
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67317d33cc7a733a0800000000000000
+      internalID: -6685690626323311754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_150
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 889
+        width: 19
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4759eb0f1ec806040800000000000000
+      internalID: 4638862518226163060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_151
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 889
+        width: 20
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 027820b4dd5def250800000000000000
+      internalID: 5980452501617542944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_152
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 889
+        width: 21
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d8b0ddd32795f8f0800000000000000
+      internalID: -507333202708219692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_153
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 889
+        width: 22
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c5cd0fea22a6d050800000000000000
+      internalID: 5825021473333298633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_154
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 889
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e89e43c9603403720800000000000000
+      internalID: 2823830662030879118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_155
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 889
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6f3ee6ab8515fdb0800000000000000
+      internalID: -4758873741701791892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_156
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 889
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3740e2186bf74fa0800000000000000
+      internalID: -5816403969313847494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_157
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 847
+        width: 41
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e6892ac9fb9f1c70800000000000000
+      internalID: 8944038882121975524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_158
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 847
+        width: 41
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 565d71980156d8310800000000000000
+      internalID: 1408893380130755941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_159
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 847
+        width: 41
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 277cec113075aacb0800000000000000
+      internalID: -4851969977843005582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_160
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 847
+        width: 41
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79fc08950e97b39b0800000000000000
+      internalID: -5099348148585705577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_161
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 810
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c15b242b22965340800000000000000
+      internalID: 4852226362526355904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_162
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 810
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 100596132c2f86af0800000000000000
+      internalID: -402805250783096831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_163
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 810
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ed9a10c4f992ba10800000000000000
+      internalID: 1923769267314662886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_164
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 810
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 659b7f2734ffb6650800000000000000
+      internalID: 6227351574926571862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_165
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 764
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44087ad6f0cf24da0800000000000000
+      internalID: -5961925813490712508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_166
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 764
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7dbdb9ef223de960800000000000000
+      internalID: 7632812124829236604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_167
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 716
+        width: 42
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 684722e3b56629960800000000000000
+      internalID: 7607255262652691590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_168
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 717
+        width: 32
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74ed966a90fdb9600800000000000000
+      internalID: 476219418157375047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_169
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 717
+        width: 37
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 367208c6ab87ab2e0800000000000000
+      internalID: -2109240733390067869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_170
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 715
+        width: 41
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e15628f2585739a0800000000000000
+      internalID: -6253432444206820895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_171
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 715
+        width: 37
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 886c8df287e49a560800000000000000
+      internalID: 7325472547000600200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_172
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 716
+        width: 39
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16eff11a7d115d780800000000000000
+      internalID: -8658995090731041183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_173
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 716
+        width: 42
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e25bf26dbc3fff250800000000000000
+      internalID: 5980766886968669486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_174
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 717
+        width: 32
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a76e82213cbef0760800000000000000
+      internalID: 7426413533613057658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_175
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 717
+        width: 37
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5534ca904fedcc410800000000000000
+      internalID: 1498817915723203413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_176
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 715
+        width: 41
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4513f0e0fe13716e0800000000000000
+      internalID: -1866968617718959788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_177
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 715
+        width: 37
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 966edefedfa510730800000000000000
+      internalID: 3963549193761318505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_178
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 716
+        width: 39
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfee39b5e1a187950800000000000000
+      internalID: 6446931584268627709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_179
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 647
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d435c10b611e0b90800000000000000
+      internalID: -7273857196867898154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_180
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 647
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fda7ab0f3cb3a7d0800000000000000
+      internalID: -2908273955386708496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_181
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 647
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d167f7c8851f34140800000000000000
+      internalID: 4702867798521509405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_182
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 646
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e39dec74dd481820800000000000000
+      internalID: 2889144735982523363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_183
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 646
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8f29bb7fbf9df040800000000000000
+      internalID: 4683074832298487690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_184
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 646
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44acd11e85fedff50800000000000000
+      internalID: 6916947767723936324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_185
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 646
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f57a035f9203b51e0800000000000000
+      internalID: -2208118235529697441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_186
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 646
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f66ee3f81c8d36ee0800000000000000
+      internalID: -1268932344144796049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_187
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 649
+        width: 43
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1795cca7ae6c3d70800000000000000
+      internalID: 9024209419780855581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_188
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 578
+        width: 43
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adb7a8c7523e012b0800000000000000
+      internalID: -5615738985188262950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_189
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 576
+        width: 49
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12d811bc19fcdff30800000000000000
+      internalID: 4611069818581388577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_190
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 576
+        width: 49
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81c9689d2c8bb5f20800000000000000
+      internalID: 3412524289675926552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_191
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 576
+        width: 49
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e675358ba8661d650800000000000000
+      internalID: 6255894103378319214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_192
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 576
+        width: 49
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f470d056d70cb030800000000000000
+      internalID: 3511690426502378737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_193
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 576
+        width: 28
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 920be22deb786b130800000000000000
+      internalID: 3582199807259619369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_194
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 581
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e73962ed861adb210800000000000000
+      internalID: 1350412935056757630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_195
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 579
+        width: 40
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86a4c0c55ce1438c0800000000000000
+      internalID: -4020554734333310360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_197
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 578
+        width: 44
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6798d5b3b77353390800000000000000
+      internalID: -7839298573951989386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_200
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 502
+        width: 60
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef9c5302b30fb1aa0800000000000000
+      internalID: -6189089126156482050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_201
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 504
+        width: 59
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abb8a941ee2f84540800000000000000
+      internalID: 4992507291302005690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_202
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 517
+        width: 88
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26c18c671dfdc7900800000000000000
+      internalID: 683667334187457634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_204
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 513
+        width: 82
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b11ec710478092060800000000000000
+      internalID: 6929078796020408603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_207
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 514
+        width: 80
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bd2e0608be420c60800000000000000
+      internalID: 7782869658332179895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_208
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 505
+        width: 42
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81ff89fa10b0d5d80800000000000000
+      internalID: -8260434039658709224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_209
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 504
+        width: 44
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bf640798f6aca220800000000000000
+      internalID: 2498555479899533241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_210
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 506
+        width: 40
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cf1b600f85fb24a0800000000000000
+      internalID: -6616925232954662968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_211
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 506
+        width: 42
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2fa7f825b9423ff0800000000000000
+      internalID: -57902802777166033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_216
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 448
+        width: 78
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c77d4af2f6d3b7610800000000000000
+      internalID: 1619956038719821692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_217
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 445
+        width: 93
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3409a0904e368d3e0800000000000000
+      internalID: -2028761801075027901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_219
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 454
+        width: 92
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bc1be2bd0af86270800000000000000
+      internalID: 8244114054644964528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_221
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 451
+        width: 74
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87fc5bad8b137ece0800000000000000
+      internalID: -1376076491125305480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_222
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 450
+        width: 89
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5892d34c635a65150800000000000000
+      internalID: 5861053619708438917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_224
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 452
+        width: 90
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9737a5d3318ffbb20800000000000000
+      internalID: 3152511025700041593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_228
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 448
+        width: 90
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd55ac52232bc39d0800000000000000
+      internalID: -2793161740424423969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_229
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 460
+        width: 88
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be11c5656bd62f820800000000000000
+      internalID: 2950541335781446123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_234
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 431
+        width: 62
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 368a3c3a5223c6de0800000000000000
+      internalID: -1338639851993192349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_235
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 360
+        width: 88
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ae35f67f5fa090e0800000000000000
+      internalID: -2265117788014821727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_236
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 360
+        width: 88
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eca29e58f69f8bc0800000000000000
+      internalID: -3778635568857830168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_237
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 360
+        width: 90
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bbef0c6efd050e30800000000000000
+      internalID: 4468993591620922297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_238
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 360
+        width: 90
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c3b3883f16a20e20800000000000000
+      internalID: 3315394928720458694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_239
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 359
+        width: 84
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3f0b27f2dc94d760800000000000000
+      internalID: 7481777310873095994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_240
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 361
+        width: 117
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f64a7d30963278b0800000000000000
+      internalID: -5155998630251182349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_243
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 361
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e0c6baed4f02e1c0800000000000000
+      internalID: -4475998252328107801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_244
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 287
+        width: 105
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70167e7cec416b3e0800000000000000
+      internalID: -2038418902988922617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_245
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 216
+        width: 105
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2edbe86d8e3bc0f90800000000000000
+      internalID: -6986011109345018398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_246
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 287
+        width: 106
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdf648493666002a0800000000000000
+      internalID: -6773301261685723173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_247
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 216
+        width: 106
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 271b8d4e131477e60800000000000000
+      internalID: 7959902548949250418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_248
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 287
+        width: 106
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 597a520ba9dd9cba0800000000000000
+      internalID: -6068075366455072875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_249
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 216
+        width: 106
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1262469df28c91f0800000000000000
+      internalID: -1036809788542787044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_250
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 287
+        width: 106
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55c922b3bc081e590800000000000000
+      internalID: -7646689081939551147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_251
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 216
+        width: 106
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bf2144ffa60af6b0800000000000000
+      internalID: -5261885861842047052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_252
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 287
+        width: 106
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bd59e899a1d0ff90800000000000000
+      internalID: -6921802100923343434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_253
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 216
+        width: 106
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c390e10c660792eb0800000000000000
+      internalID: -4744137145845937860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_254
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 287
+        width: 106
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67a12c42418e5b4f0800000000000000
+      internalID: -813488984456816010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_255
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 216
+        width: 106
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87f4d69b405f29ce0800000000000000
+      internalID: -1399787133519179912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_256
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 287
+        width: 106
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21fc8cb860b56f530800000000000000
+      internalID: 3888395411954126610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_257
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 216
+        width: 106
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f00889f26789c920800000000000000
+      internalID: 3011086685036871921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_258
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 287
+        width: 106
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9d195cd472b42000800000000000000
+      internalID: 10329314144361886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_259
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 216
+        width: 106
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfd285ea375610850800000000000000
+      internalID: 6341461297835027965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_260
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 287
+        width: 106
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0831bddf654170b0800000000000000
+      internalID: -5732724503902865395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_261
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 216
+        width: 106
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bf3d277fe1d60f00800000000000000
+      internalID: 1082783586856026040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_262
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 145
+        width: 105
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53bf5b419a01bb030800000000000000
+      internalID: 3511418652848421685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_263
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 74
+        width: 105
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 972e04c0563ba06f0800000000000000
+      internalID: -717563944033525127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_264
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 145
+        width: 106
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0574bb39b6cc0a20800000000000000
+      internalID: 3030015148186432779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_265
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 74
+        width: 106
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab5f10cc51e971b90800000000000000
+      internalID: -7271169256912194118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_266
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 145
+        width: 106
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a324aadf8bef3c430800000000000000
+      internalID: 3802162580914061882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_267
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 74
+        width: 106
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d30cb0a42d5bf1010800000000000000
+      internalID: 1161847143674921021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_268
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 145
+        width: 106
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db4be47b8b4896780800000000000000
+      internalID: -8689268077150423875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_269
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 74
+        width: 106
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e84fd073131db5e0800000000000000
+      internalID: -1892335294206752538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_270
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 145
+        width: 106
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9f3030183d187720800000000000000
+      internalID: 2844055291311439775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_271
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 74
+        width: 106
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da2de4dd0651a3520800000000000000
+      internalID: 2682480033826525869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_272
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 145
+        width: 106
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e6ac67664108cd60800000000000000
+      internalID: 7910574147370788582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_273
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 74
+        width: 106
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4e2396ca30600b10800000000000000
+      internalID: 1945660844579958350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_274
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 145
+        width: 106
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc7df0b4ca3b0c430800000000000000
+      internalID: 3801235638075774923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_275
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 74
+        width: 106
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d538a9e4621208110800000000000000
+      internalID: 1261044344074961757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_276
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 145
+        width: 106
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ac46e2592b1351e0800000000000000
+      internalID: -2210393127810347866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_277
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 74
+        width: 106
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35bf805f44d22f730800000000000000
+      internalID: 4031334390642047827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_278
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 145
+        width: 106
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a78b8fa4a0b931a70800000000000000
+      internalID: 8796544965694503034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_279
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 74
+        width: 106
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b81487cb72bda8650800000000000000
+      internalID: 6236037597760078219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_280
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3
+        width: 105
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f63340518126e870800000000000000
+      internalID: 8711687368475883252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_281
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 105
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f397b2d51bdc5e7d0800000000000000
+      internalID: -2889677424232269505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_282
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 3
+        width: 106
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cbb38b4ccfe32170800000000000000
+      internalID: 8152623411190021060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_283
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 1
+        width: 108
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d68cabd77ea494c0800000000000000
+      internalID: -4281605515912640812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_284
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 3
+        width: 106
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b775cfcae7f27030800000000000000
+      internalID: 3491125249045788597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_285
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 0
+        width: 104
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 395907849ef0112b0800000000000000
+      internalID: -5615689765737163373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hatake Kakashi_286
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 3
+        width: 106
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b56edf0db05f0fd0800000000000000
+      internalID: -2373589705655687757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 8ad8cdd92a6598c439d658b8a34b9fce
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Hatake Kakashi_0: -6010013361991568545
+      Hatake Kakashi_1: -2946463440505486182
+      Hatake Kakashi_10: -8878169971320880455
+      Hatake Kakashi_100: -542732707886056871
+      Hatake Kakashi_101: -5173194916509645355
+      Hatake Kakashi_102: -8063683150500285771
+      Hatake Kakashi_103: -2554077658893616257
+      Hatake Kakashi_104: 3294864709608202245
+      Hatake Kakashi_105: -179397057709595248
+      Hatake Kakashi_106: -3401414883292822314
+      Hatake Kakashi_107: 7817458097222026943
+      Hatake Kakashi_108: -6216310756532084585
+      Hatake Kakashi_109: 231313678963700894
+      Hatake Kakashi_11: 8318899136628736930
+      Hatake Kakashi_110: 2017699397805578297
+      Hatake Kakashi_111: 8520973352591929649
+      Hatake Kakashi_112: 8047603130611696775
+      Hatake Kakashi_113: -10894712299683315
+      Hatake Kakashi_114: -7061534678809571771
+      Hatake Kakashi_115: -58726429429616390
+      Hatake Kakashi_116: -1026479908146421779
+      Hatake Kakashi_117: 9147354727368612608
+      Hatake Kakashi_118: -584050241128903204
+      Hatake Kakashi_119: 6411093475458897708
+      Hatake Kakashi_12: -8074300918991410530
+      Hatake Kakashi_120: 7770599913111169038
+      Hatake Kakashi_121: 8711760897960896438
+      Hatake Kakashi_122: 5179512024618350000
+      Hatake Kakashi_123: -706521688912288008
+      Hatake Kakashi_124: 248984097427282944
+      Hatake Kakashi_125: -7695642968435613955
+      Hatake Kakashi_126: 6465940186437218185
+      Hatake Kakashi_127: 5259547960050252640
+      Hatake Kakashi_128: -2455889004549776343
+      Hatake Kakashi_129: -6752312604275718899
+      Hatake Kakashi_13: 5289674120361478190
+      Hatake Kakashi_130: 8595134072101524274
+      Hatake Kakashi_131: 4942355421860867569
+      Hatake Kakashi_132: 6792115571082598887
+      Hatake Kakashi_133: -2695152495005229479
+      Hatake Kakashi_134: 6031540573099508893
+      Hatake Kakashi_135: 3982203452440633414
+      Hatake Kakashi_136: 3265914519515919384
+      Hatake Kakashi_137: 8802731795833096800
+      Hatake Kakashi_138: 8422213084736412825
+      Hatake Kakashi_139: 7366290086694453609
+      Hatake Kakashi_14: -5108143573762059311
+      Hatake Kakashi_140: -774899578706473431
+      Hatake Kakashi_141: 1321822215387992251
+      Hatake Kakashi_142: -6570627070984541964
+      Hatake Kakashi_143: 2252359080019616813
+      Hatake Kakashi_144: 6250576004249497804
+      Hatake Kakashi_145: 4904587011887467871
+      Hatake Kakashi_146: -6622341950809326270
+      Hatake Kakashi_147: -8858109400012400969
+      Hatake Kakashi_148: -2047390764887636615
+      Hatake Kakashi_149: -6685690626323311754
+      Hatake Kakashi_15: -4990567624629121683
+      Hatake Kakashi_150: 4638862518226163060
+      Hatake Kakashi_151: 5980452501617542944
+      Hatake Kakashi_152: -507333202708219692
+      Hatake Kakashi_153: 5825021473333298633
+      Hatake Kakashi_154: 2823830662030879118
+      Hatake Kakashi_155: -4758873741701791892
+      Hatake Kakashi_156: -5816403969313847494
+      Hatake Kakashi_157: 8944038882121975524
+      Hatake Kakashi_158: 1408893380130755941
+      Hatake Kakashi_159: -4851969977843005582
+      Hatake Kakashi_16: 5177700907630172332
+      Hatake Kakashi_160: -5099348148585705577
+      Hatake Kakashi_161: 4852226362526355904
+      Hatake Kakashi_162: -402805250783096831
+      Hatake Kakashi_163: 1923769267314662886
+      Hatake Kakashi_164: 6227351574926571862
+      Hatake Kakashi_165: -5961925813490712508
+      Hatake Kakashi_166: 7632812124829236604
+      Hatake Kakashi_167: 7607255262652691590
+      Hatake Kakashi_168: 476219418157375047
+      Hatake Kakashi_169: -2109240733390067869
+      Hatake Kakashi_17: -4572403700232067102
+      Hatake Kakashi_170: -6253432444206820895
+      Hatake Kakashi_171: 7325472547000600200
+      Hatake Kakashi_172: -8658995090731041183
+      Hatake Kakashi_173: 5980766886968669486
+      Hatake Kakashi_174: 7426413533613057658
+      Hatake Kakashi_175: 1498817915723203413
+      Hatake Kakashi_176: -1866968617718959788
+      Hatake Kakashi_177: 3963549193761318505
+      Hatake Kakashi_178: 6446931584268627709
+      Hatake Kakashi_179: -7273857196867898154
+      Hatake Kakashi_18: -3048399912084078530
+      Hatake Kakashi_180: -2908273955386708496
+      Hatake Kakashi_181: 4702867798521509405
+      Hatake Kakashi_182: 2889144735982523363
+      Hatake Kakashi_183: 4683074832298487690
+      Hatake Kakashi_184: 6916947767723936324
+      Hatake Kakashi_185: -2208118235529697441
+      Hatake Kakashi_186: -1268932344144796049
+      Hatake Kakashi_187: 9024209419780855581
+      Hatake Kakashi_188: -5615738985188262950
+      Hatake Kakashi_189: 4611069818581388577
+      Hatake Kakashi_19: -1725675737454078843
+      Hatake Kakashi_190: 3412524289675926552
+      Hatake Kakashi_191: 6255894103378319214
+      Hatake Kakashi_192: 3511690426502378737
+      Hatake Kakashi_193: 3582199807259619369
+      Hatake Kakashi_194: 1350412935056757630
+      Hatake Kakashi_195: -4020554734333310360
+      Hatake Kakashi_197: -7839298573951989386
+      Hatake Kakashi_2: -4126593185197540997
+      Hatake Kakashi_20: 7264394422254678099
+      Hatake Kakashi_200: -6189089126156482050
+      Hatake Kakashi_201: 4992507291302005690
+      Hatake Kakashi_202: 683667334187457634
+      Hatake Kakashi_204: 6929078796020408603
+      Hatake Kakashi_207: 7782869658332179895
+      Hatake Kakashi_208: -8260434039658709224
+      Hatake Kakashi_209: 2498555479899533241
+      Hatake Kakashi_21: -4646399056392438246
+      Hatake Kakashi_210: -6616925232954662968
+      Hatake Kakashi_211: -57902802777166033
+      Hatake Kakashi_216: 1619956038719821692
+      Hatake Kakashi_217: -2028761801075027901
+      Hatake Kakashi_219: 8244114054644964528
+      Hatake Kakashi_22: 7566903281129103692
+      Hatake Kakashi_221: -1376076491125305480
+      Hatake Kakashi_222: 5861053619708438917
+      Hatake Kakashi_224: 3152511025700041593
+      Hatake Kakashi_228: -2793161740424423969
+      Hatake Kakashi_229: 2950541335781446123
+      Hatake Kakashi_23: -5009317913991077739
+      Hatake Kakashi_234: -1338639851993192349
+      Hatake Kakashi_235: -2265117788014821727
+      Hatake Kakashi_236: -3778635568857830168
+      Hatake Kakashi_237: 4468993591620922297
+      Hatake Kakashi_238: 3315394928720458694
+      Hatake Kakashi_239: 7481777310873095994
+      Hatake Kakashi_24: -5007516384879869035
+      Hatake Kakashi_240: -5155998630251182349
+      Hatake Kakashi_243: -4475998252328107801
+      Hatake Kakashi_244: -2038418902988922617
+      Hatake Kakashi_245: -6986011109345018398
+      Hatake Kakashi_246: -6773301261685723173
+      Hatake Kakashi_247: 7959902548949250418
+      Hatake Kakashi_248: -6068075366455072875
+      Hatake Kakashi_249: -1036809788542787044
+      Hatake Kakashi_25: -8446212005007300761
+      Hatake Kakashi_250: -7646689081939551147
+      Hatake Kakashi_251: -5261885861842047052
+      Hatake Kakashi_252: -6921802100923343434
+      Hatake Kakashi_253: -4744137145845937860
+      Hatake Kakashi_254: -813488984456816010
+      Hatake Kakashi_255: -1399787133519179912
+      Hatake Kakashi_256: 3888395411954126610
+      Hatake Kakashi_257: 3011086685036871921
+      Hatake Kakashi_258: 10329314144361886
+      Hatake Kakashi_259: 6341461297835027965
+      Hatake Kakashi_26: 4256046169427849689
+      Hatake Kakashi_260: -5732724503902865395
+      Hatake Kakashi_261: 1082783586856026040
+      Hatake Kakashi_262: 3511418652848421685
+      Hatake Kakashi_263: -717563944033525127
+      Hatake Kakashi_264: 3030015148186432779
+      Hatake Kakashi_265: -7271169256912194118
+      Hatake Kakashi_266: 3802162580914061882
+      Hatake Kakashi_267: 1161847143674921021
+      Hatake Kakashi_268: -8689268077150423875
+      Hatake Kakashi_269: -1892335294206752538
+      Hatake Kakashi_27: -4512266961506956809
+      Hatake Kakashi_270: 2844055291311439775
+      Hatake Kakashi_271: 2682480033826525869
+      Hatake Kakashi_272: 7910574147370788582
+      Hatake Kakashi_273: 1945660844579958350
+      Hatake Kakashi_274: 3801235638075774923
+      Hatake Kakashi_275: 1261044344074961757
+      Hatake Kakashi_276: -2210393127810347866
+      Hatake Kakashi_277: 4031334390642047827
+      Hatake Kakashi_278: 8796544965694503034
+      Hatake Kakashi_279: 6236037597760078219
+      Hatake Kakashi_28: -6193328532066706398
+      Hatake Kakashi_280: 8711687368475883252
+      Hatake Kakashi_281: -2889677424232269505
+      Hatake Kakashi_282: 8152623411190021060
+      Hatake Kakashi_283: -4281605515912640812
+      Hatake Kakashi_284: 3491125249045788597
+      Hatake Kakashi_285: -5615689765737163373
+      Hatake Kakashi_286: -2373589705655687757
+      Hatake Kakashi_29: -4766686458379920129
+      Hatake Kakashi_3: -9145270001389017367
+      Hatake Kakashi_30: 58889730081983154
+      Hatake Kakashi_31: -4967742361025024348
+      Hatake Kakashi_32: -3375124161222017004
+      Hatake Kakashi_33: -2783248485191173668
+      Hatake Kakashi_34: 1785952641355625604
+      Hatake Kakashi_35: -8463917612221177711
+      Hatake Kakashi_36: -8336304253130757212
+      Hatake Kakashi_37: -5272550486305202663
+      Hatake Kakashi_38: -7559036138228120571
+      Hatake Kakashi_39: -6790682323249896632
+      Hatake Kakashi_4: 5081829943748505154
+      Hatake Kakashi_40: -6802760337880989454
+      Hatake Kakashi_41: -8925435133042929776
+      Hatake Kakashi_42: -4711370063210580106
+      Hatake Kakashi_43: 167434347285417322
+      Hatake Kakashi_44: -187414100034283128
+      Hatake Kakashi_45: -7398591731231570851
+      Hatake Kakashi_46: 7633447475525056214
+      Hatake Kakashi_47: 8874760894168572176
+      Hatake Kakashi_48: -3982550290780607066
+      Hatake Kakashi_49: -7032463375869646774
+      Hatake Kakashi_5: -6611755590145545715
+      Hatake Kakashi_50: 8438714330765236424
+      Hatake Kakashi_51: 6109310217064462412
+      Hatake Kakashi_52: 7080758595847315097
+      Hatake Kakashi_53: 2536115726518790759
+      Hatake Kakashi_54: -2113308473108582179
+      Hatake Kakashi_55: 8397239979231056888
+      Hatake Kakashi_56: -6654625187592445610
+      Hatake Kakashi_57: 915508654750351756
+      Hatake Kakashi_58: 4347943396596329469
+      Hatake Kakashi_59: 1424393884956253719
+      Hatake Kakashi_6: -4622298449562056123
+      Hatake Kakashi_60: 2221786888541069394
+      Hatake Kakashi_61: 1088364998493609779
+      Hatake Kakashi_62: 3319549189166623183
+      Hatake Kakashi_63: 3556898446851135930
+      Hatake Kakashi_64: 332501948882814955
+      Hatake Kakashi_65: -2570547202776899998
+      Hatake Kakashi_66: -2708843970008540665
+      Hatake Kakashi_67: 2940111289614200542
+      Hatake Kakashi_68: -736437881502340696
+      Hatake Kakashi_69: 5419755368411016687
+      Hatake Kakashi_7: 5145120942399937115
+      Hatake Kakashi_70: -8218133562722495621
+      Hatake Kakashi_71: -7757791797771107811
+      Hatake Kakashi_72: -5063295303687885022
+      Hatake Kakashi_73: -1101023764615587517
+      Hatake Kakashi_74: -688749105982924215
+      Hatake Kakashi_75: 5505251414120480929
+      Hatake Kakashi_76: -6365157002997130450
+      Hatake Kakashi_77: -6448412119896234556
+      Hatake Kakashi_78: 4913099934693036050
+      Hatake Kakashi_79: -4060466502648322194
+      Hatake Kakashi_8: -1187414503042038341
+      Hatake Kakashi_80: 3737025512950737329
+      Hatake Kakashi_81: 2388089094522762258
+      Hatake Kakashi_82: 666870375094912475
+      Hatake Kakashi_86: 1420125936985075972
+      Hatake Kakashi_87: -5824898235387078181
+      Hatake Kakashi_88: -3070752858119372147
+      Hatake Kakashi_89: 7958490973069645516
+      Hatake Kakashi_9: -3712648784399907824
+      Hatake Kakashi_90: -8554028151434952250
+      Hatake Kakashi_91: -2038309823489501040
+      Hatake Kakashi_92: 1169466801806158671
+      Hatake Kakashi_93: -6404313530339810404
+      Hatake Kakashi_94: 7352778272715744793
+      Hatake Kakashi_95: 6332411620346363071
+      Hatake Kakashi_96: 1616348326056716817
+      Hatake Kakashi_97: -5763631517362441406
+      Hatake Kakashi_98: -6696448581171121310
+      Hatake Kakashi_99: 4303312484507270871
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

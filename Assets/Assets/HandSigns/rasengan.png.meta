@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7f1e4aff62685374fb283c1bcac3afa6
+guid: 17f35ef03ee448140b24f4ad274bc4cb
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -622,7 +622,27 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      rasengan_0: -6337454245738838097
+      rasengan_1: -5389208130366042752
+      rasengan_10: 1242738769367075119
+      rasengan_11: 7237712399639209148
+      rasengan_12: -5091257469856963953
+      rasengan_13: 3406303512694112456
+      rasengan_14: 195753076393863817
+      rasengan_15: -2902586388834433664
+      rasengan_16: 983752744597682392
+      rasengan_17: -1532875274846397506
+      rasengan_18: -1187818909981500458
+      rasengan_19: 3116258266648338670
+      rasengan_2: -6880310863396061912
+      rasengan_3: 8817469012336508126
+      rasengan_4: 3009934766445781331
+      rasengan_5: 8266568547073406712
+      rasengan_6: 8155737768169292440
+      rasengan_7: 6860872977036853217
+      rasengan_8: 6697026156031172283
+      rasengan_9: -4095282116520701626
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

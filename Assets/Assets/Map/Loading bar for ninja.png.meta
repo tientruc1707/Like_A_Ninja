@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a4358fd082424da418b0e64e110f68e5
+guid: 4e395d4f8919e0a48848b705f4244432
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -522,7 +522,23 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Loading bar for ninja_0: -1223993873231624068
+      Loading bar for ninja_1: -6147756535260444657
+      Loading bar for ninja_10: 3401352739657220701
+      Loading bar for ninja_11: 1128865053648935
+      Loading bar for ninja_12: 4606397611414065088
+      Loading bar for ninja_13: 5423678063336525889
+      Loading bar for ninja_14: -4214340126167478265
+      Loading bar for ninja_15: 8524826538722417672
+      Loading bar for ninja_2: 728751776718767647
+      Loading bar for ninja_3: -7623916373573796802
+      Loading bar for ninja_4: 8086038687922253852
+      Loading bar for ninja_5: 3450829696471781357
+      Loading bar for ninja_6: 7902952485516420518
+      Loading bar for ninja_7: 681232264697734204
+      Loading bar for ninja_8: -5273382297900132487
+      Loading bar for ninja_9: -6748707683770000791
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
