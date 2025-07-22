@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: de8f8f4763ebeff489ee2bb2195f1490, type: 3}
-  m_Name: Health
+  m_Name: Coin
   m_EditorClassIdentifier: 
-  itemType: 0
-  value: 20
-  normalSprite: {fileID: -2494658537653733750, guid: 237ad04078af403469ca8315c681cda3, type: 3}
-  special_1_Sprite: {fileID: 6830708167367887099, guid: 237ad04078af403469ca8315c681cda3, type: 3}
-  special_2_Sprite: {fileID: -1468978833567795113, guid: 237ad04078af403469ca8315c681cda3, type: 3}
+  itemType: 3
+  value: 0
+  normalSprite: {fileID: -3946606803792695436, guid: 237ad04078af403469ca8315c681cda3, type: 3}
+  special_1_Sprite: {fileID: -7450615584462092530, guid: 237ad04078af403469ca8315c681cda3, type: 3}
+  special_2_Sprite: {fileID: -5613174334980062954, guid: 237ad04078af403469ca8315c681cda3, type: 3}

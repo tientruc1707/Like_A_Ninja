@@ -8,9 +8,11 @@ public enum ItemType
     COIN
 }
 [CreateAssetMenu(fileName = "Item", menuName = "Scriptable Objects/Item")]
-public class Item : ScriptableObject
+public class ItemSO : ScriptableObject
 {
     public ItemType itemType;
     public int value;
-    public Sprite sprite;
+    public Sprite normalSprite;
+    public Sprite special_1_Sprite;
+    public Sprite special_2_Sprite;
 }
