@@ -90,9 +90,4 @@ public class BoardView : MonoBehaviour
         }
     }
 
-    public Vector3 GridToWorldPosition(Vector2Int gridPos)
-    {
-        return new Vector3(gridPos.x * tileSize + gridOffset.x, gridPos.y * tileSize + gridOffset.y, 0);
-    }
-
 }
