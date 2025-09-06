@@ -26,7 +26,7 @@ public class NormalItem : Item
                 prefabName = StringConstant.ITEM_PREFAB_PATH.MANA_POTION;
                 break;
             case eNormalType.SWORD:
-                prefabName = StringConstant.ITEM_PREFAB_PATH.SWORD;
+                prefabName = StringConstant.ITEM_PREFAB_PATH.SHURIKEN;
                 break;
             case eNormalType.SHIELD:
                 prefabName = StringConstant.ITEM_PREFAB_PATH.SHIELD;

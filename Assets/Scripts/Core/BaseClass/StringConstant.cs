@@ -4,7 +4,8 @@ using UnityEngine;
 
 public static class StringConstant
 {
-    public static readonly string PREFAB_EMPTY_CELL_PATH = "Prefabs/EmptyCell";
+    public static readonly string PREFAB_EMPTY_CELL_PATH = "Prefabs/Items/EmptyCell";
+    public static readonly string GAME_SETTING_PATH = "GameSetting";
     public static class CHARACTER
     {
         public static readonly string PLAYER = "Player";
@@ -31,7 +32,7 @@ public static class StringConstant
     {
         public static readonly string HEALTH_POTION = "Prefabs/Items/HealthPotion";
         public static readonly string MANA_POTION = "Prefabs/Items/ManaPotion";
-        public static readonly string SWORD = "Prefabs/Items/Sword";
+        public static readonly string SHURIKEN = "Prefabs/Items/Shuriken";
         public static readonly string SHIELD = "Prefabs/Items/Shield";
         public static readonly string ROW_CLEAR = "Prefabs/Items/RowClearItem";
         public static readonly string COLUMN_CLEAR = "Prefabs/Items/ColumnClearItem";

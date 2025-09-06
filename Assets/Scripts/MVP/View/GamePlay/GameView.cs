@@ -6,6 +6,11 @@ public class GameView : View
 {
     [SerializeField] private Button _pauseButton;
 
+    void Awake()
+    {
+        GameManager.Instance.LoadLevel();
+    }
+
     public override void Initialize()
     {
         _pauseButton.onClick.AddListener(() =>

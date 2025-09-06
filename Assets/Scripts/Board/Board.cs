@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using DG.Tweening;
 using UnityEngine;
 
-public class Board : MonoBehaviour
+public class Board
 {
     public enum eMatchDir
     {
@@ -32,20 +32,20 @@ public class Board : MonoBehaviour
         m_Height = gameSetting.BoardHeight;
 
         m_Cells = new Cell[m_Width, m_Height];
-
+        AdjustCameraToBoard(m_Width, m_Height);
         CreateBoard();
     }
 
     private void CreateBoard()
     {
-        Vector3 rootPos = new Vector3(-m_Width / 2f + 0.5f, -m_Height / 2f + 0.5f, 0);
+        Vector3 rootPos = new(-m_Width / 2f + 0.5f, -m_Height / 2f - 3.5f, 0);
         GameObject emptyCellPrefab = Resources.Load<GameObject>(StringConstant.PREFAB_EMPTY_CELL_PATH);
 
         for (int x = 0; x < m_Width; x++)
         {
             for (int y = 0; y < m_Height; y++)
             {
-                GameObject cellObj = Instantiate(emptyCellPrefab, m_Root);
+                GameObject cellObj = GameObject.Instantiate(emptyCellPrefab, m_Root);
                 cellObj.transform.position = rootPos + new Vector3(x, y, 0);
                 cellObj.name = $"Cell_{x}_{y}";
 
@@ -74,6 +74,21 @@ public class Board : MonoBehaviour
         }
     }
 
+    void AdjustCameraToBoard(int boardWidth, int boardHeight)
+    {
+        float screenRatio = Screen.width / (float)Screen.height;
+        float boardRatio = boardWidth / (float)boardHeight;
+
+        if (boardRatio > screenRatio)
+        {
+            Camera.main.orthographicSize = boardWidth / screenRatio / 2f;
+        }
+        else
+        {
+            Camera.main.orthographicSize = boardHeight / 2f;
+        }
+    }
+
     #region Main Logic
     public void Swap(Cell cell1, Cell cell2, Action callback)
     {
@@ -84,8 +99,8 @@ public class Board : MonoBehaviour
         cell2.Free();
         cell2.SetItem(item1);
 
-        item1.View.DOMove(cell2.transform.position, 0.2f);
-        item2.View.DOMove(cell1.transform.position, 0.2f).OnComplete(() =>
+        item1.View.DOMove(cell2.transform.position, 0.3f);
+        item2.View.DOMove(cell1.transform.position, 0.3f).OnComplete(() =>
         {
             callback?.Invoke();
         });
@@ -150,13 +165,13 @@ public class Board : MonoBehaviour
             {
                 Cell cell = m_Cells[x, y];
                 NormalItem item = new();
-                List<NormalItem.eNormalType> tyoes = new();
+                List<NormalItem.eNormalType> types = new();
 
                 if (cell.NeighbourDown != null)
                 {
                     if (cell.NeighbourDown.Item is NormalItem nitem)
                     {
-                        tyoes.Add(nitem.NormalType);
+                        types.Add(nitem.NormalType);
                     }
                 }
 
@@ -164,11 +179,11 @@ public class Board : MonoBehaviour
                 {
                     if (cell.NeighbourLeft.Item is NormalItem nitem)
                     {
-                        tyoes.Add(nitem.NormalType);
+                        types.Add(nitem.NormalType);
                     }
                 }
 
-                item.SetType(Utils.GetRandomNormalTypeExcept(tyoes.ToArray()));
+                item.SetType(Utils.GetRandomNormalTypeExcept(types.ToArray()));
                 item.SetView();
                 item.SetViewRoot(m_Root);
 
@@ -178,7 +193,7 @@ public class Board : MonoBehaviour
         }
     }
 
-    internal void Suffle()
+    internal void Shuffle()
     {
         List<Item> items = new();
 

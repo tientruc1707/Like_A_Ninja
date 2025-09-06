@@ -26,6 +26,10 @@ public class Item
         return string.Empty;
     }
 
+    public string GetItemTypeName()
+    {
+        return this.GetPrefabName();
+    }
     #region Properties
     internal void SetCell(Cell cell) { Cell = cell; }
 

@@ -20,7 +20,7 @@ public class Cell : MonoBehaviour
         this.Y = y;
     }
 
-    public bool IsNeighbor(Cell other)
+    public bool IsNeighbour(Cell other)
     {
         return X == other.X && Mathf.Abs(Y - other.Y) == 1 ||
                Y == other.Y && Mathf.Abs(X - other.X) == 1;
@@ -31,10 +31,7 @@ public class Cell : MonoBehaviour
     public void SetItem(Item item)
     {
         Item = item;
-        if (item != null)
-        {
-            item.SetCell(this);
-        }
+        item?.SetCell(this);
     }
 
     public void SetItemPosition(bool withAnimationAppear)
