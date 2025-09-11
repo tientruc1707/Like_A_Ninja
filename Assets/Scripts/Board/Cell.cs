@@ -31,7 +31,7 @@ public class Cell : MonoBehaviour
     public void SetItem(Item item)
     {
         Item = item;
-        item?.SetCell(this);
+        item.SetCell(this);
     }
 
     public void SetItemPosition(bool withAnimationAppear)
@@ -41,13 +41,10 @@ public class Cell : MonoBehaviour
             Item.AnimationAppear();
     }
 
-    internal void ClearItem()
+    internal void Clear()
     {
-        if (Item != null)
-        {
-            Item.CLear();
-            Item = null;
-        }
+        Item?.CLear();
+        Item = null;
     }
 
     internal bool IsSameType(Cell other)
@@ -58,11 +55,10 @@ public class Cell : MonoBehaviour
     #region Item Actions
     internal void DestroyItem()
     {
-        if (Item != null)
-        {
-            Item.AnimationDestroy();
-            Item = null;
-        }
+        if(Item == null) return;
+        
+        Item.AnimationDestroy();
+        Item = null;
     }
 
     internal void AnimationForHint()

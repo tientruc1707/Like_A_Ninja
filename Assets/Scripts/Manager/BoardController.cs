@@ -138,12 +138,12 @@ public class BoardController : MonoBehaviour
     {
         if (cell1.Item is SpecialItem)
         {
-            cell1.ClearItem();
+            cell1.DestroyItem();
             StartCoroutine(ShiftDownItemsCoroutine());
         }
         else if (cell2.Item is SpecialItem)
         {
-            cell2.ClearItem();
+            cell2.DestroyItem();
             StartCoroutine(ShiftDownItemsCoroutine());
         }
         else
@@ -155,7 +155,7 @@ public class BoardController : MonoBehaviour
             matches.AddRange(cells1);
             matches.AddRange(cells2);
             matches = matches.Distinct().ToList();
-            if (matches.Count == 0) Debug.Log("no matches");
+
             if (matches.Count < m_gameSetting.MatchMin)
             {
                 m_board.Swap(cell1, cell2, () =>
@@ -199,20 +199,27 @@ public class BoardController : MonoBehaviour
 
     private List<Cell> GetMatches(Cell cell)
     {
-        List<Cell> result = m_board.GetMatchCells(cell).Item1;
-        return result;
+        List<Cell> listHor = m_board.GetHorizontalMatches(cell);
+        if (listHor.Count < m_gameSetting.MatchMin)
+            listHor.Clear();
+
+        List<Cell> listVer = m_board.GetVerticalMatches(cell);
+        if (listVer.Count < m_gameSetting.MatchMin)
+            listVer.Clear();
+
+        return listHor.Concat(listVer).Distinct().ToList();
     }
 
     private void CollapseMatches(List<Cell> matches, Cell cellEnd)
     {
         for (int i = 0; i < matches.Count; i++)
         {
-            matches[i].ClearItem();
+            matches[i].DestroyItem();
         }
 
         if (matches.Count > m_gameSetting.MatchMin)
         {
-            m_board.ConvertNormalToSpecial(cellEnd);
+            m_board.ConvertNormalToSpecial(matches, cellEnd);
         }
 
         StartCoroutine(ShiftDownItemsCoroutine());
@@ -220,7 +227,7 @@ public class BoardController : MonoBehaviour
 
     private IEnumerator ShiftDownItemsCoroutine()
     {
-        m_board.ClearAndDropItems();
+        m_board.ShiftDownItems();
 
         yield return new WaitForSeconds(0.2f);
 

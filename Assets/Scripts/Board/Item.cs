@@ -51,26 +51,25 @@ public class Item
 
     public void SetSortingLayerHigher()
     {
-        if (View)
+        if (View == null) return;
+
+        SpriteRenderer sp = View.GetComponent<SpriteRenderer>();
+        if (sp)
         {
-            SpriteRenderer spriteRenderer = View.GetComponent<SpriteRenderer>();
-            if (spriteRenderer)
-            {
-                spriteRenderer.sortingOrder = 1;
-            }
+            sp.sortingOrder = 1;
         }
     }
 
     public void SetSortingLayerLower()
     {
-        if (View)
+        if (View == null) return;
+
+        SpriteRenderer sp = View.GetComponent<SpriteRenderer>();
+        if (sp)
         {
-            SpriteRenderer spriteRenderer = View.GetComponent<SpriteRenderer>();
-            if (spriteRenderer)
-            {
-                spriteRenderer.sortingOrder = 0;
-            }
+            sp.sortingOrder = 0;
         }
+
     }
     #endregion
 
@@ -78,22 +77,24 @@ public class Item
 
     internal void AnimationMoveToPosition()
     {
-        if (View == null || Cell == null) return;
-        View.DOMove(Cell.transform.position, 0.2f).SetEase(Ease.InOutSine);
+        if (View == null) return;
+        View.DOMove(Cell.transform.position, 0.2f);
     }
 
     internal void AnimationAppear()
     {
         if (View == null) return;
-        View.localScale = Vector3.zero;
-        View.DOScale(Vector3.one, 0.2f).SetEase(Ease.OutBack);
+
+        Vector3 originalScale = View.localScale;
+        View.localScale = Vector3.one * 0.1f;
+        View.DOScale(originalScale, 0.1f);
     }
 
     internal virtual void AnimationDestroy()
     {
         if (View)
         {
-            View.DOScale(Vector3.zero, 0.2f).SetEase(Ease.InBack).OnComplete(() =>
+            View.DOScale(0.1f, 0.1f).OnComplete(() =>
             {
                 GameObject.Destroy(View.gameObject);
                 View = null;
@@ -105,7 +106,7 @@ public class Item
     {
         if (View)
         {
-            View.DOPunchScale(Vector3.one * 0.2f, 0.1f).SetLoops(-1);
+            View.DOPunchScale(View.localScale * 0.1f, 0.1f).SetLoops(-1);
         }
     }
 
