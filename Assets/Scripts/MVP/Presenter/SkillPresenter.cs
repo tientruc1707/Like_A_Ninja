@@ -34,7 +34,6 @@ public class SkillPresenter : MonoBehaviour
     public void CompleteExecution(int skillPos)
     {
         EventSystem.Instance.TriggerEvent(StringConstant.EVENT.UNPAUSE_TIMER);
-        EventSystem.Instance.TriggerEvent(StringConstant.EVENT.CHANG_SIDE);
         _owner.GetComponent<Animator>().SetBool($"Skill{skillPos}", false);
         this.gameObject.SetActive(false);
     }

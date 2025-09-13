@@ -1,9 +1,7 @@
-
 using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using DG.Tweening;
 using UnityEngine;
 
 public class BoardController : MonoBehaviour
@@ -30,6 +28,7 @@ public class BoardController : MonoBehaviour
 
     private bool m_gameOver;
 
+
     public void StartGame(GameSetting gameSetting)
     {
         m_gameSetting = Resources.Load<GameSetting>(StringConstant.GAME_SETTING_PATH);
@@ -46,23 +45,6 @@ public class BoardController : MonoBehaviour
         m_board.FillNewBoard();
         FindMatchesAndCollapse();
     }
-
-    // private void OnGameStateChange(GameManager.eStateGame state)
-    // {
-    //     switch (state)
-    //     {
-    //         case GameManager.eStateGame.GAME_STARTED:
-    //             IsBusy = false;
-    //             break;
-    //         case GameManager.eStateGame.PAUSE:
-    //             IsBusy = true;
-    //             break;
-    //         case GameManager.eStateGame.GAME_OVER:
-    //             m_gameOver = true;
-    //             StopHints();
-    //             break;
-    //     }
-    // }
 
     public void Update()
     {
@@ -86,8 +68,6 @@ public class BoardController : MonoBehaviour
             {
                 m_isDragging = true;
                 m_hitCollider = hit.collider;
-                Cell c1 = m_hitCollider.GetComponent<Cell>();
-                c1.Item.View.DOScale(Vector3.one * 1.2f, 0.1f).SetLoops(2, LoopType.Yoyo);
             }
         }
 
@@ -126,6 +106,7 @@ public class BoardController : MonoBehaviour
                 ResetRayCast();
             }
         }
+
     }
 
     private void ResetRayCast()
@@ -194,6 +175,8 @@ public class BoardController : MonoBehaviour
                 //StartCoroutine(RefillBoardCoroutine());
                 StartCoroutine(ShuffleBoardCoroutine());
             }
+
+            EventSystem.Instance.TriggerEvent(StringConstant.EVENT.CHANG_SIDE);
         }
     }
 

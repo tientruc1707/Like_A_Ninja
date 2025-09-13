@@ -12,8 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de8f8f4763ebeff489ee2bb2195f1490, type: 3}
   m_Name: RowClear
   m_EditorClassIdentifier: 
-  itemType: 0
+  itemType: 4
   value: 0
-  normalSprite: {fileID: -7540856712183265703, guid: 7dfe9a875469b8744b9e5e0e4e543d4d, type: 3}
-  special_1_Sprite: {fileID: 0}
-  special_2_Sprite: {fileID: 0}
+  sprite: {fileID: -7540856712183265703, guid: 7dfe9a875469b8744b9e5e0e4e543d4d, type: 3}
