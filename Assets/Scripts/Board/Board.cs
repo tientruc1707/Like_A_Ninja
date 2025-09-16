@@ -278,7 +278,6 @@ public class Board
         return list;
     }
 
-
     public List<Cell> GetVerticalMatches(Cell cell)
     {
         List<Cell> list = new List<Cell>();

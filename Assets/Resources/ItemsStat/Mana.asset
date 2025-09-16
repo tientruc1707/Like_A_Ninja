@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Mana
   m_EditorClassIdentifier: 
   itemType: 1
-  value: 20
+  value: 5
   sprite: {fileID: 1960105751604888665, guid: 059e57eca0ef86048a17ad221bd67f03, type: 3}
