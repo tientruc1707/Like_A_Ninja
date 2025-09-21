@@ -15,7 +15,8 @@ public static class StringConstant
     public static class EVENT
     {
         public static readonly string LOAD_SCENE = "LoadScene";
-        public static readonly string END_GAME = "EndGame";
+        public static readonly string WIN_GAME = "WinGame";
+        public static readonly string LOSE_GAME = "LoseGame";
         public static readonly string PAUSE_TIMER = "PauseTimer";
         public static readonly string UNPAUSE_TIMER = "UnpauseTimer";
         public static readonly string CHANG_SIDE = "ChangeSide";

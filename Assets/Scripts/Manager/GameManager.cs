@@ -10,9 +10,9 @@ public class GameManager : Singleton<GameManager>
 {
     public static class AnimationState
     {
-        public static readonly int Attack = Animator.StringToHash("Attack");
-        public static readonly int MiniHurt = Animator.StringToHash("MiniHurt");
-        public static readonly int BigHurt = Animator.StringToHash("BigHurt");
+        public static readonly int ATTACK = Animator.StringToHash("Attack");
+        public static readonly int MINIHURT = Animator.StringToHash("MiniHurt");
+        public static readonly int BIGHURT = Animator.StringToHash("BigHurt");
 
     }
 

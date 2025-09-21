@@ -7,6 +7,7 @@ public class SkillPresenter : MonoBehaviour
     public Skill skillModel;
     [SerializeField] private Animator _animator;
     [SerializeField] private ManaPresenter _owner;
+
     public void StartPerformingSkill()
     {
         this.gameObject.SetActive(true);
@@ -19,7 +20,7 @@ public class SkillPresenter : MonoBehaviour
             collision.CompareTag(StringConstant.CHARACTER.ENEMY))
         {
             CharacterPresenter character = collision.GetComponent<CharacterPresenter>();
-            character.TakeDamage(skillModel.damage, GameManager.AnimationState.BigHurt);
+            character.TakeDamage(skillModel.damage, GameManager.AnimationState.BIGHURT);
         }
 
     }
@@ -27,7 +28,7 @@ public class SkillPresenter : MonoBehaviour
     void OnTriggerExit2D(Collider2D collision)
     {
         CharacterPresenter character = collision.GetComponent<CharacterPresenter>();
-        character.EndTakingDamage(GameManager.AnimationState.BigHurt);
+        character.EndTakingDamage(GameManager.AnimationState.BIGHURT);
     }
 
     //added on skill's animation

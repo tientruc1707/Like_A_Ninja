@@ -24,7 +24,7 @@ public class HealthPresenter : MonoBehaviour
     {
         return _health.CurrentHealth;
     }
-    
+
     public void SetSlider(Slider slider)
     {
         _healthSlider = slider;

@@ -514,7 +514,7 @@ public class Board
                 }
             }
 
-            if (result.Count > 0) break;
+            if (result.Count > 3) break;
         }
 
         return result;

@@ -108,6 +108,23 @@ public class BoardController : MonoBehaviour
 
     }
 
+    private void AutoPlay()
+    {
+        if (m_potentialMatch.Count > 0 && m_hintIsShown)
+        {
+            Cell cell1 = m_potentialMatch[1];
+            Cell cell2 = m_potentialMatch[3];
+            StopHints();
+            IsBusy = true;
+            SetSortingLayer(cell1, cell2);
+            m_board.Swap(cell1, cell2, () =>
+            {
+                FindMatchesAndCollapse(cell1, cell2);
+            });
+            ResetRayCast();
+        }
+    }
+
     private void ResetRayCast()
     {
         m_isDragging = false;
@@ -278,20 +295,4 @@ public class BoardController : MonoBehaviour
         m_potentialMatch.Clear();
     }
 
-    private void AutoPlay()
-    {
-        if (m_potentialMatch.Count > 0)
-        {
-            Cell cell1 = m_potentialMatch[0];
-            Cell cell2 = m_potentialMatch[1];
-            StopHints();
-            IsBusy = true;
-            SetSortingLayer(cell1, cell2);
-            m_board.Swap(cell1, cell2, () =>
-            {
-                FindMatchesAndCollapse(cell1, cell2);
-            });
-            ResetRayCast();
-        }
-    }
 }
