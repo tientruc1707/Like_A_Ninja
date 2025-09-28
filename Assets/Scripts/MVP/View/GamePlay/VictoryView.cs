@@ -13,6 +13,7 @@ public class VictoryView : View
     }
     public override void Initialize()
     {
+        AudioManager.Instance.PlaySFX(StringConstant.SoundName.SFX.GAME_WIN);
         _mainMenuButton.onClick.AddListener(() =>
         {
             UiManager.Instance.LoadScene("MainMenu");

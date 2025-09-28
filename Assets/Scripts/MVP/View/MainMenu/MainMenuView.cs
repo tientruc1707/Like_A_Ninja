@@ -37,6 +37,7 @@ public class MainMenuView : View
 
     public void Start()
     {
+        AudioManager.Instance.PlayBackgroundSound(StringConstant.SoundName.BACKGROUND.MAIN_THEME);
         UiManager.Instance.OnSceneLoaded();
         UiManager.Instance.RegisterStartingView(this);
         GameManager.Instance.SetCharacterKey("Uchiha Itachi");

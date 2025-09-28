@@ -12,6 +12,7 @@ public static class StringConstant
         public static readonly string ENEMY = "Enemy";
         public static readonly string NPC = "NPC";
     }
+
     public static class EVENT
     {
         public static readonly string LOAD_SCENE = "LoadScene";
@@ -38,5 +39,24 @@ public static class StringConstant
         public static readonly string ROW_CLEAR = "Prefabs/Items/RowClearItem";
         public static readonly string COLUMN_CLEAR = "Prefabs/Items/ColumnClearItem";
         public static readonly string ALL_CLEAR = "Prefabs/Items/AllClearItem";
+    }
+
+    public class SoundName
+    {
+        public static class BACKGROUND
+        {
+            public static readonly string MAIN_THEME = "MainTheme";
+            public static readonly string BATTLE_THEME = "BattleTheme";
+        }
+        public static class SFX
+        {
+            public static readonly string SWAP = "Swap";
+            public static readonly string FAIL_SWAP = "FailSwap";
+            public static readonly string CLEAR = "Clear";
+            public static readonly string ATTACK = "Attack";
+            public static readonly string BUTTON_CLICK = "ButtonClick";
+            public static readonly string GAME_WIN = "GameWin";
+            public static readonly string GAME_LOSE = "GameLose";
+        }
     }
 }

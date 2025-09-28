@@ -36,7 +36,7 @@ public class AudioManager : Singleton<AudioManager>
         backgroundAudioSource.Stop();
     }
 
-    public void PlaySoundEffect(string name)
+    public void PlaySFX(string name)
     {
         Sound sound = System.Array.Find(SFXSounds, s => s.name == name);
         if (sound == null)

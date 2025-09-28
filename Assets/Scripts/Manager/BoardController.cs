@@ -84,6 +84,7 @@ public class BoardController : MonoBehaviour
                         {
                             IsBusy = true;
                             SetSortingLayer(c1, c2);
+                            AudioManager.Instance.PlaySFX(StringConstant.SoundName.SFX.SWAP);
                             m_board.Swap(c1, c2, () =>
                             {
                                 FindMatchesAndCollapse(c1, c2);
@@ -155,6 +156,7 @@ public class BoardController : MonoBehaviour
 
             if (matches.Count < m_gameSetting.MatchMin)
             {
+                AudioManager.Instance.PlaySFX(StringConstant.SoundName.SFX.FAIL_SWAP);
                 m_board.Swap(cell1, cell2, () =>
                 {
                     IsBusy = false;

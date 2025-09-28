@@ -29,6 +29,7 @@ public class GameView : View
 
     public override void Initialize()
     {
+        AudioManager.Instance.PlayBackgroundSound(StringConstant.SoundName.BACKGROUND.BATTLE_THEME);
         _pauseButton.onClick.AddListener(() =>
         {
             Time.timeScale = 0;

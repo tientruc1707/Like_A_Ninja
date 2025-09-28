@@ -28,6 +28,11 @@ public class CharacterPresenter : MonoBehaviour
 
     public void UseSkill(int skillPosition)
     {
+        if (_mana.GetCurrentMana() < _skills[skillPosition].skillModel.manaCost)
+        {
+            Debug.Log("Not enough mana");
+            return;
+        }
         EventSystem.Instance.TriggerEvent(StringConstant.EVENT.PAUSE_TIMER);
         _animator.SetBool($"Skill{skillPosition + 1}", true);
     }
@@ -45,6 +50,7 @@ public class CharacterPresenter : MonoBehaviour
 
     public void Attack()
     {
+        AudioManager.Instance.PlaySFX(StringConstant.SoundName.SFX.ATTACK);
         EventSystem.Instance.TriggerEvent(StringConstant.EVENT.PAUSE_TIMER);
         _animator.SetTrigger(GameManager.AnimationState.ATTACK);
     }

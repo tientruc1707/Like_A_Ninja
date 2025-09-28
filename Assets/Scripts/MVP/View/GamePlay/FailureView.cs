@@ -11,6 +11,8 @@ public class FailureView : View
 
     public override void Initialize()
     {
+        AudioManager.Instance.PlaySFX(StringConstant.SoundName.SFX.GAME_LOSE);
+
         _restartLevelButton.onClick.AddListener(() =>
         {
             UiManager.Instance.LoadScene(SceneManager.GetActiveScene().name);

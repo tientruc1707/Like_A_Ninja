@@ -55,8 +55,8 @@ public class Cell : MonoBehaviour
     #region Item Actions
     internal void DestroyItem()
     {
-        if(Item == null) return;
-        
+        if (Item == null) return;
+        AudioManager.Instance.PlaySFX(StringConstant.SoundName.SFX.CLEAR);
         Item.AnimationDestroy();
         Item = null;
     }
