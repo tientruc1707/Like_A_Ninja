@@ -108,7 +108,7 @@ public class GameModel : MonoBehaviour
         _enemy.GetComponent<ManaPresenter>().SetSlider(_enemyManaSlider);
         _enemy.GetComponent<HealthPresenter>().SetSlider(_enemyHealthSlider);
         _enemy.transform.localScale = new Vector3(1.5f, 1.5f, 1);
-        
+
         for (int i = 0; i < _enemySkillButtons.Length; i++)
         {
             _enemySkillButtons[i].GetComponent<Image>().sprite = _enemy.SetSkillSprite(i);
@@ -121,6 +121,10 @@ public class GameModel : MonoBehaviour
             });
         }
 
+        foreach (Transform child in _enemy.transform)
+        {
+            child.localScale = new Vector3(flip ? -1 : 1, 1, 1);
+        }
     }
 
     public void SetPlayerSkillButtonsInteractable()

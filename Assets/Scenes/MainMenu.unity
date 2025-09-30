@@ -2853,8 +2853,53 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ab12ca7cc009da4ebb0e806f7d8e058, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BackgroundSounds: []
-  SFXSounds: []
+  BackgroundSounds:
+  - name: MainTheme
+    clip: {fileID: 8300000, guid: bacda32911846b34685ca221b0a43c77, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+  - name: BattleTheme
+    clip: {fileID: 8300000, guid: bacda32911846b34685ca221b0a43c77, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+  SFXSounds:
+  - name: Swap
+    clip: {fileID: 8300000, guid: c00574d7f30bd1646b4d24f3cb751b53, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+  - name: FailSwap
+    clip: {fileID: 0}
+    volume: 1
+    pitch: 1
+    loop: 0
+  - name: Clear
+    clip: {fileID: 8300000, guid: c00574d7f30bd1646b4d24f3cb751b53, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+  - name: Attack
+    clip: {fileID: 8300000, guid: a4ffd147c81eeb24fbbc0b4758d675e9, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+  - name: ButtonClick
+    clip: {fileID: 8300000, guid: a9cea665dcbc55e439fbb96ffaa0a7a1, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+  - name: GameWin
+    clip: {fileID: 8300000, guid: 50ab9d134c58a2f44a9b4d0b06481116, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+  - name: GameLose
+    clip: {fileID: 8300000, guid: c9ab5ca6d09116c43bcc65e6df5864cb, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
 --- !u!114 &1494169913
 MonoBehaviour:
   m_ObjectHideFlags: 0

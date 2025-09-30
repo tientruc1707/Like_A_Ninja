@@ -16,7 +16,7 @@ public class Weapon : MonoBehaviour
         else
         {
             GameObject target = GameObject.FindGameObjectWithTag(StringConstant.CHARACTER.PLAYER);
-            Vector2.Lerp(this.transform.position, target.transform.position, 2f);
+            transform.position = Vector2.Lerp(this.transform.position, target.transform.position, 2f);
         }
     }
     void OnTriggerEnter2D(Collider2D collision)

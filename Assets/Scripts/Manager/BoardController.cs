@@ -111,7 +111,7 @@ public class BoardController : MonoBehaviour
 
     private void AutoPlay()
     {
-        if (m_potentialMatch.Count > 0 && m_hintIsShown)
+        if (m_potentialMatch.Count > 3 && m_hintIsShown)
         {
             Cell cell1 = m_potentialMatch[1];
             Cell cell2 = m_potentialMatch[3];

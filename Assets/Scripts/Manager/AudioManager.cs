@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class AudioManager : Singleton<AudioManager>
@@ -8,8 +9,9 @@ public class AudioManager : Singleton<AudioManager>
     private AudioSource backgroundAudioSource;
     private AudioSource sfxAudioSource;
 
-    private void Start()
+    public override void Awake()
     {
+        base.Awake();
         backgroundAudioSource = gameObject.AddComponent<AudioSource>();
         backgroundAudioSource.loop = true;
         backgroundAudioSource.playOnAwake = false;
