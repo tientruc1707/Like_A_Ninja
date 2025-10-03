@@ -33,6 +33,7 @@ public class GameView : View
         _pauseButton.onClick.AddListener(() =>
         {
             Time.timeScale = 0;
+            _board.SetActive(false);
             UiManager.Show<PausingView>();
         });
 

@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Amaterasu
   m_EditorClassIdentifier: 
   sprite: {fileID: 9146806791984760692, guid: c974f302dba985d458cbe3a9b0f86fb8, type: 3}
-  skillName: Amaterasu
-  desciption: Fire from the hell
+  skillName: 'Amaterasu '
+  description: The fire comes from the hell!
   manaCost: 50
   ableToMove: 0
   damage: 45

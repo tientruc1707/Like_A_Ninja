@@ -5,7 +5,7 @@ public class Skill : ScriptableObject
 {
     public Sprite sprite;
     public string skillName;
-    public string desciption;
+    public string description;
     public float manaCost;
     public bool ableToMove;
     public float damage;

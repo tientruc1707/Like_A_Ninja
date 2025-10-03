@@ -9,6 +9,7 @@ public class PausingView : View
     [SerializeField] private Button _mainMenuButton;
     public override void Initialize()
     {
+        GameObject board = GameObject.Find("Board");
         _restartButton.onClick.AddListener(() =>
         {
             Time.timeScale = 1;
@@ -17,6 +18,7 @@ public class PausingView : View
         _resumeButton.onClick.AddListener(() =>
         {
             Time.timeScale = 1;
+            board.SetActive(true);
             UiManager.ShowLast();
         });
         _mainMenuButton.onClick.AddListener(() =>

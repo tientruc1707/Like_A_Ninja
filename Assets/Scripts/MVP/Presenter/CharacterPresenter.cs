@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class CharacterPresenter : MonoBehaviour
@@ -28,9 +29,13 @@ public class CharacterPresenter : MonoBehaviour
 
     public void UseSkill(int skillPosition)
     {
+        if (GameManager.Instance.CurrentSide == TurnSide.RIGHTTURN)
+        {
+            return;
+        }
         if (_mana.GetCurrentMana() < _skills[skillPosition].skillModel.manaCost)
         {
-            Debug.Log("Not enough mana");
+            EventSystem.Instance.TriggerEvent(StringConstant.EVENT.MANA_ISSUE);
             return;
         }
         EventSystem.Instance.TriggerEvent(StringConstant.EVENT.PAUSE_TIMER);
@@ -40,6 +45,16 @@ public class CharacterPresenter : MonoBehaviour
     public Sprite SetSkillSprite(int skillPosition)
     {
         return _skills[skillPosition].skillModel.sprite;
+    }
+
+    public string GetSkillDescription(int skillPosition)
+    {
+        return _skills[skillPosition].skillModel.description;
+    }
+
+    public float GetSkillManaCost(int skillPosition)
+    {
+        return _skills[skillPosition].skillModel.manaCost;
     }
 
     public void ApplyCharacterStatsUI(bool needUsing = true)

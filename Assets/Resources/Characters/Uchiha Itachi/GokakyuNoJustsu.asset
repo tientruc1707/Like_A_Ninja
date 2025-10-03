@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sprite: {fileID: -265889026665207917, guid: c974f302dba985d458cbe3a9b0f86fb8, type: 3}
   skillName: GokakyuNojutsu
-  desciption: FireBall
+  description: A big fire ball!
   manaCost: 25
   ableToMove: 0
   damage: 20

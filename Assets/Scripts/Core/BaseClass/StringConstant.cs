@@ -21,6 +21,7 @@ public static class StringConstant
         public static readonly string PAUSE_TIMER = "PauseTimer";
         public static readonly string UNPAUSE_TIMER = "UnpauseTimer";
         public static readonly string CHANG_SIDE = "ChangeSide";
+        public static readonly string MANA_ISSUE = "ManaIssue";
     }
 
     public static class SCENE
