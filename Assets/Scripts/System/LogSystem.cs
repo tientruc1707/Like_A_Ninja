@@ -6,14 +6,12 @@ using UnityEngine;
 public class LogSystem : MonoBehaviour
 {
     [SerializeField] private GameObject m_manaIssueLog;
-    [SerializeField] private GameObject m_skillLogPanel;
-    private TMP_Text m_skillLogText;
+
     private List<string> m_playerSkillLogs;
     private List<string> m_enemySkillLogs;
 
     void Start()
     {
-        m_skillLogText = m_skillLogPanel.GetComponentInChildren<TextMeshProUGUI>(true);
         m_playerSkillLogs = new List<string>();
         m_enemySkillLogs = new List<string>();
         GameObject player = GameObject.FindWithTag("Player");
@@ -59,27 +57,6 @@ public class LogSystem : MonoBehaviour
     private void HideManaIssueLog()
     {
         m_manaIssueLog.SetActive(false);
-    }
-
-    public void OnHoldStartForPlayer(int buttonIndex)
-    {
-        Time.timeScale = 0;
-        m_skillLogPanel.SetActive(true);
-        m_skillLogText.text = m_playerSkillLogs[buttonIndex];
-    }
-
-    public void OnHoldStartForEnemy(int buttonIndex)
-    {
-        Time.timeScale = 0;
-        m_skillLogPanel.SetActive(true);
-        m_skillLogText.text = m_enemySkillLogs[buttonIndex];
-    }
-
-    public void OnHoldEnd()
-    {
-        Time.timeScale = 1;
-        m_skillLogText.text = "";
-        m_skillLogPanel.SetActive(false);
     }
 
 }

@@ -91,11 +91,17 @@ public class GameModel : MonoBehaviour
             _playerSkillButtons[i].GetComponent<Image>().sprite = _player.SetSkillSprite(i);
             _playerSkillButtons[i].interactable = true;
             _playerSkillButtons[i].transition = Selectable.Transition.None;
+
             int skillIndex = i;
             _playerSkillButtons[i].onClick.AddListener(() =>
             {
                 _player.UseSkill(skillIndex);
             });
+
+            string description = _player.GetComponent<CharacterPresenter>().GetSkillDescription(i);
+            float manaCost = _player.GetComponent<CharacterPresenter>().GetSkillManaCost(i);
+            string fullText = $"Player used {description}  \nMana Cost: {manaCost}";
+            _playerSkillButtons[i].GetComponent<SkillDetails>().Description = fullText;
         }
     }
 
@@ -114,11 +120,17 @@ public class GameModel : MonoBehaviour
             _enemySkillButtons[i].GetComponent<Image>().sprite = _enemy.SetSkillSprite(i);
             _enemySkillButtons[i].interactable = false;
             _enemySkillButtons[i].transition = Selectable.Transition.None;
+
             int skillIndex = i;
             _enemySkillButtons[i].onClick.AddListener(() =>
             {
                 _enemy.UseSkill(skillIndex);
             });
+
+            string description = _enemy.GetComponent<CharacterPresenter>().GetSkillDescription(i);
+            float manaCost = _enemy.GetComponent<CharacterPresenter>().GetSkillManaCost(i);
+            string fullText = $"Enemy used {description} \nMana Cost: {manaCost}";
+            _enemySkillButtons[i].GetComponent<SkillDetails>().Description = fullText;
         }
 
         foreach (Transform child in _enemy.transform)
@@ -158,4 +170,6 @@ public class GameModel : MonoBehaviour
 
         }
     }
+
+
 }
