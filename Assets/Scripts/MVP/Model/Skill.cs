@@ -4,6 +4,7 @@ using UnityEngine;
 public class Skill : ScriptableObject
 {
     public Sprite sprite;
+    public AudioClip skillSound;
     public string skillName;
     public string description;
     public float manaCost;

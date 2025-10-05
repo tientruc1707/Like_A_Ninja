@@ -1,28 +1,31 @@
+using DG.Tweening;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class Weapon : MonoBehaviour
 {
     [SerializeField] private CharacterPresenter _owner;
+    private GameObject _target;
     private float damage = 10f;
-    public void ThrowWeapon()
+    void OnEnable()
     {
-        this.gameObject.SetActive(true);
         if (_owner.CompareTag(StringConstant.CHARACTER.PLAYER))
         {
-            GameObject target = GameObject.FindGameObjectWithTag(StringConstant.CHARACTER.ENEMY);
-            transform.position = Vector2.Lerp(this.transform.position, target.transform.position, 2f);
+            _target = GameObject.FindGameObjectWithTag(StringConstant.CHARACTER.ENEMY);
         }
         else
         {
-            GameObject target = GameObject.FindGameObjectWithTag(StringConstant.CHARACTER.PLAYER);
-            transform.position = Vector2.Lerp(this.transform.position, target.transform.position, 2f);
+            _target = GameObject.FindGameObjectWithTag(StringConstant.CHARACTER.PLAYER);
         }
+    }
+    public void ThrowWeapon()
+    {
+        this.gameObject.SetActive(true);
+        transform.DOMove(_target.transform.position, 0.1f).SetEase(Ease.Linear);
     }
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag(StringConstant.CHARACTER.PLAYER) ||
-            collision.CompareTag(StringConstant.CHARACTER.ENEMY))
+        if (collision.CompareTag(_target.tag))
         {
             CharacterPresenter character = collision.GetComponent<CharacterPresenter>();
             character.TakeDamage(damage, GameManager.AnimationState.MINIHURT);
@@ -30,10 +33,14 @@ public class Weapon : MonoBehaviour
     }
     void OnTriggerStay2D(Collider2D collision)
     {
-        CharacterPresenter character = collision.GetComponent<CharacterPresenter>();
-        character.EndTakingDamage(GameManager.AnimationState.MINIHURT);
-        EventSystem.Instance.TriggerEvent(StringConstant.EVENT.UNPAUSE_TIMER);
-        this.gameObject.SetActive(false);
+        if (collision.CompareTag(_target.tag))
+        {
+            CharacterPresenter character = collision.GetComponent<CharacterPresenter>();
+            character.EndTakingDamage(GameManager.AnimationState.MINIHURT);
+            EventSystem.Instance.TriggerEvent(StringConstant.EVENT.UNPAUSE_TIMER);
+            transform.DOKill();
+            this.gameObject.SetActive(false);
+        }
     }
 
 

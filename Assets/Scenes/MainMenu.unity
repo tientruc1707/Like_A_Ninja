@@ -2871,7 +2871,7 @@ MonoBehaviour:
     pitch: 1
     loop: 0
   - name: FailSwap
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: ee1aad78df4123e4d80f68b6186c9aef, type: 3}
     volume: 1
     pitch: 1
     loop: 0
@@ -2915,6 +2915,7 @@ MonoBehaviour:
   Characters:
   - {fileID: 3877445592610872877, guid: 4e0f76fd3960da942937912d4f2608f5, type: 3}
   - {fileID: 1080656138165031082, guid: 86fcec4745eac8642b6e5e9f6168cf7d, type: 3}
+  - {fileID: 1677650395099752859, guid: 288521f5e1611d742b3f7fb9346d12df, type: 3}
 --- !u!114 &1494169914
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: RashenShuriken
   m_EditorClassIdentifier: 
   sprite: {fileID: 8176160808152164795, guid: 99e3ef349e977824dbb6719cf53e358c, type: 3}
+  skillSound: {fileID: 8300000, guid: 95b216225630dd34f884279e96c258a1, type: 3}
   skillName: RashenShuriken
-  desciption: 
+  description: 
   manaCost: 60
   ableToMove: 0
   damage: 50

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97527da723d9bac40bf5f5184c3685e7, type: 3}
+  m_Name: Katon-Endan
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 4293349870816480249, guid: 2c709b06864553c4db937738a79fc03f, type: 3}
+  skillSound: {fileID: 8300000, guid: 71c0d54178a89c1499f29861a896bddd, type: 3}
+  skillName: Katon-Endan
+  description: big fire justu
+  manaCost: 45
+  ableToMove: 0
+  damage: 40

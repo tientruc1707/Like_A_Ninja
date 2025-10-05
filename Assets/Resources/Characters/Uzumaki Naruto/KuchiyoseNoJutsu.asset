@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: KuchiyoseNoJutsu
   m_EditorClassIdentifier: 
   sprite: {fileID: 1171186110295153526, guid: 99e3ef349e977824dbb6719cf53e358c, type: 3}
+  skillSound: {fileID: 8300000, guid: 215dfcd1cfa86854ea976b70f7cfb3ed, type: 3}
   skillName: KuchiyoseNoJutsu
-  desciption: 
+  description: Summon a frog sumurai to attack
   manaCost: 45
   ableToMove: 0
   damage: 40

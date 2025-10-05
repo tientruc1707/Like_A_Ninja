@@ -13,12 +13,17 @@ public class CharacterPresenter : MonoBehaviour
     [SerializeField] private ManaPresenter _mana;
     [SerializeField] private Weapon _weapon;
     [SerializeField] private List<SkillPresenter> _skills;
-
+    [SerializeField] private List<AudioClip> _audioSources;
+    [SerializeField] private AudioSource _audioSource;
     private void OnEnable()
     {
         GetComponent<HealthPresenter>().enabled = false;
         GetComponent<ManaPresenter>().enabled = false;
         GetComponent<SpriteRenderer>().flipX = false;
+        foreach (var skill in _skills)
+        {
+            _audioSources.Add(skill.skillModel.skillSound);
+        }
     }
 
     //added on each skill animation 
@@ -39,6 +44,7 @@ public class CharacterPresenter : MonoBehaviour
             return;
         }
         EventSystem.Instance.TriggerEvent(StringConstant.EVENT.PAUSE_TIMER);
+        _audioSource.PlayOneShot(_audioSources[skillPosition], 0.7f);
         _animator.SetBool($"Skill{skillPosition + 1}", true);
     }
 
@@ -113,5 +119,10 @@ public class CharacterPresenter : MonoBehaviour
             EventSystem.Instance.TriggerEvent(StringConstant.EVENT.LOSE_GAME);
     }
 
+    //Added on skill's animation to throw the skill object to the target if skill has to throw object
+    public void ThrowSkillObject(int skillPos)
+    {
+        _skills[skillPos - 1].FlyToTarget();
+    }
 
 }

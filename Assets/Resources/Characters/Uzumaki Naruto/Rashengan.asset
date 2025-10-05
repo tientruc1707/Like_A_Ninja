@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: Rashengan
   m_EditorClassIdentifier: 
   sprite: {fileID: 3639473037358547327, guid: 99e3ef349e977824dbb6719cf53e358c, type: 3}
+  skillSound: {fileID: 8300000, guid: 44ed84073c5756c4b829e3da1745bdc7, type: 3}
   skillName: Rashengan
-  desciption: 
+  description: 
   manaCost: 30
   ableToMove: 0
   damage: 30

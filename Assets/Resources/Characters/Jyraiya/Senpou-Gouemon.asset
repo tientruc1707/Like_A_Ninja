@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97527da723d9bac40bf5f5184c3685e7, type: 3}
+  m_Name: Senpou-Gouemon
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 5733496917456814899, guid: 2c709b06864553c4db937738a79fc03f, type: 3}
+  skillSound: {fileID: 8300000, guid: 8a1a451b70debb9489fd5dabf4f338c5, type: 3}
+  skillName: Senpou-Goemon
+  description: combine with 2 frog
+  manaCost: 70
+  ableToMove: 0
+  damage: 50

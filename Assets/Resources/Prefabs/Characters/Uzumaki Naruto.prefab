@@ -421,6 +421,7 @@ GameObject:
   - component: {fileID: 2613335069876487221}
   - component: {fileID: 1821393334771064693}
   - component: {fileID: 5085565811816443837}
+  - component: {fileID: 273147009587183566}
   - component: {fileID: 2038527254734864067}
   - component: {fileID: 4246775264046467057}
   - component: {fileID: 3321649090241931129}
@@ -579,6 +580,103 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.7916667, y: 1.25}
   m_EdgeRadius: 0
+--- !u!82 &273147009587183566
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3877445592610872877}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!95 &2038527254734864067
 Animator:
   serializedVersion: 7
@@ -669,9 +767,11 @@ MonoBehaviour:
   _mana: {fileID: 3122965612267113961}
   _weapon: {fileID: 7557660706923098610}
   _skills:
-  - {fileID: 7767567260013527174}
   - {fileID: 117174989413384564}
+  - {fileID: 7767567260013527174}
   - {fileID: 507290757152142453}
+  _audioSources: []
+  _audioSource: {fileID: 273147009587183566}
 --- !u!1 &5361539814105776567
 GameObject:
   m_ObjectHideFlags: 0
@@ -702,7 +802,7 @@ Transform:
   m_GameObject: {fileID: 5361539814105776567}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.29, y: 0.77, z: 0}
+  m_LocalPosition: {x: -0.29, y: 0.77, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -903,7 +1003,7 @@ Transform:
   m_GameObject: {fileID: 6830205506835610714}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.29, y: 0.71, z: 0}
+  m_LocalPosition: {x: 0.09, y: 0.74, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1103,8 +1203,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 8059822751575640016}
   - {fileID: 5888253497455748386}
+  - {fileID: 8059822751575640016}
   - {fileID: 69213127464438004}
   m_Father: {fileID: 7539698210976346559}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
