@@ -18,7 +18,7 @@ public class BoardController : MonoBehaviour
     private float m_timeAfterFill;
     private bool m_hintIsShown;
     private bool m_gameOver;
-
+    private CharacterPresenter BOT;
 
     public void StartGame(GameSetting gameSetting)
     {
@@ -29,6 +29,11 @@ public class BoardController : MonoBehaviour
         m_board = new Board(this.transform, gameSetting);
 
         Fill();
+    }
+
+    public void SetBot(CharacterPresenter bot)
+    {
+        BOT = bot;
     }
 
     private void Fill()
@@ -111,6 +116,7 @@ public class BoardController : MonoBehaviour
 
     private void AutoPlay()
     {
+        //BOT.UseSkill(UnityEngine.Random.Range(0, 3));
         if (m_potentialMatch.Count > 3 && m_hintIsShown)
         {
             Cell cell1 = m_potentialMatch[1];

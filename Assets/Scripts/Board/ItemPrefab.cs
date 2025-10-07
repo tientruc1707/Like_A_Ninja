@@ -52,8 +52,6 @@ public class ItemPrefab : MonoBehaviour
             default:
                 break;
         }
-
-        EventSystem.Instance.UnregisterListener(StringConstant.EVENT.CHANG_SIDE, ChangeCharacter);
     }
 
     private void ChangeCharacter()

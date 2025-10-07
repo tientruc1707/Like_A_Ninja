@@ -90,7 +90,6 @@ public class GameModel : MonoBehaviour
         {
             _playerSkillButtons[i].GetComponent<Image>().sprite = _player.SetSkillSprite(i);
             _playerSkillButtons[i].interactable = true;
-            _playerSkillButtons[i].transition = Selectable.Transition.None;
 
             int skillIndex = i;
             _playerSkillButtons[i].onClick.AddListener(() =>
@@ -118,14 +117,7 @@ public class GameModel : MonoBehaviour
         for (int i = 0; i < _enemySkillButtons.Length; i++)
         {
             _enemySkillButtons[i].GetComponent<Image>().sprite = _enemy.SetSkillSprite(i);
-            _enemySkillButtons[i].interactable = false;
-            _enemySkillButtons[i].transition = Selectable.Transition.None;
-
-            int skillIndex = i;
-            _enemySkillButtons[i].onClick.AddListener(() =>
-            {
-                _enemy.UseSkill(skillIndex);
-            });
+            _enemySkillButtons[i].interactable = true;
 
             string description = _enemy.GetComponent<CharacterPresenter>().GetSkillDescription(i);
             float manaCost = _enemy.GetComponent<CharacterPresenter>().GetSkillManaCost(i);

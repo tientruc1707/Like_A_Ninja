@@ -352,7 +352,7 @@ public class Board
                 specialItem.SetType(SpecialItem.eSpecialType.COLUMN_CLEAR);
                 break;
             case eMatchDir.ALL:
-                specialItem.SetType(SpecialItem.eSpecialType.ALL_CLEAR);
+                specialItem.SetType(SpecialItem.eSpecialType.BOMB_CLEAR);
                 break;
             default:
                 return;
@@ -433,7 +433,7 @@ public class Board
                         matchCells.Add(c);
                 }
                 break;
-            case SpecialItem.eSpecialType.ALL_CLEAR:
+            case SpecialItem.eSpecialType.BOMB_CLEAR:
                 //clear all cells
                 for (int x = 0; x < m_Width; x++)
                 {

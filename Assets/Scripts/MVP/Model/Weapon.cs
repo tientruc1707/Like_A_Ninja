@@ -6,7 +6,7 @@ public class Weapon : MonoBehaviour
 {
     [SerializeField] private CharacterPresenter _owner;
     private GameObject _target;
-    private float damage = 10f;
+    private float damage;
     void OnEnable()
     {
         if (_owner.CompareTag(StringConstant.CHARACTER.PLAYER))
@@ -17,6 +17,12 @@ public class Weapon : MonoBehaviour
         {
             _target = GameObject.FindGameObjectWithTag(StringConstant.CHARACTER.PLAYER);
         }
+    }
+
+    void Start()
+    {
+        damage = _owner.characterData.attackDamage;
+        this.gameObject.SetActive(false);
     }
     public void ThrowWeapon()
     {
@@ -40,6 +46,7 @@ public class Weapon : MonoBehaviour
             EventSystem.Instance.TriggerEvent(StringConstant.EVENT.UNPAUSE_TIMER);
             transform.DOKill();
             this.gameObject.SetActive(false);
+            _owner.GetComponent<Animator>().ResetTrigger(GameManager.AnimationState.ATTACK);
         }
     }
 

@@ -1,6 +1,7 @@
-using System;
+
 using System.Collections.Generic;
-using UnityEngine;
+using DG.Tweening;
+
 
 public class SpecialItem : Item
 {
@@ -9,7 +10,7 @@ public class SpecialItem : Item
         NONE,
         ROW_CLEAR,
         COLUMN_CLEAR,
-        ALL_CLEAR
+        BOMB_CLEAR
     }
 
     public eSpecialType SpecialType;
@@ -30,7 +31,7 @@ public class SpecialItem : Item
             case eSpecialType.COLUMN_CLEAR:
                 prefabName = StringConstant.ITEM_PREFAB_PATH.COLUMN_CLEAR;
                 break;
-            case eSpecialType.ALL_CLEAR:
+            case eSpecialType.BOMB_CLEAR:
                 prefabName = StringConstant.ITEM_PREFAB_PATH.ALL_CLEAR;
                 break;
             default:
@@ -65,7 +66,7 @@ public class SpecialItem : Item
             case eSpecialType.COLUMN_CLEAR:
                 ClearColumn();
                 break;
-            case eSpecialType.ALL_CLEAR:
+            case eSpecialType.BOMB_CLEAR:
                 ClearAll();
                 break;
             default:
@@ -82,6 +83,7 @@ public class SpecialItem : Item
         {
             Cell next = newCell.NeighbourLeft;
             if (next == null) break;
+
             cells.Add(next);
             newCell = next;
         }
@@ -95,10 +97,13 @@ public class SpecialItem : Item
             newCell = next;
         }
 
-        foreach (Cell cell in cells)
+        DOVirtual.DelayedCall(0.2f, () =>
         {
-            cell.DestroyItem();
-        }
+            foreach (Cell cell in cells)
+            {
+                cell.DestroyItem();
+            }
+        });
 
     }
 
@@ -124,10 +129,13 @@ public class SpecialItem : Item
             newCell = next;
         }
 
-        foreach (Cell cell in cells)
+        DOVirtual.DelayedCall(0.2f, () =>
         {
-            cell.DestroyItem();
-        }
+            foreach (Cell cell in cells)
+            {
+                cell.DestroyItem();
+            }
+        });
     }
 
     private void ClearAll()
@@ -160,10 +168,13 @@ public class SpecialItem : Item
             }
         }
 
-        foreach (Cell cell in list)
+        DOVirtual.DelayedCall(0.2f, () =>
         {
-            cell.DestroyItem();
-        }
+            foreach (Cell cell in list)
+            {
+                cell.DestroyItem();
+            }
+        });
     }
 
 }

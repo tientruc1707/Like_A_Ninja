@@ -6,6 +6,7 @@ public class CharacterData : ScriptableObject
     public string CharacterName;
     public string Description;
     public Sprite CharacterSprite;
+    public float attackDamage;
     public float Health;
     public float Mana;
 

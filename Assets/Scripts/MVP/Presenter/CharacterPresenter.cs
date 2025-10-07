@@ -34,17 +34,20 @@ public class CharacterPresenter : MonoBehaviour
 
     public void UseSkill(int skillPosition)
     {
-        if (GameManager.Instance.CurrentSide == TurnSide.RIGHTTURN)
+        if (!(GameManager.Instance.CurrentSide == TurnSide.RIGHTTURN) && CompareTag("Enemy") &&
+            !(GameManager.Instance.CurrentSide == TurnSide.LEFTTURN) && CompareTag("Player"))
         {
             return;
         }
+
         if (_mana.GetCurrentMana() < _skills[skillPosition].skillModel.manaCost)
         {
-            EventSystem.Instance.TriggerEvent(StringConstant.EVENT.MANA_ISSUE);
+            if (CompareTag(StringConstant.CHARACTER.PLAYER))
+                EventSystem.Instance.TriggerEvent(StringConstant.EVENT.MANA_ISSUE);
             return;
         }
         EventSystem.Instance.TriggerEvent(StringConstant.EVENT.PAUSE_TIMER);
-        _audioSource.PlayOneShot(_audioSources[skillPosition], 0.7f);
+        _audioSource.PlayOneShot(_audioSources[skillPosition], 0.5f);
         _animator.SetBool($"Skill{skillPosition + 1}", true);
     }
 
@@ -71,7 +74,6 @@ public class CharacterPresenter : MonoBehaviour
 
     public void Attack()
     {
-        AudioManager.Instance.PlaySFX(StringConstant.SoundName.SFX.ATTACK);
         EventSystem.Instance.TriggerEvent(StringConstant.EVENT.PAUSE_TIMER);
         _animator.SetTrigger(GameManager.AnimationState.ATTACK);
     }
@@ -79,6 +81,7 @@ public class CharacterPresenter : MonoBehaviour
     //Added on normal attack animation
     public void PerformAttack()
     {
+        AudioManager.Instance.PlaySFX(StringConstant.SoundName.SFX.ATTACK);
         _weapon.ThrowWeapon();
     }
 
