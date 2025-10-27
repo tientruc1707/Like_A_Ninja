@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de8f8f4763ebeff489ee2bb2195f1490, type: 3}
   m_Name: Shield
   m_EditorClassIdentifier: 
-  itemType: 0
+  itemType: 4
   value: 0
   sprite: {fileID: -8492655549083178436, guid: 059e57eca0ef86048a17ad221bd67f03, type: 3}

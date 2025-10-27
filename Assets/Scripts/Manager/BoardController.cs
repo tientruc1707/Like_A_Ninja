@@ -2,7 +2,6 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using Unity.Burst.CompilerServices;
 using UnityEngine;
 
 public class BoardController : MonoBehaviour
@@ -17,10 +16,11 @@ public class BoardController : MonoBehaviour
     private List<Cell> m_potentialMatch;
     private float m_timeAfterFill;
     private bool m_hintIsShown;
-    private bool m_gameOver;
+    private float m_timeOfBotTurn = 0f;
+
     private CharacterPresenter BOT;
 
-    public void StartGame(GameSetting gameSetting)
+    public void StartGame(GameSetting gameSetting, CharacterPresenter bot)
     {
         m_gameSetting = Resources.Load<GameSetting>(StringConstant.GAME_SETTING_PATH);
 
@@ -29,10 +29,7 @@ public class BoardController : MonoBehaviour
         m_board = new Board(this.transform, gameSetting);
 
         Fill();
-    }
 
-    public void SetBot(CharacterPresenter bot)
-    {
         BOT = bot;
     }
 
@@ -44,7 +41,6 @@ public class BoardController : MonoBehaviour
 
     public void Update()
     {
-        if (m_gameOver) return;
         if (IsBusy) return;
 
         if (!m_hintIsShown)
@@ -116,7 +112,12 @@ public class BoardController : MonoBehaviour
 
     private void AutoPlay()
     {
-        //BOT.UseSkill(UnityEngine.Random.Range(0, 3));
+        m_timeOfBotTurn += Time.deltaTime;
+        if (m_timeOfBotTurn > 1.5f)
+        {
+            BOT.UseSkillForAutoPlay();
+            m_timeOfBotTurn = 0f;
+        }
         if (m_potentialMatch.Count > 3 && m_hintIsShown)
         {
             Cell cell1 = m_potentialMatch[1];
@@ -245,24 +246,11 @@ public class BoardController : MonoBehaviour
         FindMatchesAndCollapse();
     }
 
-    private IEnumerator RefillBoardCoroutine()
-    {
-        m_board.ClearBoard();
-
-        yield return new WaitForSeconds(0.2f);
-
-        m_board.FillNewBoard();
-
-        yield return new WaitForSeconds(0.2f);
-
-        FindMatchesAndCollapse();
-    }
-
     private IEnumerator ShuffleBoardCoroutine()
     {
         m_board.Shuffle();
 
-        yield return new WaitForSeconds(0.3f);
+        yield return new WaitForSeconds(0.5f);
 
         FindMatchesAndCollapse();
     }

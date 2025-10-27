@@ -8,10 +8,9 @@ public class LevelSelector : MonoBehaviour
     public Button[] buttons;
     [SerializeField] private Button _backButton;
     public int unlockedLevel;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+
     void Start()
     {
-        SaveSystem.Instance.SetLevel(3); // For testing purposes only
         _backButton.onClick.AddListener(() => { UiManager.Instance.LoadScene(StringConstant.SCENE.MAIN_MENU); });
         unlockedLevel = SaveSystem.Instance.GetLevel(); // Highest unlocked level
         for (int i = 0; i < buttons.Length; i++)

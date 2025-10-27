@@ -8,10 +8,13 @@ public class GamePresenter : MonoBehaviour
     public GameObject rightSide;
 
 
-    private void OnEnable()
+    void Awake()
     {
         _gameModel.InitEnemy(true);
         _gameModel.InitPlayer(false);
+    }
+    private void OnEnable()
+    {
         EventSystem.Instance.RegisterListener(StringConstant.EVENT.CHANG_SIDE, ChangeSide);
     }
 
@@ -23,6 +26,7 @@ public class GamePresenter : MonoBehaviour
     void Start()
     {
         SetActiveSide();
+        _gameModel.AdjustCharacterTransform();
     }
 
     private void ChangeSide()

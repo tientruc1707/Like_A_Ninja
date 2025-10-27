@@ -316,7 +316,7 @@ public class Board
 
     internal eMatchDir GetMatchDirection(List<Cell> matches)
     {
-        if (matches == null || matches.Count < m_MatchMin) return eMatchDir.NONE;
+        if (matches == null || matches.Count <= m_MatchMin) return eMatchDir.NONE;
 
         var listH = matches.Where(x => x.X == matches[0].X).ToList();
         if (listH.Count == matches.Count)

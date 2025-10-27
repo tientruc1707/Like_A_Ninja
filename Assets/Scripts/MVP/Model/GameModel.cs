@@ -1,5 +1,6 @@
 
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -23,13 +24,11 @@ public class GameModel : MonoBehaviour
     private CharacterPresenter _player;
     private CharacterPresenter _enemy;
 
-    private Vector3 _playerPos = new(-1.3f, 1.5f);
+    public Vector3 _playerPos = new(-1.3f, 1.5f);
     private Vector3 _enemyPos = new(1.3f, 1.5f);
 
     private void OnEnable()
     {
-        _timeRemaining = timeForTurn;
-        AdjustCharacterTransform();
         EventSystem.Instance.RegisterListener(StringConstant.EVENT.CHANG_SIDE, ResetTimer);
         EventSystem.Instance.RegisterListener(StringConstant.EVENT.PAUSE_TIMER, PauseTimer);
         EventSystem.Instance.RegisterListener(StringConstant.EVENT.UNPAUSE_TIMER, UnPauseTimer);
@@ -52,7 +51,6 @@ public class GameModel : MonoBehaviour
                 EventSystem.Instance.TriggerEvent(StringConstant.EVENT.CHANG_SIDE);
             }
         }
-
         DisplayTime(_timeRemaining);
     }
 
@@ -84,7 +82,6 @@ public class GameModel : MonoBehaviour
         _player.GetComponent<SpriteRenderer>().flipX = flip;
         _player.GetComponent<ManaPresenter>().SetSlider(_playerManaSlider);
         _player.GetComponent<HealthPresenter>().SetSlider(_playerHealthSlider);
-        _player.transform.localScale = new Vector3(1.5f, 1.5f, 1);
 
         for (int i = 0; i < _playerSkillButtons.Length; i++)
         {
@@ -112,7 +109,6 @@ public class GameModel : MonoBehaviour
         _enemy.ApplyCharacterStatsUI();
         _enemy.GetComponent<ManaPresenter>().SetSlider(_enemyManaSlider);
         _enemy.GetComponent<HealthPresenter>().SetSlider(_enemyHealthSlider);
-        _enemy.transform.localScale = new Vector3(1.5f, 1.5f, 1);
 
         for (int i = 0; i < _enemySkillButtons.Length; i++)
         {
@@ -157,11 +153,12 @@ public class GameModel : MonoBehaviour
             float cameraHeight = 2f * camera.orthographicSize;
             float cameraWidth = cameraHeight * camera.aspect;
 
-            _playerPos = new Vector3(-cameraWidth / 4, cameraHeight / 6);
-            _enemyPos = new Vector3(cameraWidth / 4, cameraHeight / 6);
+            _player.transform.position = new Vector3(-cameraWidth / 4, cameraHeight / 6);
+            _enemy.transform.position = new Vector3(cameraWidth / 4, cameraHeight / 6);
 
+            _player.transform.localScale = new Vector3(1.5f, 1.5f, 1);
+            _enemy.transform.localScale = new Vector3(1.5f, 1.5f, 1);
         }
     }
-
 
 }

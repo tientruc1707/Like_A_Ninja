@@ -83,7 +83,7 @@ public class GameManager : Singleton<GameManager>
     public void LoadLevel()
     {
         BoardController board = new GameObject("Board").AddComponent<BoardController>();
-        board.StartGame(Resources.Load<GameSetting>(StringConstant.GAME_SETTING_PATH));
-        board.SetBot(GetCurrentEnemy().GetComponent<CharacterPresenter>());
+        board.StartGame(Resources.Load<GameSetting>(StringConstant.GAME_SETTING_PATH),
+                         _currentEnemy.GetComponent<CharacterPresenter>());
     }
 }

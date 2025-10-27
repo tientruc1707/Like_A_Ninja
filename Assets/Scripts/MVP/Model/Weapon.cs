@@ -6,16 +6,19 @@ public class Weapon : MonoBehaviour
 {
     [SerializeField] private CharacterPresenter _owner;
     private GameObject _target;
+    string m_targetTag;
     private float damage;
     void OnEnable()
     {
         if (_owner.CompareTag(StringConstant.CHARACTER.PLAYER))
         {
             _target = GameObject.FindGameObjectWithTag(StringConstant.CHARACTER.ENEMY);
+            m_targetTag = StringConstant.CHARACTER.ENEMY;
         }
         else
         {
             _target = GameObject.FindGameObjectWithTag(StringConstant.CHARACTER.PLAYER);
+            m_targetTag = StringConstant.CHARACTER.PLAYER;
         }
     }
 
@@ -27,11 +30,11 @@ public class Weapon : MonoBehaviour
     public void ThrowWeapon()
     {
         this.gameObject.SetActive(true);
-        transform.DOMove(_target.transform.position, 0.1f).SetEase(Ease.Linear);
+        transform.DOMove(_target.transform.position, 0.1f);
     }
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag(_target.tag))
+        if (collision.CompareTag(m_targetTag))
         {
             CharacterPresenter character = collision.GetComponent<CharacterPresenter>();
             character.TakeDamage(damage, GameManager.AnimationState.MINIHURT);
@@ -39,11 +42,10 @@ public class Weapon : MonoBehaviour
     }
     void OnTriggerStay2D(Collider2D collision)
     {
-        if (collision.CompareTag(_target.tag))
+        if (collision.CompareTag(m_targetTag))
         {
             CharacterPresenter character = collision.GetComponent<CharacterPresenter>();
             character.EndTakingDamage(GameManager.AnimationState.MINIHURT);
-            EventSystem.Instance.TriggerEvent(StringConstant.EVENT.UNPAUSE_TIMER);
             transform.DOKill();
             this.gameObject.SetActive(false);
             _owner.GetComponent<Animator>().ResetTrigger(GameManager.AnimationState.ATTACK);

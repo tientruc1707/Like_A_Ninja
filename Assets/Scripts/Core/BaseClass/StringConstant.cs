@@ -40,6 +40,7 @@ public static class StringConstant
         public static readonly string ROW_CLEAR = "Prefabs/Items/RowClearItem";
         public static readonly string COLUMN_CLEAR = "Prefabs/Items/ColumnClearItem";
         public static readonly string ALL_CLEAR = "Prefabs/Items/AllClearItem";
+        public static readonly string COIN = "Prefabs/Items/Coin";
     }
 
     public class SoundName

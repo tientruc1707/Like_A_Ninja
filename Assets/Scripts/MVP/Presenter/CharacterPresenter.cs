@@ -47,8 +47,22 @@ public class CharacterPresenter : MonoBehaviour
             return;
         }
         EventSystem.Instance.TriggerEvent(StringConstant.EVENT.PAUSE_TIMER);
-        _audioSource.PlayOneShot(_audioSources[skillPosition], 0.5f);
+        _audioSource.PlayOneShot(_audioSources[skillPosition], 0.3f);
         _animator.SetBool($"Skill{skillPosition + 1}", true);
+    }
+
+    public void UseSkillForAutoPlay()
+    {
+        for (int i = _skills.Count - 1; i >= 0; i--)
+        {
+            if (_mana.GetCurrentMana() >= _skills[i].skillModel.manaCost)
+            {
+                EventSystem.Instance.TriggerEvent(StringConstant.EVENT.PAUSE_TIMER);
+                _audioSource.PlayOneShot(_audioSources[i], 0.3f);
+                _animator.SetBool($"Skill{i + 1}", true);
+                break;
+            }
+        }
     }
 
     public Sprite SetSkillSprite(int skillPosition)
@@ -74,7 +88,6 @@ public class CharacterPresenter : MonoBehaviour
 
     public void Attack()
     {
-        EventSystem.Instance.TriggerEvent(StringConstant.EVENT.PAUSE_TIMER);
         _animator.SetTrigger(GameManager.AnimationState.ATTACK);
     }
 

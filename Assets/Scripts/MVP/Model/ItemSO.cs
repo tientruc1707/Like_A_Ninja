@@ -6,8 +6,10 @@ public enum ItemType
     MANA,
     SHURIKEN,
     COIN,
+    SHIELD,
     OTHER
 }
+
 [CreateAssetMenu(fileName = "Item", menuName = "Scriptable Objects/Item")]
 public class ItemSO : ScriptableObject
 {

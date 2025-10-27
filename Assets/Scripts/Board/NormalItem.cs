@@ -7,7 +7,8 @@ public class NormalItem : Item
         HEALTH_POTION,
         MANA_POTION,
         SWORD,
-        SHIELD
+        SHIELD,
+        COIN
     }
 
     public eNormalType NormalType { get; private set; }
@@ -30,6 +31,9 @@ public class NormalItem : Item
                 break;
             case eNormalType.SHIELD:
                 prefabName = StringConstant.ITEM_PREFAB_PATH.SHIELD;
+                break;
+            case eNormalType.COIN:
+                prefabName = StringConstant.ITEM_PREFAB_PATH.COIN;
                 break;
         }
 

@@ -15,5 +15,6 @@ MonoBehaviour:
   CharacterName: Jiraiya
   Description: senei of naruto
   CharacterSprite: {fileID: 7185974044632373341, guid: 2c709b06864553c4db937738a79fc03f, type: 3}
+  attackDamage: 10
   Health: 150
   Mana: 100
